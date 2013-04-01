@@ -70,11 +70,7 @@ int reader(struct libxenvchan *ctrl)
 		size_read = libxenvchan_read(ctrl, data, MAX_READ_BYTES);
 		if (size_read < 0) {
 			break;
-//			perror("read vchan");
-//			libxenvchan_close(ctrl);
-//			exit(1);
 		}
-//		if (size_read == 0) break;
 		print(data,size_read/sizeof(int));
 		printed+=size_read;
 	}
