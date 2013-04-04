@@ -8,8 +8,8 @@
 #include <fcntl.h>
 #include <libxenvchan.h>
 #include <getopt.h>
+#include <sys/time.h>
 
-//#define TYPE int
 #define MAX_READ_BYTES 1048576
 #define WRITE_GRANULARITY 16384
 
@@ -19,9 +19,12 @@ void print_usage(void)
 {
 	fprintf(stderr,"\nThe arguments you must provide are:\n"
 			"\t1. '-s' for server or '-c' for client\n"
-			"\t2. '-wr' for writer or '-rd' for reader\n"
-			"\t3. The domID to communicate with\n"
-			"\t4. The xenstore node to use\n\n");
+			"\t2. '-w' for writer or '-r' for reader\n"
+			"\t3. '-d' <domID to communicate with>\n"
+			"\t4. '-x' <xenstore node>\n"
+			"\t5. (Only for Writer) '-b' <bytes to write>\n"
+			"\t6. (Only for Writer) '-g' <write granularity> (default is 16384)\n"
+			"\t7. (Only for Server) '-l' <left/right ring size>\n\n");
 }
 
 void initialize(int *data, int size)
@@ -29,7 +32,6 @@ void initialize(int *data, int size)
 	int i;
 	
 	for(i=0;i<size;i++)
-//		data[i]=rand();
 		data[i]=i;
 }
 
@@ -44,14 +46,18 @@ int writer(struct libxenvchan *ctrl, void *data, int total_bytes)
 {
 	int written = 0,ret;
 	int bytes = cmdline_bytes;
+	struct timeval start,stop;
 	
 	while(written<total_bytes){
+		gettimeofday(&start,NULL);
 		ret = libxenvchan_write(ctrl,data+written,bytes);
-		printf("ret=%d\n",ret);
+		gettimeofday(&stop,NULL);
+//		printf("ret=%d\n",ret);
 		if (ret<=0){
 			perror("write");
 			exit(1);
 		}
+		fprintf(stderr,"vchan_write time: %.3f\n",(double)((stop.tv_sec+(double)stop.tv_usec/1000)-(start.tv_sec+(double)start.tv_usec/1000)));
 		written += ret;
 	}
 	printf("written=%d\n",written);
@@ -65,12 +71,14 @@ int reader(struct libxenvchan *ctrl)
 	int size_read=0;
 	int printed=0;
 	int *data = malloc(MAX_READ_BYTES);
+	struct timeval start,stop;
 
 	while(1){
+		gettimeofday(&start,NULL);
 		size_read = libxenvchan_read(ctrl, data, MAX_READ_BYTES);
-		if (size_read < 0) {
-			break;
-		}
+		gettimeofday(&stop,NULL);
+		if (size_read < 0) break;
+		fprintf(stderr,"vchan_read time: %.3f\n",(double)((stop.tv_sec+(double)stop.tv_usec/1000)-(start.tv_sec+(double)start.tv_usec/1000)));
 		print(data,size_read/sizeof(int));
 		printed+=size_read;
 	}
@@ -82,16 +90,17 @@ int reader(struct libxenvchan *ctrl)
 
 int main(int argc , char **argv)
 {
-	int is_server;
-	struct libxenvchan *ctrl;
-	int is_writer;
-	int domid;
-	int left_ring , right_ring;
-	char *endptr;
-	char *xs_path;
+	int is_server = -1;
+	struct libxenvchan *ctrl = NULL;
+	int is_writer = -1;
+	int domid = -1;
+	int left_ring = -1 , right_ring;
+	int bytes = -1;
+	char *xs_path = NULL;
 	int c;
+	struct timeval start,stop,wr_start,wr_stop;
 
-	while ((c = getopt(argc, argv, "scwrd:x:")) != -1)
+	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:h")) != -1)
 	  switch (c) {
 	  case 's':
 	    is_server = 1;
@@ -111,6 +120,15 @@ int main(int argc , char **argv)
 	  case 'x':
 	    xs_path = strdup(optarg);
 	    break;
+	  case 'b':
+	    bytes = atoi(optarg);
+	    break;
+	  case 'l':
+	    left_ring = atoi(optarg);
+	    break;
+	  case 'g':
+	    cmdline_bytes = atoi(optarg);
+	    break;
 	  default:
 	    fprintf(stderr, "Unknown option -%c\n", c);
 	  case 'h':
@@ -119,43 +137,22 @@ int main(int argc , char **argv)
 	    break;
 	  }
 	
-
-#if 0
-	if (!strcmp(argv[1],"-s")) is_server=1;
-	else if (!strcmp(argv[1],"-c")) is_server=0;
-	else {
-		fprintf(stderr,"\nError in 1st argument\n");
+	if (domid<0){
 		print_usage();
-		return 0;
+		exit(-1);
 	}
 
-	if (!strcmp(argv[2],"-wr")) is_writer=1;
-	else if (!strcmp(argv[2],"-rd")) is_writer=0;
-	else {
-		fprintf(stderr,"\nError in 2nd argument\n");
-                print_usage();
-                return 0;
-        }
-
-	domid = strtol(argv[3], &endptr, 10);
-	if (strcmp(endptr,"")) {
-		fprintf(stderr, "\nError in 3rd argument\n");
+	if (!xs_path){
 		print_usage();
-                return 0;
+		exit(-1);
 	}
-#endif
 
-/*	left_ring = strtol(argv[5], &endptr, 10);
-	if (strcmp(endptr,"")) {
-                fprintf(stderr, "\nError in 5th argument\n");
-                print_usage();
-                return 0;
-        }
-	right_ring = left_ring;
-*/
-	if (is_server){
-		printf("Give the size of the read/write rings: ");
-		scanf("%d",&left_ring);
+	if (is_server<0) print_usage();
+	else if (is_server){
+		if (left_ring<0){
+			print_usage();
+			exit(-1);
+		}
 		right_ring = left_ring;
 		ctrl = libxenvchan_server_init(NULL,domid,xs_path,left_ring,right_ring);
 	}
@@ -166,23 +163,38 @@ int main(int argc , char **argv)
 		perror("libxenvchan_init");
 		return 0;
 	}
+
 	ctrl->blocking=1;
 	printf("init is ok\n");
 
-	if (is_writer) {
+	if (is_writer<0) print_usage();
+	else if (is_writer) {
 		int size = 0; 
 		int *data; 
-		int bytes;
-		printf("You are the writer.\nProvide the bytes you want to write: ");
-		scanf("%d",&bytes);
+
+		if (bytes<0){
+			print_usage();
+                        exit(-1);
+                }
 
 		size = bytes/sizeof(int);
+		gettimeofday(&start,NULL);
 		data = malloc(bytes);
 		initialize(data, size);
+		gettimeofday(&stop,NULL);
+		printf("initialization time: %.3f\n",(double)((stop.tv_sec+(double)stop.tv_usec/1000)-(start.tv_sec+(double)start.tv_usec/1000)));
 
+		gettimeofday(&wr_start,NULL);
 		writer(ctrl,data, bytes);
+		gettimeofday(&wr_stop,NULL);
+		printf("writer time: %.3f\n",(double)((wr_stop.tv_sec+(double)wr_stop.tv_usec/1000)-(wr_start.tv_sec+(double)wr_start.tv_usec/1000)));
 	}	
-	else reader(ctrl);
+	else{
+		gettimeofday(&start,NULL);
+		reader(ctrl);
+		gettimeofday(&stop,NULL);
+		fprintf(stderr,"reader time: %.3f\n",(double)((stop.tv_sec+(double)stop.tv_usec/1000)-(start.tv_sec+(double)start.tv_usec/1000)));
+	}
 
 	libxenvchan_close(ctrl);
 	return 0;
