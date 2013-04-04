@@ -188,7 +188,7 @@ int main(int argc , char **argv)
 		gettimeofday(&wr_start,NULL);
 		writer(ctrl, wr_data, bytes);
 		gettimeofday(&wr_stop,NULL);
-		printf("writer time: %.3f\n",(double)((wr_stop.tv_sec*1000000+(double)wr_stop.tv_usec)-(wr_start.tv_sec+(double)wr_start.tv_usec/1000)));
+		printf("writer time: %.3f\n",(double)((wr_stop.tv_sec*1000000+(double)wr_stop.tv_usec)-(wr_start.tv_sec*1000000+(double)wr_start.tv_usec)));
 	}	
 	else{
 		gettimeofday(&start,NULL);
