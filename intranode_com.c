@@ -10,10 +10,14 @@
 #include <getopt.h>
 #include <sys/time.h>
 
-#define MAX_READ_BYTES 1048576
+//#define TIMERS_ENABLED
+#include "intranode_com_timers.h"
+
+#define MAX_READ_BYTES 1048576 * 16
 #define WRITE_GRANULARITY 16384
 
 unsigned int cmdline_bytes = WRITE_GRANULARITY;
+unsigned int cmdline_nrtimes = 1;
 
 void print_usage(void)
 {
@@ -23,7 +27,7 @@ void print_usage(void)
 			"\t3. '-d' <domID to communicate with>\n"
 			"\t4. '-x' <xenstore node>\n"
 			"\t5. (Only for Writer) '-b' <bytes to write>\n"
-			"\t6. (Only for Writer) '-g' <write granularity> (default is 16384)\n"
+			"\t6. '-g' <write granularity> (default is 16384)\n"
 			"\t7. (Only for Server) '-l' <left/right ring size>\n"
 			"\t8. '-n' for non-blocking io\n\n");
 }
@@ -33,7 +37,24 @@ void initialize(int *data, int size)
 	int i;
 	
 	for(i=0;i<size;i++)
-		data[i]=i;
+		data[i]=(int)rand();
+}
+
+int validate(int *wr_data, int *data, int size)
+{
+	int i;
+	
+	for(i=0;i<size;i++)
+		if (data[i]!=wr_data[i]) {
+			fprintf(stderr, "Data corruption, i = %d\n", i);
+			return -1;
+                }
+#if 0
+		else {
+			fprintf(stderr, "Data OK, i = %d\n", i);
+		}
+#endif
+	return 0;
 }
 
 void print(int *data , int size)
@@ -48,26 +69,26 @@ int writer(struct libxenvchan *ctrl, void *data, int total_bytes)
 	int written = 0,ret;
 	int bytes = cmdline_bytes;
 	struct timeval start,stop;
+	timers_t t1;
 	
 	while(written<total_bytes){
-//		TIMER_START(&t1); //t1->start = gettimeofday; 
 		gettimeofday(&start,NULL);
 		ret = libxenvchan_write(ctrl,data+written,bytes);
 		gettimeofday(&stop,NULL);
 //		TIMER_STOP(&t1); //t1->stop = gettimeofday; t1->total += t1->stop - t1->start; t1->count++;
-//		printf("ret = %d\n",ret);
+		//printf("ret = %d\n",ret);
 		written += ret;
 		if (ret<0){
 //			perror("write");
 			printf("ret=%d\n",ret);
 			break;
 		}
-		else if (ret == 0)
+		else if (ret == 0) {
+			fprintf(stderr, "written=%d\n",written);
 			continue;
+		}
 		fprintf(stderr,"vchan_write time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
 	}
-	printf("written=%d\n",written);
-//	TIMER_AVG(&t1) //== TIMER_TOTAL(&t1) / TIMER_COUNT(&t1);
 
 	return written;
 }
@@ -76,29 +97,35 @@ int reader(struct libxenvchan *ctrl, void *data, int flag)
 {
 	int size_read=0;
 	int printed=0;
+	int offset=0;
 	long printing_time=0;
 	struct timeval start,stop;
 
 	while(1){
-		fprintf(stderr,"data_ready = %d\n",libxenvchan_data_ready(ctrl));
+		//fprintf(stderr,"data_ready = %d\n",libxenvchan_data_ready(ctrl));
 		if ( libxenvchan_data_ready(ctrl)==0 && flag==0 ) break;
+		offset = printed;// % MAX_READ_BYTES;
+		
 		gettimeofday(&start,NULL);
-		size_read = libxenvchan_read(ctrl, data+printed, MAX_READ_BYTES);
+		size_read = libxenvchan_read(ctrl, data+offset, MAX_READ_BYTES);
 		gettimeofday(&stop,NULL);
-		fprintf(stderr,"size_read = %d\n", size_read);
+		//fprintf(stderr, "Blocking = %d\n", ctrl->blocking);
+		
+		//fprintf(stderr,"size_read = %d\n", size_read);
 		if (size_read < 0) break;
 		else if (size_read == 0) continue;
-		fprintf(stderr,"vchan_read time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
+		
+		//fprintf(stderr,"vchan_read time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
 
 		gettimeofday(&start,NULL);
-		print(data,size_read/sizeof(int));
+		print(data+offset,size_read/sizeof(int));
 		gettimeofday(&stop,NULL);
 		printing_time += (stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec);
 
 		printed+=size_read;
 	}
-	fprintf(stderr,"printing time: %ld\n",printing_time);
-	printf ("Read total of %d bytes\n",printed);
+	//fprintf(stderr,"printing time: %ld\n",printing_time);
+	//printf ("Read total of %d bytes\n",printed);
 	return printed;
 }
 
@@ -115,8 +142,9 @@ int main(int argc , char **argv)
 	int *data = malloc(MAX_READ_BYTES);
 	int blocking=1;
 	struct timeval start,stop;
+	int j;
 
-	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nh")) != -1)
+	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nhN:")) != -1)
 	  switch (c) {
 	  case 's':
 	    is_server = 1;
@@ -126,6 +154,9 @@ int main(int argc , char **argv)
 	    break;
 	  case 'w':
 	    is_writer = 1;
+	    break;
+	  case 'N':
+	    cmdline_nrtimes = atoi(optarg);
 	    break;
 	  case 'r':
 	    is_writer = 0;
@@ -197,37 +228,64 @@ int main(int argc , char **argv)
 	else if (is_writer) {
 		int size = 0; 
 		int *wr_data;
+		timers_t t1, t2;
+		while (1) {
+			TIMER_RESET(&t1); 
+			TIMER_RESET(&t2); 
 
-		if (bytes<0){
-			print_usage();
-                        exit(-1);
-                }
+			if (bytes<0){
+				print_usage();
+				exit(-1);
+			}
 
-		size = bytes/sizeof(int);
-		gettimeofday(&start,NULL);
-		wr_data = malloc(bytes);
-		initialize(wr_data, size);
-		gettimeofday(&stop,NULL);
-		fprintf(stderr,"data initialization time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
+			size = bytes/sizeof(int);
+			gettimeofday(&start,NULL);
+			wr_data = malloc(bytes);
+			initialize(wr_data, size);
+			gettimeofday(&stop,NULL);
+			//fprintf(stderr,"data initialization time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
 
-		gettimeofday(&start,NULL);
-		writer(ctrl, wr_data, bytes);
-		gettimeofday(&stop,NULL);
-		fprintf(stderr,"writer time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
-		
-		reader(ctrl, wr_data, is_writer);
-
-		free(wr_data);
+			TIMER_START(&t1); //t1->start = gettimeofday; 
+			gettimeofday(&start,NULL);
+			writer(ctrl, wr_data, bytes);
+			gettimeofday(&stop,NULL);
+			TIMER_STOP(&t1); //t1->start = gettimeofday; 
+			//fprintf(stderr,"writer time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
+			
+			TIMER_START(&t2); //t1->start = gettimeofday; 
+			reader(ctrl, data, is_writer);
+			TIMER_STOP(&t2); //t1->start = gettimeofday; 
+			if (validate(wr_data, data, size)) {
+				free(wr_data);
+				goto out_with_corruption;
+			}
+			free(wr_data);
+		}
+			fprintf(stderr, "write timer count= %d, total = %d\n",TIMER_COUNT(&t1), TIMER_TOTAL(&t1));
+			fprintf(stderr, "read timer count = %d, total = %d\n", TIMER_COUNT(&t2), TIMER_TOTAL(&t2));
+			
 	}	
-	else{
-		gettimeofday(&start,NULL);
-		bytes = reader(ctrl, data, is_writer);
-		gettimeofday(&stop,NULL);
-		fprintf(stderr,"reader time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
-		
-		writer(ctrl, data, bytes);
+	else {
+		timers_t t1, t2;
+		TIMER_RESET(&t1); 
+		TIMER_RESET(&t2); 
+		for (j = 0; j < cmdline_nrtimes ; j++) {
+			TIMER_START(&t2); //t1->start = gettimeofday; 
+			gettimeofday(&start,NULL);
+			bytes = reader(ctrl, data, is_writer);
+			gettimeofday(&stop,NULL);
+			TIMER_STOP(&t2); //t1->start = gettimeofday; 
+			fprintf(stderr,"reader time: %ld\n",(stop.tv_sec*1000000+stop.tv_usec)-(start.tv_sec*1000000+start.tv_usec));
+			
+			TIMER_START(&t1); //t1->start = gettimeofday; 
+			writer(ctrl, data, bytes);
+			TIMER_STOP(&t1); //t1->start = gettimeofday; 
+			fprintf(stderr, "write timer count= %d, total = %d\n",TIMER_COUNT(&t1), TIMER_TOTAL(&t1));
+			fprintf(stderr, "read timer count = %d, total = %d\n", TIMER_COUNT(&t2), TIMER_TOTAL(&t2));
+		}
 	}
 
+out_with_corruption:
 	free(data);
 	libxenvchan_close(ctrl);
 	return 0;
