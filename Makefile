@@ -11,7 +11,7 @@ CFLAGS += -I../include -I. -DCYCLES_PER_SEC=${CYCLES_PER_SEC}
 all: communication
 
 communication: $(INTRANODE_OBJS)
-	$(CC) $(LDFLAGS) -o $@ $(INTRANODE_OBJS) $(LDLIBS_libxenvchan) $(APPEND_LDFLAGS)
+	$(CC) $(LDFLAGS) -o $@ $(INTRANODE_OBJS) $(LDLIBS_libxenvchan) $(APPEND_LDFLAGS) -lm
 
 .PHONY: clean
 clean:
