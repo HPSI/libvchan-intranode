@@ -1,0 +1,4039 @@
+Control_client_init_time=490
+Data_client_init_time=275
+bytes=512 , gran=512 , ring=512 , Reader_time=4 , Writer_time=9
+
+Data_client_init_time=285
+bytes=1024 , gran=512 , ring=512 , Reader_time=4 , Writer_time=10
+
+Data_client_init_time=284
+bytes=1024 , gran=1024 , ring=512 , Reader_time=3 , Writer_time=10
+
+Data_client_init_time=293
+bytes=1024 , gran=512 , ring=1024 , Reader_time=4 , Writer_time=10
+
+Data_client_init_time=289
+bytes=1024 , gran=1024 , ring=1024 , Reader_time=5 , Writer_time=10
+
+Data_client_init_time=309
+bytes=2048 , gran=512 , ring=512 , Reader_time=5 , Writer_time=89
+
+Data_client_init_time=284
+bytes=2048 , gran=1024 , ring=512 , Reader_time=4 , Writer_time=92
+
+Data_client_init_time=275
+bytes=2048 , gran=2048 , ring=512 , Reader_time=4 , Writer_time=84
+
+Data_client_init_time=280
+bytes=2048 , gran=512 , ring=1024 , Reader_time=4 , Writer_time=83
+
+Data_client_init_time=277
+bytes=2048 , gran=1024 , ring=1024 , Reader_time=4 , Writer_time=84
+
+Data_client_init_time=299
+bytes=2048 , gran=2048 , ring=1024 , Reader_time=4 , Writer_time=92
+
+Data_client_init_time=298
+bytes=2048 , gran=512 , ring=2048 , Reader_time=5 , Writer_time=9
+
+Data_client_init_time=294
+bytes=2048 , gran=1024 , ring=2048 , Reader_time=5 , Writer_time=9
+
+Data_client_init_time=289
+bytes=2048 , gran=2048 , ring=2048 , Reader_time=4 , Writer_time=8
+
+Data_client_init_time=285
+bytes=4096 , gran=512 , ring=512 , Reader_time=101 , Writer_time=179
+
+Data_client_init_time=297
+bytes=4096 , gran=1024 , ring=512 , Reader_time=103 , Writer_time=178
+
+Data_client_init_time=281
+bytes=4096 , gran=2048 , ring=512 , Reader_time=88 , Writer_time=179
+
+Data_client_init_time=286
+bytes=4096 , gran=4096 , ring=512 , Reader_time=86 , Writer_time=182
+
+Data_client_init_time=285
+bytes=4096 , gran=512 , ring=1024 , Reader_time=82 , Writer_time=184
+
+Data_client_init_time=274
+bytes=4096 , gran=1024 , ring=1024 , Reader_time=80 , Writer_time=183
+
+Data_client_init_time=309
+bytes=4096 , gran=2048 , ring=1024 , Reader_time=86 , Writer_time=181
+
+Data_client_init_time=286
+bytes=4096 , gran=4096 , ring=1024 , Reader_time=93 , Writer_time=180
+
+Data_client_init_time=298
+bytes=4096 , gran=512 , ring=2048 , Reader_time=7 , Writer_time=92
+
+Data_client_init_time=298
+bytes=4096 , gran=1024 , ring=2048 , Reader_time=6 , Writer_time=89
+
+Data_client_init_time=294
+bytes=4096 , gran=2048 , ring=2048 , Reader_time=6 , Writer_time=86
+
+Data_client_init_time=322
+bytes=4096 , gran=4096 , ring=2048 , Reader_time=6 , Writer_time=85
+
+Data_client_init_time=309
+bytes=4096 , gran=512 , ring=4096 , Reader_time=6 , Writer_time=10
+
+Data_client_init_time=314
+bytes=4096 , gran=1024 , ring=4096 , Reader_time=5 , Writer_time=10
+
+Data_client_init_time=380
+bytes=4096 , gran=2048 , ring=4096 , Reader_time=5 , Writer_time=9
+
+Data_client_init_time=303
+bytes=4096 , gran=4096 , ring=4096 , Reader_time=7 , Writer_time=10
+
+Data_client_init_time=685
+bytes=8192 , gran=512 , ring=512 , Reader_time=232 , Writer_time=344
+
+Data_client_init_time=305
+bytes=8192 , gran=1024 , ring=512 , Reader_time=213 , Writer_time=342
+
+Data_client_init_time=278
+bytes=8192 , gran=2048 , ring=512 , Reader_time=220 , Writer_time=342
+
+Data_client_init_time=288
+bytes=8192 , gran=4096 , ring=512 , Reader_time=216 , Writer_time=343
+
+Data_client_init_time=285
+bytes=8192 , gran=8192 , ring=512 , Reader_time=215 , Writer_time=343
+
+Data_client_init_time=323
+bytes=8192 , gran=512 , ring=1024 , Reader_time=218 , Writer_time=341
+
+Data_client_init_time=281
+bytes=8192 , gran=1024 , ring=1024 , Reader_time=210 , Writer_time=340
+
+Data_client_init_time=285
+bytes=8192 , gran=2048 , ring=1024 , Reader_time=218 , Writer_time=342
+
+Data_client_init_time=291
+bytes=8192 , gran=4096 , ring=1024 , Reader_time=219 , Writer_time=336
+
+Data_client_init_time=292
+bytes=8192 , gran=8192 , ring=1024 , Reader_time=214 , Writer_time=341
+
+Data_client_init_time=374
+bytes=8192 , gran=512 , ring=2048 , Reader_time=93 , Writer_time=188
+
+Data_client_init_time=317
+bytes=8192 , gran=1024 , ring=2048 , Reader_time=107 , Writer_time=176
+
+Data_client_init_time=299
+bytes=8192 , gran=2048 , ring=2048 , Reader_time=96 , Writer_time=180
+
+Data_client_init_time=305
+bytes=8192 , gran=4096 , ring=2048 , Reader_time=103 , Writer_time=151
+
+Data_client_init_time=291
+bytes=8192 , gran=8192 , ring=2048 , Reader_time=93 , Writer_time=181
+
+Data_client_init_time=356
+bytes=8192 , gran=512 , ring=4096 , Reader_time=91 , Writer_time=76
+
+Data_client_init_time=317
+bytes=8192 , gran=1024 , ring=4096 , Reader_time=88 , Writer_time=76
+
+Data_client_init_time=310
+bytes=8192 , gran=2048 , ring=4096 , Reader_time=94 , Writer_time=75
+
+Data_client_init_time=329
+bytes=8192 , gran=4096 , ring=4096 , Reader_time=69 , Writer_time=58
+
+Data_client_init_time=311
+bytes=8192 , gran=8192 , ring=4096 , Reader_time=89 , Writer_time=76
+
+Data_client_init_time=344
+bytes=8192 , gran=512 , ring=8192 , Reader_time=7 , Writer_time=11
+
+Data_client_init_time=329
+bytes=8192 , gran=1024 , ring=8192 , Reader_time=8 , Writer_time=11
+
+Data_client_init_time=324
+bytes=8192 , gran=2048 , ring=8192 , Reader_time=8 , Writer_time=12
+
+Data_client_init_time=320
+bytes=8192 , gran=4096 , ring=8192 , Reader_time=8 , Writer_time=11
+
+Data_client_init_time=323
+bytes=8192 , gran=8192 , ring=8192 , Reader_time=7 , Writer_time=9
+
+Data_client_init_time=305
+bytes=16384 , gran=512 , ring=512 , Reader_time=426 , Writer_time=737
+
+Data_client_init_time=278
+bytes=16384 , gran=1024 , ring=512 , Reader_time=411 , Writer_time=728
+
+Data_client_init_time=282
+bytes=16384 , gran=2048 , ring=512 , Reader_time=418 , Writer_time=727
+
+Data_client_init_time=279
+bytes=16384 , gran=4096 , ring=512 , Reader_time=421 , Writer_time=726
+
+Data_client_init_time=292
+bytes=16384 , gran=8192 , ring=512 , Reader_time=419 , Writer_time=733
+
+Data_client_init_time=305
+bytes=16384 , gran=16384 , ring=512 , Reader_time=410 , Writer_time=725
+
+Data_client_init_time=272
+bytes=16384 , gran=512 , ring=1024 , Reader_time=407 , Writer_time=723
+
+Data_client_init_time=271
+bytes=16384 , gran=1024 , ring=1024 , Reader_time=418 , Writer_time=730
+
+Data_client_init_time=266
+bytes=16384 , gran=2048 , ring=1024 , Reader_time=412 , Writer_time=731
+
+Data_client_init_time=277
+bytes=16384 , gran=4096 , ring=1024 , Reader_time=409 , Writer_time=719
+
+Data_client_init_time=334
+bytes=16384 , gran=8192 , ring=1024 , Reader_time=409 , Writer_time=723
+
+Data_client_init_time=282
+bytes=16384 , gran=16384 , ring=1024 , Reader_time=402 , Writer_time=718
+
+Data_client_init_time=293
+bytes=16384 , gran=512 , ring=2048 , Reader_time=219 , Writer_time=341
+
+Data_client_init_time=308
+bytes=16384 , gran=1024 , ring=2048 , Reader_time=217 , Writer_time=344
+
+Data_client_init_time=321
+bytes=16384 , gran=2048 , ring=2048 , Reader_time=211 , Writer_time=337
+
+Data_client_init_time=327
+bytes=16384 , gran=4096 , ring=2048 , Reader_time=240 , Writer_time=340
+
+Data_client_init_time=304
+bytes=16384 , gran=8192 , ring=2048 , Reader_time=220 , Writer_time=343
+
+Data_client_init_time=303
+bytes=16384 , gran=16384 , ring=2048 , Reader_time=225 , Writer_time=345
+
+Data_client_init_time=330
+bytes=16384 , gran=512 , ring=4096 , Reader_time=228 , Writer_time=155
+
+Data_client_init_time=318
+bytes=16384 , gran=1024 , ring=4096 , Reader_time=216 , Writer_time=150
+
+Data_client_init_time=356
+bytes=16384 , gran=2048 , ring=4096 , Reader_time=219 , Writer_time=155
+
+Data_client_init_time=332
+bytes=16384 , gran=4096 , ring=4096 , Reader_time=222 , Writer_time=156
+
+Data_client_init_time=314
+bytes=16384 , gran=8192 , ring=4096 , Reader_time=226 , Writer_time=154
+
+Data_client_init_time=325
+bytes=16384 , gran=16384 , ring=4096 , Reader_time=222 , Writer_time=157
+
+Data_client_init_time=330
+bytes=16384 , gran=512 , ring=8192 , Reader_time=88 , Writer_time=75
+
+Data_client_init_time=352
+bytes=16384 , gran=1024 , ring=8192 , Reader_time=93 , Writer_time=78
+
+Data_client_init_time=338
+bytes=16384 , gran=2048 , ring=8192 , Reader_time=88 , Writer_time=79
+
+Data_client_init_time=322
+bytes=16384 , gran=4096 , ring=8192 , Reader_time=96 , Writer_time=79
+
+Data_client_init_time=324
+bytes=16384 , gran=8192 , ring=8192 , Reader_time=94 , Writer_time=81
+
+Data_client_init_time=329
+bytes=16384 , gran=16384 , ring=8192 , Reader_time=91 , Writer_time=78
+
+Data_client_init_time=386
+bytes=16384 , gran=512 , ring=16384 , Reader_time=11 , Writer_time=15
+
+Data_client_init_time=341
+bytes=16384 , gran=1024 , ring=16384 , Reader_time=12 , Writer_time=15
+
+Data_client_init_time=344
+bytes=16384 , gran=2048 , ring=16384 , Reader_time=12 , Writer_time=15
+
+Data_client_init_time=335
+bytes=16384 , gran=4096 , ring=16384 , Reader_time=12 , Writer_time=13
+
+Data_client_init_time=323
+bytes=16384 , gran=8192 , ring=16384 , Reader_time=10 , Writer_time=12
+
+Data_client_init_time=393
+bytes=16384 , gran=16384 , ring=16384 , Reader_time=12 , Writer_time=12
+
+Data_client_init_time=283
+bytes=32768 , gran=512 , ring=512 , Reader_time=825 , Writer_time=1501
+
+Data_client_init_time=286
+bytes=32768 , gran=1024 , ring=512 , Reader_time=846 , Writer_time=1488
+
+Data_client_init_time=285
+bytes=32768 , gran=2048 , ring=512 , Reader_time=835 , Writer_time=1500
+
+Data_client_init_time=284
+bytes=32768 , gran=4096 , ring=512 , Reader_time=776 , Writer_time=1470
+
+Data_client_init_time=306
+bytes=32768 , gran=8192 , ring=512 , Reader_time=797 , Writer_time=1523
+
+Data_client_init_time=303
+bytes=32768 , gran=16384 , ring=512 , Reader_time=818 , Writer_time=1471
+
+Data_client_init_time=307
+bytes=32768 , gran=32768 , ring=512 , Reader_time=821 , Writer_time=1484
+
+Data_client_init_time=290
+bytes=32768 , gran=512 , ring=1024 , Reader_time=794 , Writer_time=1485
+
+Data_client_init_time=287
+bytes=32768 , gran=1024 , ring=1024 , Reader_time=794 , Writer_time=1489
+
+Data_client_init_time=326
+bytes=32768 , gran=2048 , ring=1024 , Reader_time=802 , Writer_time=1490
+
+Data_client_init_time=306
+bytes=32768 , gran=4096 , ring=1024 , Reader_time=798 , Writer_time=1473
+
+Data_client_init_time=292
+bytes=32768 , gran=8192 , ring=1024 , Reader_time=796 , Writer_time=1490
+
+Data_client_init_time=293
+bytes=32768 , gran=16384 , ring=1024 , Reader_time=786 , Writer_time=1474
+
+Data_client_init_time=296
+bytes=32768 , gran=32768 , ring=1024 , Reader_time=792 , Writer_time=1473
+
+Data_client_init_time=334
+bytes=32768 , gran=512 , ring=2048 , Reader_time=416 , Writer_time=721
+
+Data_client_init_time=302
+bytes=32768 , gran=1024 , ring=2048 , Reader_time=416 , Writer_time=728
+
+Data_client_init_time=302
+bytes=32768 , gran=2048 , ring=2048 , Reader_time=425 , Writer_time=737
+
+Data_client_init_time=363
+bytes=32768 , gran=4096 , ring=2048 , Reader_time=414 , Writer_time=723
+
+Data_client_init_time=322
+bytes=32768 , gran=8192 , ring=2048 , Reader_time=425 , Writer_time=734
+
+Data_client_init_time=312
+bytes=32768 , gran=16384 , ring=2048 , Reader_time=426 , Writer_time=734
+
+Data_client_init_time=331
+bytes=32768 , gran=32768 , ring=2048 , Reader_time=416 , Writer_time=731
+
+Data_client_init_time=334
+bytes=32768 , gran=512 , ring=4096 , Reader_time=414 , Writer_time=349
+
+Data_client_init_time=413
+bytes=32768 , gran=1024 , ring=4096 , Reader_time=417 , Writer_time=349
+
+Data_client_init_time=334
+bytes=32768 , gran=2048 , ring=4096 , Reader_time=419 , Writer_time=355
+
+Data_client_init_time=341
+bytes=32768 , gran=4096 , ring=4096 , Reader_time=368 , Writer_time=354
+
+Data_client_init_time=343
+bytes=32768 , gran=8192 , ring=4096 , Reader_time=421 , Writer_time=356
+
+Data_client_init_time=340
+bytes=32768 , gran=16384 , ring=4096 , Reader_time=418 , Writer_time=355
+
+Data_client_init_time=375
+bytes=32768 , gran=32768 , ring=4096 , Reader_time=419 , Writer_time=354
+
+Data_client_init_time=339
+bytes=32768 , gran=512 , ring=8192 , Reader_time=213 , Writer_time=147
+
+Data_client_init_time=349
+bytes=32768 , gran=1024 , ring=8192 , Reader_time=213 , Writer_time=143
+
+Data_client_init_time=345
+bytes=32768 , gran=2048 , ring=8192 , Reader_time=218 , Writer_time=162
+
+Data_client_init_time=377
+bytes=32768 , gran=4096 , ring=8192 , Reader_time=234 , Writer_time=200
+
+Data_client_init_time=367
+bytes=32768 , gran=8192 , ring=8192 , Reader_time=225 , Writer_time=164
+
+Data_client_init_time=346
+bytes=32768 , gran=16384 , ring=8192 , Reader_time=234 , Writer_time=163
+
+Data_client_init_time=365
+bytes=32768 , gran=32768 , ring=8192 , Reader_time=230 , Writer_time=187
+
+Data_client_init_time=400
+bytes=32768 , gran=512 , ring=16384 , Reader_time=101 , Writer_time=93
+
+Data_client_init_time=360
+bytes=32768 , gran=1024 , ring=16384 , Reader_time=94 , Writer_time=86
+
+Data_client_init_time=397
+bytes=32768 , gran=2048 , ring=16384 , Reader_time=103 , Writer_time=91
+
+Data_client_init_time=383
+bytes=32768 , gran=4096 , ring=16384 , Reader_time=107 , Writer_time=92
+
+Data_client_init_time=367
+bytes=32768 , gran=8192 , ring=16384 , Reader_time=100 , Writer_time=85
+
+Data_client_init_time=366
+bytes=32768 , gran=16384 , ring=16384 , Reader_time=105 , Writer_time=93
+
+Data_client_init_time=360
+bytes=32768 , gran=32768 , ring=16384 , Reader_time=104 , Writer_time=93
+
+Data_client_init_time=445
+bytes=32768 , gran=512 , ring=32768 , Reader_time=17 , Writer_time=22
+
+Data_client_init_time=395
+bytes=32768 , gran=1024 , ring=32768 , Reader_time=16 , Writer_time=19
+
+Data_client_init_time=405
+bytes=32768 , gran=2048 , ring=32768 , Reader_time=17 , Writer_time=19
+
+Data_client_init_time=394
+bytes=32768 , gran=4096 , ring=32768 , Reader_time=16 , Writer_time=17
+
+Data_client_init_time=388
+bytes=32768 , gran=8192 , ring=32768 , Reader_time=17 , Writer_time=20
+
+Data_client_init_time=408
+bytes=32768 , gran=16384 , ring=32768 , Reader_time=17 , Writer_time=18
+
+Data_client_init_time=409
+bytes=32768 , gran=32768 , ring=32768 , Reader_time=17 , Writer_time=16
+
+Data_client_init_time=289
+bytes=65536 , gran=512 , ring=512 , Reader_time=1619 , Writer_time=3076
+
+Data_client_init_time=306
+bytes=65536 , gran=1024 , ring=512 , Reader_time=1573 , Writer_time=3034
+
+Data_client_init_time=295
+bytes=65536 , gran=2048 , ring=512 , Reader_time=1575 , Writer_time=3002
+
+Data_client_init_time=328
+bytes=65536 , gran=4096 , ring=512 , Reader_time=1516 , Writer_time=2993
+
+Data_client_init_time=313
+bytes=65536 , gran=8192 , ring=512 , Reader_time=1569 , Writer_time=3010
+
+Data_client_init_time=302
+bytes=65536 , gran=16384 , ring=512 , Reader_time=1568 , Writer_time=3004
+
+Data_client_init_time=306
+bytes=65536 , gran=32768 , ring=512 , Reader_time=1425 , Writer_time=2839
+
+Data_client_init_time=357
+bytes=65536 , gran=65536 , ring=512 , Reader_time=1564 , Writer_time=3022
+
+Data_client_init_time=370
+bytes=65536 , gran=512 , ring=1024 , Reader_time=1523 , Writer_time=3055
+
+Data_client_init_time=310
+bytes=65536 , gran=1024 , ring=1024 , Reader_time=1644 , Writer_time=2962
+
+Data_client_init_time=355
+bytes=65536 , gran=2048 , ring=1024 , Reader_time=1580 , Writer_time=2997
+
+Data_client_init_time=313
+bytes=65536 , gran=4096 , ring=1024 , Reader_time=1565 , Writer_time=3071
+
+Data_client_init_time=298
+bytes=65536 , gran=8192 , ring=1024 , Reader_time=1573 , Writer_time=3042
+
+Data_client_init_time=334
+bytes=65536 , gran=16384 , ring=1024 , Reader_time=1449 , Writer_time=2695
+
+Data_client_init_time=315
+bytes=65536 , gran=32768 , ring=1024 , Reader_time=1584 , Writer_time=3033
+
+Data_client_init_time=303
+bytes=65536 , gran=65536 , ring=1024 , Reader_time=1570 , Writer_time=3001
+
+Data_client_init_time=325
+bytes=65536 , gran=512 , ring=2048 , Reader_time=808 , Writer_time=1501
+
+Data_client_init_time=338
+bytes=65536 , gran=1024 , ring=2048 , Reader_time=829 , Writer_time=1505
+
+Data_client_init_time=346
+bytes=65536 , gran=2048 , ring=2048 , Reader_time=811 , Writer_time=1506
+
+Data_client_init_time=321
+bytes=65536 , gran=4096 , ring=2048 , Reader_time=834 , Writer_time=1504
+
+Data_client_init_time=318
+bytes=65536 , gran=8192 , ring=2048 , Reader_time=808 , Writer_time=1502
+
+Data_client_init_time=324
+bytes=65536 , gran=16384 , ring=2048 , Reader_time=739 , Writer_time=1339
+
+Data_client_init_time=317
+bytes=65536 , gran=32768 , ring=2048 , Reader_time=811 , Writer_time=1460
+
+Data_client_init_time=353
+bytes=65536 , gran=65536 , ring=2048 , Reader_time=812 , Writer_time=1500
+
+Data_client_init_time=334
+bytes=65536 , gran=512 , ring=4096 , Reader_time=812 , Writer_time=738
+
+Data_client_init_time=347
+bytes=65536 , gran=1024 , ring=4096 , Reader_time=809 , Writer_time=742
+
+Data_client_init_time=360
+bytes=65536 , gran=2048 , ring=4096 , Reader_time=803 , Writer_time=785
+
+Data_client_init_time=336
+bytes=65536 , gran=4096 , ring=4096 , Reader_time=814 , Writer_time=747
+
+Data_client_init_time=355
+bytes=65536 , gran=8192 , ring=4096 , Reader_time=826 , Writer_time=753
+
+Data_client_init_time=343
+bytes=65536 , gran=16384 , ring=4096 , Reader_time=818 , Writer_time=751
+
+Data_client_init_time=338
+bytes=65536 , gran=32768 , ring=4096 , Reader_time=854 , Writer_time=752
+
+Data_client_init_time=349
+bytes=65536 , gran=65536 , ring=4096 , Reader_time=815 , Writer_time=749
+
+Data_client_init_time=358
+bytes=65536 , gran=512 , ring=8192 , Reader_time=433 , Writer_time=362
+
+Data_client_init_time=379
+bytes=65536 , gran=1024 , ring=8192 , Reader_time=434 , Writer_time=364
+
+Data_client_init_time=366
+bytes=65536 , gran=2048 , ring=8192 , Reader_time=428 , Writer_time=363
+
+Data_client_init_time=352
+bytes=65536 , gran=4096 , ring=8192 , Reader_time=436 , Writer_time=368
+
+Data_client_init_time=383
+bytes=65536 , gran=8192 , ring=8192 , Reader_time=430 , Writer_time=336
+
+Data_client_init_time=357
+bytes=65536 , gran=16384 , ring=8192 , Reader_time=437 , Writer_time=372
+
+Data_client_init_time=371
+bytes=65536 , gran=32768 , ring=8192 , Reader_time=439 , Writer_time=372
+
+Data_client_init_time=398
+bytes=65536 , gran=65536 , ring=8192 , Reader_time=451 , Writer_time=374
+
+Data_client_init_time=387
+bytes=65536 , gran=512 , ring=16384 , Reader_time=239 , Writer_time=174
+
+Data_client_init_time=377
+bytes=65536 , gran=1024 , ring=16384 , Reader_time=234 , Writer_time=171
+
+Data_client_init_time=380
+bytes=65536 , gran=2048 , ring=16384 , Reader_time=241 , Writer_time=172
+
+Data_client_init_time=400
+bytes=65536 , gran=4096 , ring=16384 , Reader_time=235 , Writer_time=173
+
+Data_client_init_time=371
+bytes=65536 , gran=8192 , ring=16384 , Reader_time=243 , Writer_time=177
+
+Data_client_init_time=362
+bytes=65536 , gran=16384 , ring=16384 , Reader_time=256 , Writer_time=179
+
+Data_client_init_time=371
+bytes=65536 , gran=32768 , ring=16384 , Reader_time=243 , Writer_time=177
+
+Data_client_init_time=371
+bytes=65536 , gran=65536 , ring=16384 , Reader_time=252 , Writer_time=180
+
+Data_client_init_time=418
+bytes=65536 , gran=512 , ring=32768 , Reader_time=106 , Writer_time=99
+
+Data_client_init_time=417
+bytes=65536 , gran=1024 , ring=32768 , Reader_time=107 , Writer_time=99
+
+Data_client_init_time=416
+bytes=65536 , gran=2048 , ring=32768 , Reader_time=117 , Writer_time=94
+
+Data_client_init_time=413
+bytes=65536 , gran=4096 , ring=32768 , Reader_time=111 , Writer_time=97
+
+Data_client_init_time=419
+bytes=65536 , gran=8192 , ring=32768 , Reader_time=111 , Writer_time=96
+
+Data_client_init_time=424
+bytes=65536 , gran=16384 , ring=32768 , Reader_time=111 , Writer_time=97
+
+Data_client_init_time=414
+bytes=65536 , gran=32768 , ring=32768 , Reader_time=127 , Writer_time=96
+
+Data_client_init_time=404
+bytes=65536 , gran=65536 , ring=32768 , Reader_time=116 , Writer_time=98
+
+Data_client_init_time=476
+bytes=65536 , gran=512 , ring=65536 , Reader_time=24 , Writer_time=35
+
+Data_client_init_time=473
+bytes=65536 , gran=1024 , ring=65536 , Reader_time=24 , Writer_time=31
+
+Data_client_init_time=496
+bytes=65536 , gran=2048 , ring=65536 , Reader_time=24 , Writer_time=29
+
+Data_client_init_time=478
+bytes=65536 , gran=4096 , ring=65536 , Reader_time=25 , Writer_time=29
+
+Data_client_init_time=460
+bytes=65536 , gran=8192 , ring=65536 , Reader_time=26 , Writer_time=28
+
+Data_client_init_time=489
+bytes=65536 , gran=16384 , ring=65536 , Reader_time=25 , Writer_time=27
+
+Data_client_init_time=459
+bytes=65536 , gran=32768 , ring=65536 , Reader_time=24 , Writer_time=23
+
+Data_client_init_time=504
+bytes=65536 , gran=65536 , ring=65536 , Reader_time=26 , Writer_time=24
+
+Data_client_init_time=321
+bytes=131072 , gran=512 , ring=512 , Reader_time=3232 , Writer_time=6185
+
+Data_client_init_time=320
+bytes=131072 , gran=1024 , ring=512 , Reader_time=3134 , Writer_time=6055
+
+Data_client_init_time=327
+bytes=131072 , gran=2048 , ring=512 , Reader_time=3107 , Writer_time=6028
+
+Data_client_init_time=323
+bytes=131072 , gran=4096 , ring=512 , Reader_time=3042 , Writer_time=5901
+
+Data_client_init_time=338
+bytes=131072 , gran=8192 , ring=512 , Reader_time=3108 , Writer_time=6050
+
+Data_client_init_time=328
+bytes=131072 , gran=16384 , ring=512 , Reader_time=3124 , Writer_time=6065
+
+Data_client_init_time=321
+bytes=131072 , gran=32768 , ring=512 , Reader_time=3096 , Writer_time=6050
+
+Data_client_init_time=317
+bytes=131072 , gran=65536 , ring=512 , Reader_time=3127 , Writer_time=6059
+
+Data_client_init_time=311
+bytes=131072 , gran=131072 , ring=512 , Reader_time=3052 , Writer_time=5865
+
+Data_client_init_time=351
+bytes=131072 , gran=512 , ring=1024 , Reader_time=3106 , Writer_time=6090
+
+Data_client_init_time=301
+bytes=131072 , gran=1024 , ring=1024 , Reader_time=3106 , Writer_time=6018
+
+Data_client_init_time=342
+bytes=131072 , gran=2048 , ring=1024 , Reader_time=3129 , Writer_time=6102
+
+Data_client_init_time=322
+bytes=131072 , gran=4096 , ring=1024 , Reader_time=3125 , Writer_time=6027
+
+Data_client_init_time=304
+bytes=131072 , gran=8192 , ring=1024 , Reader_time=3092 , Writer_time=6073
+
+Data_client_init_time=334
+bytes=131072 , gran=16384 , ring=1024 , Reader_time=3164 , Writer_time=6024
+
+Data_client_init_time=323
+bytes=131072 , gran=32768 , ring=1024 , Reader_time=3154 , Writer_time=6051
+
+Data_client_init_time=322
+bytes=131072 , gran=65536 , ring=1024 , Reader_time=3109 , Writer_time=6032
+
+Data_client_init_time=302
+bytes=131072 , gran=131072 , ring=1024 , Reader_time=3130 , Writer_time=6067
+
+Data_client_init_time=330
+bytes=131072 , gran=512 , ring=2048 , Reader_time=1419 , Writer_time=2881
+
+Data_client_init_time=407
+bytes=131072 , gran=1024 , ring=2048 , Reader_time=1588 , Writer_time=3029
+
+Data_client_init_time=336
+bytes=131072 , gran=2048 , ring=2048 , Reader_time=1602 , Writer_time=3055
+
+Data_client_init_time=367
+bytes=131072 , gran=4096 , ring=2048 , Reader_time=1620 , Writer_time=3033
+
+Data_client_init_time=345
+bytes=131072 , gran=8192 , ring=2048 , Reader_time=1615 , Writer_time=3052
+
+Data_client_init_time=326
+bytes=131072 , gran=16384 , ring=2048 , Reader_time=1620 , Writer_time=3099
+
+Data_client_init_time=363
+bytes=131072 , gran=32768 , ring=2048 , Reader_time=1607 , Writer_time=3023
+
+Data_client_init_time=359
+bytes=131072 , gran=65536 , ring=2048 , Reader_time=1610 , Writer_time=3046
+
+Data_client_init_time=333
+bytes=131072 , gran=131072 , ring=2048 , Reader_time=1609 , Writer_time=3054
+
+Data_client_init_time=357
+bytes=131072 , gran=512 , ring=4096 , Reader_time=1599 , Writer_time=1532
+
+Data_client_init_time=370
+bytes=131072 , gran=1024 , ring=4096 , Reader_time=1585 , Writer_time=1532
+
+Data_client_init_time=384
+bytes=131072 , gran=2048 , ring=4096 , Reader_time=1548 , Writer_time=1537
+
+Data_client_init_time=349
+bytes=131072 , gran=4096 , ring=4096 , Reader_time=1656 , Writer_time=1552
+
+Data_client_init_time=355
+bytes=131072 , gran=8192 , ring=4096 , Reader_time=1616 , Writer_time=1523
+
+Data_client_init_time=363
+bytes=131072 , gran=16384 , ring=4096 , Reader_time=1915 , Writer_time=1552
+
+Data_client_init_time=359
+bytes=131072 , gran=32768 , ring=4096 , Reader_time=1620 , Writer_time=1550
+
+Data_client_init_time=389
+bytes=131072 , gran=65536 , ring=4096 , Reader_time=1572 , Writer_time=1496
+
+Data_client_init_time=353
+bytes=131072 , gran=131072 , ring=4096 , Reader_time=1622 , Writer_time=1528
+
+Data_client_init_time=364
+bytes=131072 , gran=512 , ring=8192 , Reader_time=837 , Writer_time=775
+
+Data_client_init_time=365
+bytes=131072 , gran=1024 , ring=8192 , Reader_time=854 , Writer_time=774
+
+Data_client_init_time=359
+bytes=131072 , gran=2048 , ring=8192 , Reader_time=801 , Writer_time=773
+
+Data_client_init_time=392
+bytes=131072 , gran=4096 , ring=8192 , Reader_time=900 , Writer_time=786
+
+Data_client_init_time=402
+bytes=131072 , gran=8192 , ring=8192 , Reader_time=891 , Writer_time=791
+
+Data_client_init_time=369
+bytes=131072 , gran=16384 , ring=8192 , Reader_time=858 , Writer_time=788
+
+Data_client_init_time=395
+bytes=131072 , gran=32768 , ring=8192 , Reader_time=864 , Writer_time=783
+
+Data_client_init_time=376
+bytes=131072 , gran=65536 , ring=8192 , Reader_time=861 , Writer_time=792
+
+Data_client_init_time=380
+bytes=131072 , gran=131072 , ring=8192 , Reader_time=844 , Writer_time=771
+
+Data_client_init_time=383
+bytes=131072 , gran=512 , ring=16384 , Reader_time=450 , Writer_time=383
+
+Data_client_init_time=409
+bytes=131072 , gran=1024 , ring=16384 , Reader_time=459 , Writer_time=390
+
+Data_client_init_time=393
+bytes=131072 , gran=2048 , ring=16384 , Reader_time=466 , Writer_time=390
+
+Data_client_init_time=413
+bytes=131072 , gran=4096 , ring=16384 , Reader_time=464 , Writer_time=397
+
+Data_client_init_time=469
+bytes=131072 , gran=8192 , ring=16384 , Reader_time=469 , Writer_time=492
+
+Data_client_init_time=390
+bytes=131072 , gran=16384 , ring=16384 , Reader_time=455 , Writer_time=398
+
+Data_client_init_time=393
+bytes=131072 , gran=32768 , ring=16384 , Reader_time=478 , Writer_time=406
+
+Data_client_init_time=388
+bytes=131072 , gran=65536 , ring=16384 , Reader_time=478 , Writer_time=406
+
+Data_client_init_time=382
+bytes=131072 , gran=131072 , ring=16384 , Reader_time=476 , Writer_time=406
+
+Data_client_init_time=460
+bytes=131072 , gran=512 , ring=32768 , Reader_time=256 , Writer_time=190
+
+Data_client_init_time=438
+bytes=131072 , gran=1024 , ring=32768 , Reader_time=252 , Writer_time=183
+
+Data_client_init_time=422
+bytes=131072 , gran=2048 , ring=32768 , Reader_time=271 , Writer_time=216
+
+Data_client_init_time=429
+bytes=131072 , gran=4096 , ring=32768 , Reader_time=255 , Writer_time=187
+
+Data_client_init_time=441
+bytes=131072 , gran=8192 , ring=32768 , Reader_time=257 , Writer_time=190
+
+Data_client_init_time=444
+bytes=131072 , gran=16384 , ring=32768 , Reader_time=268 , Writer_time=192
+
+Data_client_init_time=418
+bytes=131072 , gran=32768 , ring=32768 , Reader_time=264 , Writer_time=195
+
+Data_client_init_time=432
+bytes=131072 , gran=65536 , ring=32768 , Reader_time=272 , Writer_time=200
+
+Data_client_init_time=420
+bytes=131072 , gran=131072 , ring=32768 , Reader_time=269 , Writer_time=199
+
+Data_client_init_time=496
+bytes=131072 , gran=512 , ring=65536 , Reader_time=127 , Writer_time=110
+
+Data_client_init_time=541
+bytes=131072 , gran=1024 , ring=65536 , Reader_time=130 , Writer_time=105
+
+Data_client_init_time=508
+bytes=131072 , gran=2048 , ring=65536 , Reader_time=124 , Writer_time=106
+
+Data_client_init_time=502
+bytes=131072 , gran=4096 , ring=65536 , Reader_time=128 , Writer_time=136
+
+Data_client_init_time=520
+bytes=131072 , gran=8192 , ring=65536 , Reader_time=171 , Writer_time=111
+
+Data_client_init_time=522
+bytes=131072 , gran=16384 , ring=65536 , Reader_time=127 , Writer_time=103
+
+Data_client_init_time=524
+bytes=131072 , gran=32768 , ring=65536 , Reader_time=137 , Writer_time=104
+
+Data_client_init_time=496
+bytes=131072 , gran=65536 , ring=65536 , Reader_time=139 , Writer_time=107
+
+Data_client_init_time=502
+bytes=131072 , gran=131072 , ring=65536 , Reader_time=142 , Writer_time=107
+
+Data_client_init_time=675
+bytes=131072 , gran=512 , ring=131072 , Reader_time=42 , Writer_time=68
+
+Data_client_init_time=630
+bytes=131072 , gran=1024 , ring=131072 , Reader_time=42 , Writer_time=58
+
+Data_client_init_time=698
+bytes=131072 , gran=2048 , ring=131072 , Reader_time=45 , Writer_time=52
+
+Data_client_init_time=632
+bytes=131072 , gran=4096 , ring=131072 , Reader_time=42 , Writer_time=50
+
+Data_client_init_time=630
+bytes=131072 , gran=8192 , ring=131072 , Reader_time=44 , Writer_time=47
+
+Data_client_init_time=631
+bytes=131072 , gran=16384 , ring=131072 , Reader_time=46 , Writer_time=47
+
+Data_client_init_time=646
+bytes=131072 , gran=32768 , ring=131072 , Reader_time=42 , Writer_time=41
+
+Data_client_init_time=651
+bytes=131072 , gran=65536 , ring=131072 , Reader_time=45 , Writer_time=39
+
+Data_client_init_time=629
+bytes=131072 , gran=131072 , ring=131072 , Reader_time=45 , Writer_time=38
+
+Data_client_init_time=340
+bytes=262144 , gran=512 , ring=512 , Reader_time=6444 , Writer_time=12275
+
+Data_client_init_time=363
+bytes=262144 , gran=1024 , ring=512 , Reader_time=6201 , Writer_time=12078
+
+Data_client_init_time=354
+bytes=262144 , gran=2048 , ring=512 , Reader_time=6213 , Writer_time=12137
+
+Data_client_init_time=380
+bytes=262144 , gran=4096 , ring=512 , Reader_time=6209 , Writer_time=12138
+
+Data_client_init_time=347
+bytes=262144 , gran=8192 , ring=512 , Reader_time=6262 , Writer_time=12226
+
+Data_client_init_time=345
+bytes=262144 , gran=16384 , ring=512 , Reader_time=6339 , Writer_time=12405
+
+Data_client_init_time=362
+bytes=262144 , gran=32768 , ring=512 , Reader_time=6238 , Writer_time=11864
+
+Data_client_init_time=390
+bytes=262144 , gran=65536 , ring=512 , Reader_time=6200 , Writer_time=12124
+
+Data_client_init_time=377
+bytes=262144 , gran=131072 , ring=512 , Reader_time=6230 , Writer_time=12129
+
+Data_client_init_time=356
+bytes=262144 , gran=262144 , ring=512 , Reader_time=6216 , Writer_time=12131
+
+Data_client_init_time=344
+bytes=262144 , gran=512 , ring=1024 , Reader_time=5996 , Writer_time=11795
+
+Data_client_init_time=345
+bytes=262144 , gran=1024 , ring=1024 , Reader_time=6248 , Writer_time=12180
+
+Data_client_init_time=358
+bytes=262144 , gran=2048 , ring=1024 , Reader_time=6229 , Writer_time=12159
+
+Data_client_init_time=382
+bytes=262144 , gran=4096 , ring=1024 , Reader_time=6197 , Writer_time=12178
+
+Data_client_init_time=362
+bytes=262144 , gran=8192 , ring=1024 , Reader_time=6242 , Writer_time=12161
+
+Data_client_init_time=342
+bytes=262144 , gran=16384 , ring=1024 , Reader_time=6050 , Writer_time=11301
+
+Data_client_init_time=351
+bytes=262144 , gran=32768 , ring=1024 , Reader_time=6240 , Writer_time=12192
+
+Data_client_init_time=350
+bytes=262144 , gran=65536 , ring=1024 , Reader_time=6202 , Writer_time=11967
+
+Data_client_init_time=396
+bytes=262144 , gran=131072 , ring=1024 , Reader_time=6202 , Writer_time=12208
+
+Data_client_init_time=346
+bytes=262144 , gran=262144 , ring=1024 , Reader_time=6199 , Writer_time=12227
+
+Data_client_init_time=370
+bytes=262144 , gran=512 , ring=2048 , Reader_time=3076 , Writer_time=5952
+
+Data_client_init_time=377
+bytes=262144 , gran=1024 , ring=2048 , Reader_time=3174 , Writer_time=6146
+
+Data_client_init_time=357
+bytes=262144 , gran=2048 , ring=2048 , Reader_time=3171 , Writer_time=6137
+
+Data_client_init_time=414
+bytes=262144 , gran=4096 , ring=2048 , Reader_time=3238 , Writer_time=6118
+
+Data_client_init_time=368
+bytes=262144 , gran=8192 , ring=2048 , Reader_time=3252 , Writer_time=6293
+
+Data_client_init_time=360
+bytes=262144 , gran=16384 , ring=2048 , Reader_time=3214 , Writer_time=6115
+
+Data_client_init_time=377
+bytes=262144 , gran=32768 , ring=2048 , Reader_time=3224 , Writer_time=5706
+
+Data_client_init_time=396
+bytes=262144 , gran=65536 , ring=2048 , Reader_time=3187 , Writer_time=6105
+
+Data_client_init_time=388
+bytes=262144 , gran=131072 , ring=2048 , Reader_time=3222 , Writer_time=6197
+
+Data_client_init_time=359
+bytes=262144 , gran=262144 , ring=2048 , Reader_time=3261 , Writer_time=6125
+
+Data_client_init_time=437
+bytes=262144 , gran=512 , ring=4096 , Reader_time=3180 , Writer_time=3106
+
+Data_client_init_time=401
+bytes=262144 , gran=1024 , ring=4096 , Reader_time=3170 , Writer_time=3094
+
+Data_client_init_time=398
+bytes=262144 , gran=2048 , ring=4096 , Reader_time=3147 , Writer_time=3121
+
+Data_client_init_time=435
+bytes=262144 , gran=4096 , ring=4096 , Reader_time=3245 , Writer_time=3130
+
+Data_client_init_time=391
+bytes=262144 , gran=8192 , ring=4096 , Reader_time=3208 , Writer_time=3178
+
+Data_client_init_time=386
+bytes=262144 , gran=16384 , ring=4096 , Reader_time=3266 , Writer_time=3126
+
+Data_client_init_time=377
+bytes=262144 , gran=32768 , ring=4096 , Reader_time=3195 , Writer_time=3153
+
+Data_client_init_time=360
+bytes=262144 , gran=65536 , ring=4096 , Reader_time=3208 , Writer_time=3139
+
+Data_client_init_time=404
+bytes=262144 , gran=131072 , ring=4096 , Reader_time=3209 , Writer_time=3149
+
+Data_client_init_time=411
+bytes=262144 , gran=262144 , ring=4096 , Reader_time=3203 , Writer_time=3125
+
+Data_client_init_time=380
+bytes=262144 , gran=512 , ring=8192 , Reader_time=1684 , Writer_time=1579
+
+Data_client_init_time=385
+bytes=262144 , gran=1024 , ring=8192 , Reader_time=1600 , Writer_time=1539
+
+Data_client_init_time=399
+bytes=262144 , gran=2048 , ring=8192 , Reader_time=1655 , Writer_time=1611
+
+Data_client_init_time=408
+bytes=262144 , gran=4096 , ring=8192 , Reader_time=1670 , Writer_time=1595
+
+Data_client_init_time=402
+bytes=262144 , gran=8192 , ring=8192 , Reader_time=1696 , Writer_time=1621
+
+Data_client_init_time=390
+bytes=262144 , gran=16384 , ring=8192 , Reader_time=1696 , Writer_time=1631
+
+Data_client_init_time=404
+bytes=262144 , gran=32768 , ring=8192 , Reader_time=1685 , Writer_time=1628
+
+Data_client_init_time=387
+bytes=262144 , gran=65536 , ring=8192 , Reader_time=1704 , Writer_time=1600
+
+Data_client_init_time=426
+bytes=262144 , gran=131072 , ring=8192 , Reader_time=1719 , Writer_time=1621
+
+Data_client_init_time=402
+bytes=262144 , gran=262144 , ring=8192 , Reader_time=1689 , Writer_time=1612
+
+Data_client_init_time=424
+bytes=262144 , gran=512 , ring=16384 , Reader_time=893 , Writer_time=824
+
+Data_client_init_time=494
+bytes=262144 , gran=1024 , ring=16384 , Reader_time=882 , Writer_time=842
+
+Data_client_init_time=403
+bytes=262144 , gran=2048 , ring=16384 , Reader_time=882 , Writer_time=1116
+
+Data_client_init_time=477
+bytes=262144 , gran=4096 , ring=16384 , Reader_time=896 , Writer_time=829
+
+Data_client_init_time=424
+bytes=262144 , gran=8192 , ring=16384 , Reader_time=909 , Writer_time=837
+
+Data_client_init_time=407
+bytes=262144 , gran=16384 , ring=16384 , Reader_time=939 , Writer_time=865
+
+Data_client_init_time=457
+bytes=262144 , gran=32768 , ring=16384 , Reader_time=965 , Writer_time=996
+
+Data_client_init_time=438
+bytes=262144 , gran=65536 , ring=16384 , Reader_time=962 , Writer_time=869
+
+Data_client_init_time=464
+bytes=262144 , gran=131072 , ring=16384 , Reader_time=953 , Writer_time=916
+
+Data_client_init_time=415
+bytes=262144 , gran=262144 , ring=16384 , Reader_time=976 , Writer_time=866
+
+Data_client_init_time=452
+bytes=262144 , gran=512 , ring=32768 , Reader_time=496 , Writer_time=427
+
+Data_client_init_time=452
+bytes=262144 , gran=1024 , ring=32768 , Reader_time=492 , Writer_time=423
+
+Data_client_init_time=441
+bytes=262144 , gran=2048 , ring=32768 , Reader_time=462 , Writer_time=423
+
+Data_client_init_time=483
+bytes=262144 , gran=4096 , ring=32768 , Reader_time=486 , Writer_time=422
+
+Data_client_init_time=445
+bytes=262144 , gran=8192 , ring=32768 , Reader_time=495 , Writer_time=427
+
+Data_client_init_time=445
+bytes=262144 , gran=16384 , ring=32768 , Reader_time=527 , Writer_time=450
+
+Data_client_init_time=448
+bytes=262144 , gran=32768 , ring=32768 , Reader_time=521 , Writer_time=454
+
+Data_client_init_time=438
+bytes=262144 , gran=65536 , ring=32768 , Reader_time=517 , Writer_time=453
+
+Data_client_init_time=467
+bytes=262144 , gran=131072 , ring=32768 , Reader_time=518 , Writer_time=450
+
+Data_client_init_time=434
+bytes=262144 , gran=262144 , ring=32768 , Reader_time=512 , Writer_time=450
+
+Data_client_init_time=515
+bytes=262144 , gran=512 , ring=65536 , Reader_time=284 , Writer_time=219
+
+Data_client_init_time=525
+bytes=262144 , gran=1024 , ring=65536 , Reader_time=300 , Writer_time=213
+
+Data_client_init_time=540
+bytes=262144 , gran=2048 , ring=65536 , Reader_time=280 , Writer_time=213
+
+Data_client_init_time=553
+bytes=262144 , gran=4096 , ring=65536 , Reader_time=275 , Writer_time=212
+
+Data_client_init_time=532
+bytes=262144 , gran=8192 , ring=65536 , Reader_time=303 , Writer_time=223
+
+Data_client_init_time=565
+bytes=262144 , gran=16384 , ring=65536 , Reader_time=298 , Writer_time=223
+
+Data_client_init_time=534
+bytes=262144 , gran=32768 , ring=65536 , Reader_time=296 , Writer_time=228
+
+Data_client_init_time=539
+bytes=262144 , gran=65536 , ring=65536 , Reader_time=311 , Writer_time=242
+
+Data_client_init_time=551
+bytes=262144 , gran=131072 , ring=65536 , Reader_time=307 , Writer_time=241
+
+Data_client_init_time=528
+bytes=262144 , gran=262144 , ring=65536 , Reader_time=308 , Writer_time=310
+
+Data_client_init_time=701
+bytes=262144 , gran=512 , ring=131072 , Reader_time=195 , Writer_time=118
+
+Data_client_init_time=658
+bytes=262144 , gran=1024 , ring=131072 , Reader_time=180 , Writer_time=99
+
+Data_client_init_time=678
+bytes=262144 , gran=2048 , ring=131072 , Reader_time=174 , Writer_time=106
+
+Data_client_init_time=705
+bytes=262144 , gran=4096 , ring=131072 , Reader_time=174 , Writer_time=123
+
+Data_client_init_time=700
+bytes=262144 , gran=8192 , ring=131072 , Reader_time=167 , Writer_time=117
+
+Data_client_init_time=669
+bytes=262144 , gran=16384 , ring=131072 , Reader_time=172 , Writer_time=121
+
+Data_client_init_time=675
+bytes=262144 , gran=32768 , ring=131072 , Reader_time=174 , Writer_time=120
+
+Data_client_init_time=709
+bytes=262144 , gran=65536 , ring=131072 , Reader_time=175 , Writer_time=127
+
+Data_client_init_time=737
+bytes=262144 , gran=131072 , ring=131072 , Reader_time=196 , Writer_time=129
+
+Data_client_init_time=681
+bytes=262144 , gran=262144 , ring=131072 , Reader_time=200 , Writer_time=130
+
+Data_client_init_time=1022
+bytes=262144 , gran=512 , ring=262144 , Reader_time=86 , Writer_time=167
+
+Data_client_init_time=978
+bytes=262144 , gran=1024 , ring=262144 , Reader_time=82 , Writer_time=145
+
+Data_client_init_time=997
+bytes=262144 , gran=2048 , ring=262144 , Reader_time=88 , Writer_time=137
+
+Data_client_init_time=1008
+bytes=262144 , gran=4096 , ring=262144 , Reader_time=86 , Writer_time=140
+
+Data_client_init_time=983
+bytes=262144 , gran=8192 , ring=262144 , Reader_time=84 , Writer_time=123
+
+Data_client_init_time=962
+bytes=262144 , gran=16384 , ring=262144 , Reader_time=90 , Writer_time=119
+
+Data_client_init_time=980
+bytes=262144 , gran=32768 , ring=262144 , Reader_time=88 , Writer_time=89
+
+Data_client_init_time=976
+bytes=262144 , gran=65536 , ring=262144 , Reader_time=81 , Writer_time=78
+
+Data_client_init_time=1011
+bytes=262144 , gran=131072 , ring=262144 , Reader_time=88 , Writer_time=72
+
+Data_client_init_time=984
+bytes=262144 , gran=262144 , ring=262144 , Reader_time=80 , Writer_time=66
+
+Data_client_init_time=374
+bytes=524288 , gran=512 , ring=512 , Reader_time=12826 , Writer_time=24158
+
+Data_client_init_time=403
+bytes=524288 , gran=1024 , ring=512 , Reader_time=12353 , Writer_time=24232
+
+Data_client_init_time=379
+bytes=524288 , gran=2048 , ring=512 , Reader_time=12449 , Writer_time=24227
+
+Data_client_init_time=396
+bytes=524288 , gran=4096 , ring=512 , Reader_time=12072 , Writer_time=23818
+
+Data_client_init_time=382
+bytes=524288 , gran=8192 , ring=512 , Reader_time=12426 , Writer_time=24219
+
+Data_client_init_time=394
+bytes=524288 , gran=16384 , ring=512 , Reader_time=12443 , Writer_time=24288
+
+Data_client_init_time=388
+bytes=524288 , gran=32768 , ring=512 , Reader_time=11894 , Writer_time=24271
+
+Data_client_init_time=372
+bytes=524288 , gran=65536 , ring=512 , Reader_time=12450 , Writer_time=24236
+
+Data_client_init_time=401
+bytes=524288 , gran=131072 , ring=512 , Reader_time=12434 , Writer_time=24375
+
+Data_client_init_time=383
+bytes=524288 , gran=262144 , ring=512 , Reader_time=12394 , Writer_time=24236
+
+Data_client_init_time=381
+bytes=524288 , gran=524288 , ring=512 , Reader_time=12415 , Writer_time=23739
+
+Data_client_init_time=387
+bytes=524288 , gran=512 , ring=1024 , Reader_time=12346 , Writer_time=24223
+
+Data_client_init_time=380
+bytes=524288 , gran=1024 , ring=1024 , Reader_time=12585 , Writer_time=24853
+
+Data_client_init_time=395
+bytes=524288 , gran=2048 , ring=1024 , Reader_time=12417 , Writer_time=24295
+
+Data_client_init_time=400
+bytes=524288 , gran=4096 , ring=1024 , Reader_time=12511 , Writer_time=24255
+
+Data_client_init_time=389
+bytes=524288 , gran=8192 , ring=1024 , Reader_time=12319 , Writer_time=24254
+
+Data_client_init_time=389
+bytes=524288 , gran=16384 , ring=1024 , Reader_time=12447 , Writer_time=24260
+
+Data_client_init_time=400
+bytes=524288 , gran=32768 , ring=1024 , Reader_time=12391 , Writer_time=23811
+
+Data_client_init_time=413
+bytes=524288 , gran=65536 , ring=1024 , Reader_time=12387 , Writer_time=24150
+
+Data_client_init_time=387
+bytes=524288 , gran=131072 , ring=1024 , Reader_time=12442 , Writer_time=24193
+
+Data_client_init_time=394
+bytes=524288 , gran=262144 , ring=1024 , Reader_time=12417 , Writer_time=24232
+
+Data_client_init_time=395
+bytes=524288 , gran=524288 , ring=1024 , Reader_time=12382 , Writer_time=23800
+
+Data_client_init_time=416
+bytes=524288 , gran=512 , ring=2048 , Reader_time=6348 , Writer_time=12204
+
+Data_client_init_time=429
+bytes=524288 , gran=1024 , ring=2048 , Reader_time=6296 , Writer_time=12289
+
+Data_client_init_time=402
+bytes=524288 , gran=2048 , ring=2048 , Reader_time=6309 , Writer_time=12164
+
+Data_client_init_time=372
+bytes=524288 , gran=4096 , ring=2048 , Reader_time=6236 , Writer_time=11934
+
+Data_client_init_time=415
+bytes=524288 , gran=8192 , ring=2048 , Reader_time=6415 , Writer_time=12355
+
+Data_client_init_time=389
+bytes=524288 , gran=16384 , ring=2048 , Reader_time=6399 , Writer_time=12308
+
+Data_client_init_time=455
+bytes=524288 , gran=32768 , ring=2048 , Reader_time=6037 , Writer_time=12278
+
+Data_client_init_time=401
+bytes=524288 , gran=65536 , ring=2048 , Reader_time=6409 , Writer_time=12302
+
+Data_client_init_time=415
+bytes=524288 , gran=131072 , ring=2048 , Reader_time=6376 , Writer_time=12306
+
+Data_client_init_time=395
+bytes=524288 , gran=262144 , ring=2048 , Reader_time=6514 , Writer_time=12333
+
+Data_client_init_time=413
+bytes=524288 , gran=524288 , ring=2048 , Reader_time=6421 , Writer_time=12299
+
+Data_client_init_time=441
+bytes=524288 , gran=512 , ring=4096 , Reader_time=6290 , Writer_time=6209
+
+Data_client_init_time=426
+bytes=524288 , gran=1024 , ring=4096 , Reader_time=6336 , Writer_time=6256
+
+Data_client_init_time=445
+bytes=524288 , gran=2048 , ring=4096 , Reader_time=6607 , Writer_time=6312
+
+Data_client_init_time=419
+bytes=524288 , gran=4096 , ring=4096 , Reader_time=6437 , Writer_time=6340
+
+Data_client_init_time=415
+bytes=524288 , gran=8192 , ring=4096 , Reader_time=6429 , Writer_time=6324
+
+Data_client_init_time=437
+bytes=524288 , gran=16384 , ring=4096 , Reader_time=6424 , Writer_time=6343
+
+Data_client_init_time=419
+bytes=524288 , gran=32768 , ring=4096 , Reader_time=6471 , Writer_time=6343
+
+Data_client_init_time=406
+bytes=524288 , gran=65536 , ring=4096 , Reader_time=6431 , Writer_time=6340
+
+Data_client_init_time=429
+bytes=524288 , gran=131072 , ring=4096 , Reader_time=6403 , Writer_time=6325
+
+Data_client_init_time=403
+bytes=524288 , gran=262144 , ring=4096 , Reader_time=6349 , Writer_time=6330
+
+Data_client_init_time=444
+bytes=524288 , gran=524288 , ring=4096 , Reader_time=6403 , Writer_time=6326
+
+Data_client_init_time=417
+bytes=524288 , gran=512 , ring=8192 , Reader_time=3275 , Writer_time=3221
+
+Data_client_init_time=412
+bytes=524288 , gran=1024 , ring=8192 , Reader_time=3345 , Writer_time=3213
+
+Data_client_init_time=451
+bytes=524288 , gran=2048 , ring=8192 , Reader_time=3278 , Writer_time=3213
+
+Data_client_init_time=458
+bytes=524288 , gran=4096 , ring=8192 , Reader_time=3312 , Writer_time=3229
+
+Data_client_init_time=466
+bytes=524288 , gran=8192 , ring=8192 , Reader_time=3420 , Writer_time=3295
+
+Data_client_init_time=431
+bytes=524288 , gran=16384 , ring=8192 , Reader_time=3441 , Writer_time=3313
+
+Data_client_init_time=427
+bytes=524288 , gran=32768 , ring=8192 , Reader_time=3389 , Writer_time=3399
+
+Data_client_init_time=427
+bytes=524288 , gran=65536 , ring=8192 , Reader_time=3353 , Writer_time=3209
+
+Data_client_init_time=423
+bytes=524288 , gran=131072 , ring=8192 , Reader_time=3438 , Writer_time=3316
+
+Data_client_init_time=480
+bytes=524288 , gran=262144 , ring=8192 , Reader_time=3381 , Writer_time=3301
+
+Data_client_init_time=437
+bytes=524288 , gran=524288 , ring=8192 , Reader_time=3388 , Writer_time=3313
+
+Data_client_init_time=450
+bytes=524288 , gran=512 , ring=16384 , Reader_time=1766 , Writer_time=1707
+
+Data_client_init_time=451
+bytes=524288 , gran=1024 , ring=16384 , Reader_time=1722 , Writer_time=1689
+
+Data_client_init_time=437
+bytes=524288 , gran=2048 , ring=16384 , Reader_time=1773 , Writer_time=1711
+
+Data_client_init_time=490
+bytes=524288 , gran=4096 , ring=16384 , Reader_time=1795 , Writer_time=1725
+
+Data_client_init_time=452
+bytes=524288 , gran=8192 , ring=16384 , Reader_time=1813 , Writer_time=1743
+
+Data_client_init_time=445
+bytes=524288 , gran=16384 , ring=16384 , Reader_time=1866 , Writer_time=1780
+
+Data_client_init_time=447
+bytes=524288 , gran=32768 , ring=16384 , Reader_time=1827 , Writer_time=1753
+
+Data_client_init_time=450
+bytes=524288 , gran=65536 , ring=16384 , Reader_time=1861 , Writer_time=1796
+
+Data_client_init_time=490
+bytes=524288 , gran=131072 , ring=16384 , Reader_time=1868 , Writer_time=1795
+
+Data_client_init_time=447
+bytes=524288 , gran=262144 , ring=16384 , Reader_time=1857 , Writer_time=1777
+
+Data_client_init_time=454
+bytes=524288 , gran=524288 , ring=16384 , Reader_time=1867 , Writer_time=1794
+
+Data_client_init_time=481
+bytes=524288 , gran=512 , ring=32768 , Reader_time=958 , Writer_time=896
+
+Data_client_init_time=504
+bytes=524288 , gran=1024 , ring=32768 , Reader_time=954 , Writer_time=887
+
+Data_client_init_time=525
+bytes=524288 , gran=2048 , ring=32768 , Reader_time=960 , Writer_time=894
+
+Data_client_init_time=496
+bytes=524288 , gran=4096 , ring=32768 , Reader_time=957 , Writer_time=893
+
+Data_client_init_time=500
+bytes=524288 , gran=8192 , ring=32768 , Reader_time=975 , Writer_time=905
+
+Data_client_init_time=525
+bytes=524288 , gran=16384 , ring=32768 , Reader_time=1005 , Writer_time=929
+
+Data_client_init_time=519
+bytes=524288 , gran=32768 , ring=32768 , Reader_time=1028 , Writer_time=959
+
+Data_client_init_time=544
+bytes=524288 , gran=65536 , ring=32768 , Reader_time=1039 , Writer_time=964
+
+Data_client_init_time=488
+bytes=524288 , gran=131072 , ring=32768 , Reader_time=1020 , Writer_time=948
+
+Data_client_init_time=503
+bytes=524288 , gran=262144 , ring=32768 , Reader_time=1044 , Writer_time=973
+
+Data_client_init_time=499
+bytes=524288 , gran=524288 , ring=32768 , Reader_time=1046 , Writer_time=970
+
+Data_client_init_time=572
+bytes=524288 , gran=512 , ring=65536 , Reader_time=545 , Writer_time=492
+
+Data_client_init_time=617
+bytes=524288 , gran=1024 , ring=65536 , Reader_time=542 , Writer_time=482
+
+Data_client_init_time=571
+bytes=524288 , gran=2048 , ring=65536 , Reader_time=514 , Writer_time=483
+
+Data_client_init_time=558
+bytes=524288 , gran=4096 , ring=65536 , Reader_time=549 , Writer_time=564
+
+Data_client_init_time=586
+bytes=524288 , gran=8192 , ring=65536 , Reader_time=622 , Writer_time=491
+
+Data_client_init_time=576
+bytes=524288 , gran=16384 , ring=65536 , Reader_time=664 , Writer_time=500
+
+Data_client_init_time=609
+bytes=524288 , gran=32768 , ring=65536 , Reader_time=584 , Writer_time=516
+
+Data_client_init_time=567
+bytes=524288 , gran=65536 , ring=65536 , Reader_time=618 , Writer_time=544
+
+Data_client_init_time=565
+bytes=524288 , gran=131072 , ring=65536 , Reader_time=629 , Writer_time=551
+
+Data_client_init_time=579
+bytes=524288 , gran=262144 , ring=65536 , Reader_time=620 , Writer_time=544
+
+Data_client_init_time=619
+bytes=524288 , gran=524288 , ring=65536 , Reader_time=608 , Writer_time=537
+
+Data_client_init_time=828
+bytes=524288 , gran=512 , ring=131072 , Reader_time=360 , Writer_time=263
+
+Data_client_init_time=802
+bytes=524288 , gran=1024 , ring=131072 , Reader_time=345 , Writer_time=201
+
+Data_client_init_time=769
+bytes=524288 , gran=2048 , ring=131072 , Reader_time=332 , Writer_time=222
+
+Data_client_init_time=772
+bytes=524288 , gran=4096 , ring=131072 , Reader_time=356 , Writer_time=185
+
+Data_client_init_time=775
+bytes=524288 , gran=8192 , ring=131072 , Reader_time=354 , Writer_time=285
+
+Data_client_init_time=808
+bytes=524288 , gran=16384 , ring=131072 , Reader_time=374 , Writer_time=286
+
+Data_client_init_time=766
+bytes=524288 , gran=32768 , ring=131072 , Reader_time=367 , Writer_time=289
+
+Data_client_init_time=802
+bytes=524288 , gran=65536 , ring=131072 , Reader_time=389 , Writer_time=306
+
+Data_client_init_time=790
+bytes=524288 , gran=131072 , ring=131072 , Reader_time=402 , Writer_time=329
+
+Data_client_init_time=772
+bytes=524288 , gran=262144 , ring=131072 , Reader_time=410 , Writer_time=340
+
+Data_client_init_time=797
+bytes=524288 , gran=524288 , ring=131072 , Reader_time=388 , Writer_time=334
+
+Data_client_init_time=1065
+bytes=524288 , gran=512 , ring=262144 , Reader_time=300 , Writer_time=306
+
+Data_client_init_time=1082
+bytes=524288 , gran=1024 , ring=262144 , Reader_time=294 , Writer_time=263
+
+Data_client_init_time=1057
+bytes=524288 , gran=2048 , ring=262144 , Reader_time=280 , Writer_time=250
+
+Data_client_init_time=1065
+bytes=524288 , gran=4096 , ring=262144 , Reader_time=283 , Writer_time=223
+
+Data_client_init_time=1136
+bytes=524288 , gran=8192 , ring=262144 , Reader_time=272 , Writer_time=252
+
+Data_client_init_time=1072
+bytes=524288 , gran=16384 , ring=262144 , Reader_time=263 , Writer_time=205
+
+Data_client_init_time=1089
+bytes=524288 , gran=32768 , ring=262144 , Reader_time=256 , Writer_time=207
+
+Data_client_init_time=1070
+bytes=524288 , gran=65536 , ring=262144 , Reader_time=273 , Writer_time=184
+
+Data_client_init_time=1092
+bytes=524288 , gran=131072 , ring=262144 , Reader_time=271 , Writer_time=182
+
+Data_client_init_time=1124
+bytes=524288 , gran=262144 , ring=262144 , Reader_time=278 , Writer_time=222
+
+Data_client_init_time=1055
+bytes=524288 , gran=524288 , ring=262144 , Reader_time=330 , Writer_time=237
+
+Data_client_init_time=1677
+bytes=524288 , gran=512 , ring=524288 , Reader_time=174 , Writer_time=356
+
+Data_client_init_time=1660
+bytes=524288 , gran=1024 , ring=524288 , Reader_time=176 , Writer_time=350
+
+Data_client_init_time=1682
+bytes=524288 , gran=2048 , ring=524288 , Reader_time=198 , Writer_time=337
+
+Data_client_init_time=1664
+bytes=524288 , gran=4096 , ring=524288 , Reader_time=198 , Writer_time=325
+
+Data_client_init_time=1649
+bytes=524288 , gran=8192 , ring=524288 , Reader_time=180 , Writer_time=302
+
+Data_client_init_time=1662
+bytes=524288 , gran=16384 , ring=524288 , Reader_time=197 , Writer_time=297
+
+Data_client_init_time=1626
+bytes=524288 , gran=32768 , ring=524288 , Reader_time=174 , Writer_time=256
+
+Data_client_init_time=1606
+bytes=524288 , gran=65536 , ring=524288 , Reader_time=178 , Writer_time=218
+
+Data_client_init_time=1618
+bytes=524288 , gran=131072 , ring=524288 , Reader_time=183 , Writer_time=188
+
+Data_client_init_time=1611
+bytes=524288 , gran=262144 , ring=524288 , Reader_time=172 , Writer_time=168
+
+Data_client_init_time=1628
+bytes=524288 , gran=524288 , ring=524288 , Reader_time=177 , Writer_time=140
+
+Data_client_init_time=429
+bytes=1048576 , gran=512 , ring=512 , Reader_time=25568 , Writer_time=48910
+
+Data_client_init_time=460
+bytes=1048576 , gran=1024 , ring=512 , Reader_time=24698 , Writer_time=48787
+
+Data_client_init_time=466
+bytes=1048576 , gran=2048 , ring=512 , Reader_time=24850 , Writer_time=48557
+
+Data_client_init_time=451
+bytes=1048576 , gran=4096 , ring=512 , Reader_time=24874 , Writer_time=48230
+
+Data_client_init_time=448
+bytes=1048576 , gran=8192 , ring=512 , Reader_time=24808 , Writer_time=48603
+
+Data_client_init_time=436
+bytes=1048576 , gran=16384 , ring=512 , Reader_time=24737 , Writer_time=48647
+
+Data_client_init_time=450
+bytes=1048576 , gran=32768 , ring=512 , Reader_time=24957 , Writer_time=48121
+
+Data_client_init_time=460
+bytes=1048576 , gran=65536 , ring=512 , Reader_time=24811 , Writer_time=48589
+
+Data_client_init_time=441
+bytes=1048576 , gran=131072 , ring=512 , Reader_time=24821 , Writer_time=48980
+
+Data_client_init_time=469
+bytes=1048576 , gran=262144 , ring=512 , Reader_time=25097 , Writer_time=47136
+
+Data_client_init_time=457
+bytes=1048576 , gran=524288 , ring=512 , Reader_time=24769 , Writer_time=48591
+
+Data_client_init_time=425
+bytes=1048576 , gran=1048576 , ring=512 , Reader_time=24762 , Writer_time=48529
+
+Data_client_init_time=471
+bytes=1048576 , gran=512 , ring=1024 , Reader_time=22909 , Writer_time=45858
+
+Data_client_init_time=437
+bytes=1048576 , gran=1024 , ring=1024 , Reader_time=24763 , Writer_time=48777
+
+Data_client_init_time=499
+bytes=1048576 , gran=2048 , ring=1024 , Reader_time=24812 , Writer_time=48800
+
+Data_client_init_time=452
+bytes=1048576 , gran=4096 , ring=1024 , Reader_time=24720 , Writer_time=48209
+
+Data_client_init_time=447
+bytes=1048576 , gran=8192 , ring=1024 , Reader_time=24815 , Writer_time=48702
+
+Data_client_init_time=521
+bytes=1048576 , gran=16384 , ring=1024 , Reader_time=24895 , Writer_time=47472
+
+Data_client_init_time=439
+bytes=1048576 , gran=32768 , ring=1024 , Reader_time=23935 , Writer_time=47341
+
+Data_client_init_time=453
+bytes=1048576 , gran=65536 , ring=1024 , Reader_time=24309 , Writer_time=48753
+
+Data_client_init_time=462
+bytes=1048576 , gran=131072 , ring=1024 , Reader_time=24745 , Writer_time=48693
+
+Data_client_init_time=471
+bytes=1048576 , gran=262144 , ring=1024 , Reader_time=24900 , Writer_time=47036
+
+Data_client_init_time=497
+bytes=1048576 , gran=524288 , ring=1024 , Reader_time=24832 , Writer_time=48598
+
+Data_client_init_time=451
+bytes=1048576 , gran=1048576 , ring=1024 , Reader_time=24832 , Writer_time=48081
+
+Data_client_init_time=471
+bytes=1048576 , gran=512 , ring=2048 , Reader_time=12612 , Writer_time=24495
+
+Data_client_init_time=493
+bytes=1048576 , gran=1024 , ring=2048 , Reader_time=12724 , Writer_time=24558
+
+Data_client_init_time=450
+bytes=1048576 , gran=2048 , ring=2048 , Reader_time=12295 , Writer_time=23930
+
+Data_client_init_time=489
+bytes=1048576 , gran=4096 , ring=2048 , Reader_time=12853 , Writer_time=24749
+
+Data_client_init_time=461
+bytes=1048576 , gran=8192 , ring=2048 , Reader_time=12792 , Writer_time=24671
+
+Data_client_init_time=478
+bytes=1048576 , gran=16384 , ring=2048 , Reader_time=12955 , Writer_time=24234
+
+Data_client_init_time=483
+bytes=1048576 , gran=32768 , ring=2048 , Reader_time=12772 , Writer_time=24662
+
+Data_client_init_time=448
+bytes=1048576 , gran=65536 , ring=2048 , Reader_time=12775 , Writer_time=24772
+
+Data_client_init_time=481
+bytes=1048576 , gran=131072 , ring=2048 , Reader_time=12760 , Writer_time=24814
+
+Data_client_init_time=449
+bytes=1048576 , gran=262144 , ring=2048 , Reader_time=12786 , Writer_time=24249
+
+Data_client_init_time=464
+bytes=1048576 , gran=524288 , ring=2048 , Reader_time=12800 , Writer_time=24544
+
+Data_client_init_time=463
+bytes=1048576 , gran=1048576 , ring=2048 , Reader_time=12853 , Writer_time=24714
+
+Data_client_init_time=466
+bytes=1048576 , gran=512 , ring=4096 , Reader_time=12756 , Writer_time=12437
+
+Data_client_init_time=468
+bytes=1048576 , gran=1024 , ring=4096 , Reader_time=12664 , Writer_time=12504
+
+Data_client_init_time=473
+bytes=1048576 , gran=2048 , ring=4096 , Reader_time=12714 , Writer_time=12720
+
+Data_client_init_time=495
+bytes=1048576 , gran=4096 , ring=4096 , Reader_time=12807 , Writer_time=12753
+
+Data_client_init_time=473
+bytes=1048576 , gran=8192 , ring=4096 , Reader_time=12784 , Writer_time=12746
+
+Data_client_init_time=479
+bytes=1048576 , gran=16384 , ring=4096 , Reader_time=12759 , Writer_time=12734
+
+Data_client_init_time=491
+bytes=1048576 , gran=32768 , ring=4096 , Reader_time=13058 , Writer_time=12672
+
+Data_client_init_time=478
+bytes=1048576 , gran=65536 , ring=4096 , Reader_time=12440 , Writer_time=12349
+
+Data_client_init_time=472
+bytes=1048576 , gran=131072 , ring=4096 , Reader_time=12887 , Writer_time=12618
+
+Data_client_init_time=502
+bytes=1048576 , gran=262144 , ring=4096 , Reader_time=12810 , Writer_time=12668
+
+Data_client_init_time=474
+bytes=1048576 , gran=524288 , ring=4096 , Reader_time=12782 , Writer_time=12696
+
+Data_client_init_time=489
+bytes=1048576 , gran=1048576 , ring=4096 , Reader_time=12785 , Writer_time=12651
+
+Data_client_init_time=492
+bytes=1048576 , gran=512 , ring=8192 , Reader_time=6354 , Writer_time=6297
+
+Data_client_init_time=485
+bytes=1048576 , gran=1024 , ring=8192 , Reader_time=6575 , Writer_time=6526
+
+Data_client_init_time=487
+bytes=1048576 , gran=2048 , ring=8192 , Reader_time=6610 , Writer_time=6603
+
+Data_client_init_time=493
+bytes=1048576 , gran=4096 , ring=8192 , Reader_time=6655 , Writer_time=6578
+
+Data_client_init_time=522
+bytes=1048576 , gran=8192 , ring=8192 , Reader_time=6778 , Writer_time=6730
+
+Data_client_init_time=482
+bytes=1048576 , gran=16384 , ring=8192 , Reader_time=6699 , Writer_time=6588
+
+Data_client_init_time=474
+bytes=1048576 , gran=32768 , ring=8192 , Reader_time=6763 , Writer_time=6731
+
+Data_client_init_time=494
+bytes=1048576 , gran=65536 , ring=8192 , Reader_time=6737 , Writer_time=6733
+
+Data_client_init_time=472
+bytes=1048576 , gran=131072 , ring=8192 , Reader_time=6746 , Writer_time=6753
+
+Data_client_init_time=501
+bytes=1048576 , gran=262144 , ring=8192 , Reader_time=6745 , Writer_time=6721
+
+Data_client_init_time=484
+bytes=1048576 , gran=524288 , ring=8192 , Reader_time=6764 , Writer_time=6759
+
+Data_client_init_time=493
+bytes=1048576 , gran=1048576 , ring=8192 , Reader_time=6789 , Writer_time=6737
+
+Data_client_init_time=504
+bytes=1048576 , gran=512 , ring=16384 , Reader_time=3584 , Writer_time=3462
+
+Data_client_init_time=544
+bytes=1048576 , gran=1024 , ring=16384 , Reader_time=3497 , Writer_time=3471
+
+Data_client_init_time=546
+bytes=1048576 , gran=2048 , ring=16384 , Reader_time=3510 , Writer_time=3487
+
+Data_client_init_time=502
+bytes=1048576 , gran=4096 , ring=16384 , Reader_time=3564 , Writer_time=3494
+
+Data_client_init_time=510
+bytes=1048576 , gran=8192 , ring=16384 , Reader_time=3616 , Writer_time=3563
+
+Data_client_init_time=514
+bytes=1048576 , gran=16384 , ring=16384 , Reader_time=3765 , Writer_time=3684
+
+Data_client_init_time=534
+bytes=1048576 , gran=32768 , ring=16384 , Reader_time=3704 , Writer_time=3747
+
+Data_client_init_time=572
+bytes=1048576 , gran=65536 , ring=16384 , Reader_time=3782 , Writer_time=3686
+
+Data_client_init_time=534
+bytes=1048576 , gran=131072 , ring=16384 , Reader_time=3738 , Writer_time=3679
+
+Data_client_init_time=498
+bytes=1048576 , gran=262144 , ring=16384 , Reader_time=3644 , Writer_time=3610
+
+Data_client_init_time=519
+bytes=1048576 , gran=524288 , ring=16384 , Reader_time=3741 , Writer_time=3691
+
+Data_client_init_time=532
+bytes=1048576 , gran=1048576 , ring=16384 , Reader_time=3719 , Writer_time=3676
+
+Data_client_init_time=570
+bytes=1048576 , gran=512 , ring=32768 , Reader_time=1917 , Writer_time=1866
+
+Data_client_init_time=571
+bytes=1048576 , gran=1024 , ring=32768 , Reader_time=1915 , Writer_time=1854
+
+Data_client_init_time=545
+bytes=1048576 , gran=2048 , ring=32768 , Reader_time=1923 , Writer_time=1869
+
+Data_client_init_time=571
+bytes=1048576 , gran=4096 , ring=32768 , Reader_time=1939 , Writer_time=1871
+
+Data_client_init_time=571
+bytes=1048576 , gran=8192 , ring=32768 , Reader_time=1956 , Writer_time=1899
+
+Data_client_init_time=586
+bytes=1048576 , gran=16384 , ring=32768 , Reader_time=2021 , Writer_time=1978
+
+Data_client_init_time=559
+bytes=1048576 , gran=32768 , ring=32768 , Reader_time=2112 , Writer_time=2056
+
+Data_client_init_time=568
+bytes=1048576 , gran=65536 , ring=32768 , Reader_time=2112 , Writer_time=2141
+
+Data_client_init_time=582
+bytes=1048576 , gran=131072 , ring=32768 , Reader_time=2091 , Writer_time=2044
+
+Data_client_init_time=551
+bytes=1048576 , gran=262144 , ring=32768 , Reader_time=2141 , Writer_time=2039
+
+Data_client_init_time=581
+bytes=1048576 , gran=524288 , ring=32768 , Reader_time=2104 , Writer_time=2063
+
+Data_client_init_time=562
+bytes=1048576 , gran=1048576 , ring=32768 , Reader_time=2116 , Writer_time=2040
+
+Data_client_init_time=623
+bytes=1048576 , gran=512 , ring=65536 , Reader_time=1141 , Writer_time=1079
+
+Data_client_init_time=614
+bytes=1048576 , gran=1024 , ring=65536 , Reader_time=1100 , Writer_time=1062
+
+Data_client_init_time=625
+bytes=1048576 , gran=2048 , ring=65536 , Reader_time=1098 , Writer_time=1056
+
+Data_client_init_time=666
+bytes=1048576 , gran=4096 , ring=65536 , Reader_time=1106 , Writer_time=1068
+
+Data_client_init_time=618
+bytes=1048576 , gran=8192 , ring=65536 , Reader_time=1124 , Writer_time=1074
+
+Data_client_init_time=615
+bytes=1048576 , gran=16384 , ring=65536 , Reader_time=1150 , Writer_time=1099
+
+Data_client_init_time=672
+bytes=1048576 , gran=32768 , ring=65536 , Reader_time=1203 , Writer_time=1131
+
+Data_client_init_time=631
+bytes=1048576 , gran=65536 , ring=65536 , Reader_time=1259 , Writer_time=1218
+
+Data_client_init_time=659
+bytes=1048576 , gran=131072 , ring=65536 , Reader_time=1289 , Writer_time=1228
+
+Data_client_init_time=634
+bytes=1048576 , gran=262144 , ring=65536 , Reader_time=1271 , Writer_time=1216
+
+Data_client_init_time=632
+bytes=1048576 , gran=524288 , ring=65536 , Reader_time=1263 , Writer_time=1222
+
+Data_client_init_time=647
+bytes=1048576 , gran=1048576 , ring=65536 , Reader_time=1261 , Writer_time=1218
+
+Data_client_init_time=774
+bytes=1048576 , gran=512 , ring=131072 , Reader_time=673 , Writer_time=665
+
+Data_client_init_time=812
+bytes=1048576 , gran=1024 , ring=131072 , Reader_time=623 , Writer_time=567
+
+Data_client_init_time=777
+bytes=1048576 , gran=2048 , ring=131072 , Reader_time=627 , Writer_time=489
+
+Data_client_init_time=791
+bytes=1048576 , gran=4096 , ring=131072 , Reader_time=648 , Writer_time=459
+
+Data_client_init_time=802
+bytes=1048576 , gran=8192 , ring=131072 , Reader_time=688 , Writer_time=449
+
+Data_client_init_time=807
+bytes=1048576 , gran=16384 , ring=131072 , Reader_time=714 , Writer_time=456
+
+Data_client_init_time=800
+bytes=1048576 , gran=32768 , ring=131072 , Reader_time=733 , Writer_time=688
+
+Data_client_init_time=790
+bytes=1048576 , gran=65536 , ring=131072 , Reader_time=761 , Writer_time=729
+
+Data_client_init_time=787
+bytes=1048576 , gran=131072 , ring=131072 , Reader_time=831 , Writer_time=790
+
+Data_client_init_time=779
+bytes=1048576 , gran=262144 , ring=131072 , Reader_time=828 , Writer_time=793
+
+Data_client_init_time=780
+bytes=1048576 , gran=524288 , ring=131072 , Reader_time=813 , Writer_time=799
+
+Data_client_init_time=813
+bytes=1048576 , gran=1048576 , ring=131072 , Reader_time=814 , Writer_time=802
+
+Data_client_init_time=1076
+bytes=1048576 , gran=512 , ring=262144 , Reader_time=669 , Writer_time=713
+
+Data_client_init_time=1066
+bytes=1048576 , gran=1024 , ring=262144 , Reader_time=588 , Writer_time=613
+
+Data_client_init_time=1073
+bytes=1048576 , gran=2048 , ring=262144 , Reader_time=495 , Writer_time=601
+
+Data_client_init_time=1106
+bytes=1048576 , gran=4096 , ring=262144 , Reader_time=533 , Writer_time=537
+
+Data_client_init_time=1112
+bytes=1048576 , gran=8192 , ring=262144 , Reader_time=482 , Writer_time=517
+
+Data_client_init_time=1087
+bytes=1048576 , gran=16384 , ring=262144 , Reader_time=478 , Writer_time=489
+
+Data_client_init_time=1071
+bytes=1048576 , gran=32768 , ring=262144 , Reader_time=495 , Writer_time=405
+
+Data_client_init_time=1080
+bytes=1048576 , gran=65536 , ring=262144 , Reader_time=504 , Writer_time=458
+
+Data_client_init_time=1086
+bytes=1048576 , gran=131072 , ring=262144 , Reader_time=544 , Writer_time=494
+
+Data_client_init_time=1123
+bytes=1048576 , gran=262144 , ring=262144 , Reader_time=580 , Writer_time=634
+
+Data_client_init_time=1125
+bytes=1048576 , gran=524288 , ring=262144 , Reader_time=625 , Writer_time=589
+
+Data_client_init_time=1075
+bytes=1048576 , gran=1048576 , ring=262144 , Reader_time=618 , Writer_time=688
+
+Data_client_init_time=1707
+bytes=1048576 , gran=512 , ring=524288 , Reader_time=639 , Writer_time=855
+
+Data_client_init_time=1656
+bytes=1048576 , gran=1024 , ring=524288 , Reader_time=540 , Writer_time=786
+
+Data_client_init_time=1693
+bytes=1048576 , gran=2048 , ring=524288 , Reader_time=491 , Writer_time=749
+
+Data_client_init_time=1651
+bytes=1048576 , gran=4096 , ring=524288 , Reader_time=574 , Writer_time=702
+
+Data_client_init_time=1662
+bytes=1048576 , gran=8192 , ring=524288 , Reader_time=502 , Writer_time=656
+
+Data_client_init_time=1641
+bytes=1048576 , gran=16384 , ring=524288 , Reader_time=524 , Writer_time=668
+
+Data_client_init_time=1652
+bytes=1048576 , gran=32768 , ring=524288 , Reader_time=505 , Writer_time=555
+
+Data_client_init_time=1654
+bytes=1048576 , gran=65536 , ring=524288 , Reader_time=491 , Writer_time=516
+
+Data_client_init_time=1680
+bytes=1048576 , gran=131072 , ring=524288 , Reader_time=470 , Writer_time=434
+
+Data_client_init_time=1654
+bytes=1048576 , gran=262144 , ring=524288 , Reader_time=510 , Writer_time=474
+
+Data_client_init_time=1647
+bytes=1048576 , gran=524288 , ring=524288 , Reader_time=516 , Writer_time=513
+
+Data_client_init_time=1689
+bytes=1048576 , gran=1048576 , ring=524288 , Reader_time=507 , Writer_time=496
+
+Data_client_init_time=3132
+bytes=1048576 , gran=512 , ring=1048576 , Reader_time=448 , Writer_time=1028
+
+Data_client_init_time=3044
+bytes=1048576 , gran=1024 , ring=1048576 , Reader_time=433 , Writer_time=1062
+
+Data_client_init_time=3057
+bytes=1048576 , gran=2048 , ring=1048576 , Reader_time=426 , Writer_time=945
+
+Data_client_init_time=3100
+bytes=1048576 , gran=4096 , ring=1048576 , Reader_time=437 , Writer_time=956
+
+Data_client_init_time=3091
+bytes=1048576 , gran=8192 , ring=1048576 , Reader_time=419 , Writer_time=865
+
+Data_client_init_time=3064
+bytes=1048576 , gran=16384 , ring=1048576 , Reader_time=446 , Writer_time=915
+
+Data_client_init_time=3103
+bytes=1048576 , gran=32768 , ring=1048576 , Reader_time=443 , Writer_time=768
+
+Data_client_init_time=3075
+bytes=1048576 , gran=65536 , ring=1048576 , Reader_time=449 , Writer_time=731
+
+Data_client_init_time=3135
+bytes=1048576 , gran=131072 , ring=1048576 , Reader_time=443 , Writer_time=746
+
+Data_client_init_time=3133
+bytes=1048576 , gran=262144 , ring=1048576 , Reader_time=442 , Writer_time=551
+
+Data_client_init_time=3073
+bytes=1048576 , gran=524288 , ring=1048576 , Reader_time=436 , Writer_time=635
+
+Data_client_init_time=3122
+bytes=1048576 , gran=1048576 , ring=1048576 , Reader_time=435 , Writer_time=389
+
+Data_client_init_time=480
+bytes=2097152 , gran=512 , ring=512 , Reader_time=51244 , Writer_time=98726
+
+Data_client_init_time=521
+bytes=2097152 , gran=1024 , ring=512 , Reader_time=49843 , Writer_time=97487
+
+Data_client_init_time=499
+bytes=2097152 , gran=2048 , ring=512 , Reader_time=49152 , Writer_time=97639
+
+Data_client_init_time=537
+bytes=2097152 , gran=4096 , ring=512 , Reader_time=49546 , Writer_time=97144
+
+Data_client_init_time=508
+bytes=2097152 , gran=8192 , ring=512 , Reader_time=48216 , Writer_time=94657
+
+Data_client_init_time=501
+bytes=2097152 , gran=16384 , ring=512 , Reader_time=49045 , Writer_time=97364
+
+Data_client_init_time=500
+bytes=2097152 , gran=32768 , ring=512 , Reader_time=49506 , Writer_time=96982
+
+Data_client_init_time=508
+bytes=2097152 , gran=65536 , ring=512 , Reader_time=49494 , Writer_time=97277
+
+Data_client_init_time=556
+bytes=2097152 , gran=131072 , ring=512 , Reader_time=47947 , Writer_time=97465
+
+Data_client_init_time=506
+bytes=2097152 , gran=262144 , ring=512 , Reader_time=49466 , Writer_time=96209
+
+Data_client_init_time=514
+bytes=2097152 , gran=524288 , ring=512 , Reader_time=49074 , Writer_time=97648
+
+Data_client_init_time=500
+bytes=2097152 , gran=1048576 , ring=512 , Reader_time=47899 , Writer_time=94696
+
+Data_client_init_time=498
+bytes=2097152 , gran=2097152 , ring=512 , Reader_time=49588 , Writer_time=97327
+
+Data_client_init_time=513
+bytes=2097152 , gran=512 , ring=1024 , Reader_time=49241 , Writer_time=97758
+
+Data_client_init_time=534
+bytes=2097152 , gran=1024 , ring=1024 , Reader_time=49488 , Writer_time=96382
+
+Data_client_init_time=511
+bytes=2097152 , gran=2048 , ring=1024 , Reader_time=49611 , Writer_time=97817
+
+Data_client_init_time=498
+bytes=2097152 , gran=4096 , ring=1024 , Reader_time=49119 , Writer_time=97420
+
+Data_client_init_time=515
+bytes=2097152 , gran=8192 , ring=1024 , Reader_time=49706 , Writer_time=97409
+
+Data_client_init_time=502
+bytes=2097152 , gran=16384 , ring=1024 , Reader_time=48351 , Writer_time=96414
+
+Data_client_init_time=542
+bytes=2097152 , gran=32768 , ring=1024 , Reader_time=49543 , Writer_time=97041
+
+Data_client_init_time=535
+bytes=2097152 , gran=65536 , ring=1024 , Reader_time=49566 , Writer_time=97587
+
+Data_client_init_time=500
+bytes=2097152 , gran=131072 , ring=1024 , Reader_time=49556 , Writer_time=96850
+
+Data_client_init_time=504
+bytes=2097152 , gran=262144 , ring=1024 , Reader_time=49548 , Writer_time=97021
+
+Data_client_init_time=553
+bytes=2097152 , gran=524288 , ring=1024 , Reader_time=49495 , Writer_time=97576
+
+Data_client_init_time=530
+bytes=2097152 , gran=1048576 , ring=1024 , Reader_time=49448 , Writer_time=97005
+
+Data_client_init_time=508
+bytes=2097152 , gran=2097152 , ring=1024 , Reader_time=49564 , Writer_time=97289
+
+Data_client_init_time=532
+bytes=2097152 , gran=512 , ring=2048 , Reader_time=25155 , Writer_time=49160
+
+Data_client_init_time=506
+bytes=2097152 , gran=1024 , ring=2048 , Reader_time=25151 , Writer_time=49359
+
+Data_client_init_time=560
+bytes=2097152 , gran=2048 , ring=2048 , Reader_time=25267 , Writer_time=48611
+
+Data_client_init_time=503
+bytes=2097152 , gran=4096 , ring=2048 , Reader_time=25695 , Writer_time=49648
+
+Data_client_init_time=505
+bytes=2097152 , gran=8192 , ring=2048 , Reader_time=25526 , Writer_time=49610
+
+Data_client_init_time=493
+bytes=2097152 , gran=16384 , ring=2048 , Reader_time=24920 , Writer_time=49124
+
+Data_client_init_time=510
+bytes=2097152 , gran=32768 , ring=2048 , Reader_time=24633 , Writer_time=49280
+
+Data_client_init_time=553
+bytes=2097152 , gran=65536 , ring=2048 , Reader_time=25588 , Writer_time=49697
+
+Data_client_init_time=524
+bytes=2097152 , gran=131072 , ring=2048 , Reader_time=25633 , Writer_time=49609
+
+Data_client_init_time=497
+bytes=2097152 , gran=262144 , ring=2048 , Reader_time=25153 , Writer_time=49502
+
+Data_client_init_time=515
+bytes=2097152 , gran=524288 , ring=2048 , Reader_time=25575 , Writer_time=49647
+
+Data_client_init_time=511
+bytes=2097152 , gran=1048576 , ring=2048 , Reader_time=25659 , Writer_time=49424
+
+Data_client_init_time=528
+bytes=2097152 , gran=2097152 , ring=2048 , Reader_time=25643 , Writer_time=49522
+
+Data_client_init_time=530
+bytes=2097152 , gran=512 , ring=4096 , Reader_time=25126 , Writer_time=25093
+
+Data_client_init_time=523
+bytes=2097152 , gran=1024 , ring=4096 , Reader_time=25196 , Writer_time=25379
+
+Data_client_init_time=528
+bytes=2097152 , gran=2048 , ring=4096 , Reader_time=25438 , Writer_time=25241
+
+Data_client_init_time=561
+bytes=2097152 , gran=4096 , ring=4096 , Reader_time=25614 , Writer_time=25218
+
+Data_client_init_time=560
+bytes=2097152 , gran=8192 , ring=4096 , Reader_time=24751 , Writer_time=25042
+
+Data_client_init_time=542
+bytes=2097152 , gran=16384 , ring=4096 , Reader_time=25574 , Writer_time=25644
+
+Data_client_init_time=520
+bytes=2097152 , gran=32768 , ring=4096 , Reader_time=25605 , Writer_time=25379
+
+Data_client_init_time=518
+bytes=2097152 , gran=65536 , ring=4096 , Reader_time=25632 , Writer_time=25605
+
+Data_client_init_time=525
+bytes=2097152 , gran=131072 , ring=4096 , Reader_time=26303 , Writer_time=25767
+
+Data_client_init_time=531
+bytes=2097152 , gran=262144 , ring=4096 , Reader_time=25606 , Writer_time=25753
+
+Data_client_init_time=513
+bytes=2097152 , gran=524288 , ring=4096 , Reader_time=25055 , Writer_time=24990
+
+Data_client_init_time=526
+bytes=2097152 , gran=1048576 , ring=4096 , Reader_time=25527 , Writer_time=25180
+
+Data_client_init_time=545
+bytes=2097152 , gran=2097152 , ring=4096 , Reader_time=25553 , Writer_time=25653
+
+Data_client_init_time=530
+bytes=2097152 , gran=512 , ring=8192 , Reader_time=13145 , Writer_time=13018
+
+Data_client_init_time=550
+bytes=2097152 , gran=1024 , ring=8192 , Reader_time=13209 , Writer_time=13108
+
+Data_client_init_time=563
+bytes=2097152 , gran=2048 , ring=8192 , Reader_time=13203 , Writer_time=13141
+
+Data_client_init_time=529
+bytes=2097152 , gran=4096 , ring=8192 , Reader_time=13363 , Writer_time=13158
+
+Data_client_init_time=541
+bytes=2097152 , gran=8192 , ring=8192 , Reader_time=13618 , Writer_time=13717
+
+Data_client_init_time=532
+bytes=2097152 , gran=16384 , ring=8192 , Reader_time=13578 , Writer_time=13580
+
+Data_client_init_time=592
+bytes=2097152 , gran=32768 , ring=8192 , Reader_time=13634 , Writer_time=13528
+
+Data_client_init_time=553
+bytes=2097152 , gran=65536 , ring=8192 , Reader_time=13659 , Writer_time=13593
+
+Data_client_init_time=539
+bytes=2097152 , gran=131072 , ring=8192 , Reader_time=13587 , Writer_time=13508
+
+Data_client_init_time=541
+bytes=2097152 , gran=262144 , ring=8192 , Reader_time=13629 , Writer_time=13629
+
+Data_client_init_time=546
+bytes=2097152 , gran=524288 , ring=8192 , Reader_time=13684 , Writer_time=13643
+
+Data_client_init_time=580
+bytes=2097152 , gran=1048576 , ring=8192 , Reader_time=13670 , Writer_time=13577
+
+Data_client_init_time=549
+bytes=2097152 , gran=2097152 , ring=8192 , Reader_time=13627 , Writer_time=13518
+
+Data_client_init_time=608
+bytes=2097152 , gran=512 , ring=16384 , Reader_time=6872 , Writer_time=6794
+
+Data_client_init_time=590
+bytes=2097152 , gran=1024 , ring=16384 , Reader_time=7234 , Writer_time=7044
+
+Data_client_init_time=552
+bytes=2097152 , gran=2048 , ring=16384 , Reader_time=7106 , Writer_time=7054
+
+Data_client_init_time=610
+bytes=2097152 , gran=4096 , ring=16384 , Reader_time=7154 , Writer_time=6917
+
+Data_client_init_time=604
+bytes=2097152 , gran=8192 , ring=16384 , Reader_time=7384 , Writer_time=7265
+
+Data_client_init_time=550
+bytes=2097152 , gran=16384 , ring=16384 , Reader_time=7384 , Writer_time=7387
+
+Data_client_init_time=569
+bytes=2097152 , gran=32768 , ring=16384 , Reader_time=7456 , Writer_time=7384
+
+Data_client_init_time=575
+bytes=2097152 , gran=65536 , ring=16384 , Reader_time=7674 , Writer_time=7627
+
+Data_client_init_time=624
+bytes=2097152 , gran=131072 , ring=16384 , Reader_time=7558 , Writer_time=7563
+
+Data_client_init_time=566
+bytes=2097152 , gran=262144 , ring=16384 , Reader_time=7527 , Writer_time=7583
+
+Data_client_init_time=555
+bytes=2097152 , gran=524288 , ring=16384 , Reader_time=7533 , Writer_time=7548
+
+Data_client_init_time=558
+bytes=2097152 , gran=1048576 , ring=16384 , Reader_time=7419 , Writer_time=7394
+
+Data_client_init_time=570
+bytes=2097152 , gran=2097152 , ring=16384 , Reader_time=7509 , Writer_time=7568
+
+Data_client_init_time=639
+bytes=2097152 , gran=512 , ring=32768 , Reader_time=3866 , Writer_time=3782
+
+Data_client_init_time=633
+bytes=2097152 , gran=1024 , ring=32768 , Reader_time=3775 , Writer_time=3856
+
+Data_client_init_time=598
+bytes=2097152 , gran=2048 , ring=32768 , Reader_time=3929 , Writer_time=3869
+
+Data_client_init_time=610
+bytes=2097152 , gran=4096 , ring=32768 , Reader_time=3822 , Writer_time=3771
+
+Data_client_init_time=599
+bytes=2097152 , gran=8192 , ring=32768 , Reader_time=4042 , Writer_time=3975
+
+Data_client_init_time=634
+bytes=2097152 , gran=16384 , ring=32768 , Reader_time=4157 , Writer_time=4084
+
+Data_client_init_time=631
+bytes=2097152 , gran=32768 , ring=32768 , Reader_time=4350 , Writer_time=4350
+
+Data_client_init_time=606
+bytes=2097152 , gran=65536 , ring=32768 , Reader_time=4355 , Writer_time=4344
+
+Data_client_init_time=611
+bytes=2097152 , gran=131072 , ring=32768 , Reader_time=4218 , Writer_time=4253
+
+Data_client_init_time=600
+bytes=2097152 , gran=262144 , ring=32768 , Reader_time=4319 , Writer_time=4341
+
+Data_client_init_time=651
+bytes=2097152 , gran=524288 , ring=32768 , Reader_time=4299 , Writer_time=4361
+
+Data_client_init_time=608
+bytes=2097152 , gran=1048576 , ring=32768 , Reader_time=4307 , Writer_time=4405
+
+Data_client_init_time=615
+bytes=2097152 , gran=2097152 , ring=32768 , Reader_time=4118 , Writer_time=4307
+
+Data_client_init_time=685
+bytes=2097152 , gran=512 , ring=65536 , Reader_time=2353 , Writer_time=2192
+
+Data_client_init_time=688
+bytes=2097152 , gran=1024 , ring=65536 , Reader_time=2230 , Writer_time=2302
+
+Data_client_init_time=727
+bytes=2097152 , gran=2048 , ring=65536 , Reader_time=2261 , Writer_time=2267
+
+Data_client_init_time=673
+bytes=2097152 , gran=4096 , ring=65536 , Reader_time=2284 , Writer_time=2278
+
+Data_client_init_time=676
+bytes=2097152 , gran=8192 , ring=65536 , Reader_time=2310 , Writer_time=2292
+
+Data_client_init_time=679
+bytes=2097152 , gran=16384 , ring=65536 , Reader_time=2424 , Writer_time=2354
+
+Data_client_init_time=684
+bytes=2097152 , gran=32768 , ring=65536 , Reader_time=2491 , Writer_time=2502
+
+Data_client_init_time=705
+bytes=2097152 , gran=65536 , ring=65536 , Reader_time=2647 , Writer_time=2725
+
+Data_client_init_time=690
+bytes=2097152 , gran=131072 , ring=65536 , Reader_time=2666 , Writer_time=2701
+
+Data_client_init_time=694
+bytes=2097152 , gran=262144 , ring=65536 , Reader_time=2659 , Writer_time=2700
+
+Data_client_init_time=678
+bytes=2097152 , gran=524288 , ring=65536 , Reader_time=2663 , Writer_time=2697
+
+Data_client_init_time=684
+bytes=2097152 , gran=1048576 , ring=65536 , Reader_time=2658 , Writer_time=2704
+
+Data_client_init_time=740
+bytes=2097152 , gran=2097152 , ring=65536 , Reader_time=2706 , Writer_time=2708
+
+Data_client_init_time=852
+bytes=2097152 , gran=512 , ring=131072 , Reader_time=1504 , Writer_time=1638
+
+Data_client_init_time=832
+bytes=2097152 , gran=1024 , ring=131072 , Reader_time=1501 , Writer_time=1432
+
+Data_client_init_time=838
+bytes=2097152 , gran=2048 , ring=131072 , Reader_time=1349 , Writer_time=1415
+
+Data_client_init_time=844
+bytes=2097152 , gran=4096 , ring=131072 , Reader_time=1246 , Writer_time=1315
+
+Data_client_init_time=900
+bytes=2097152 , gran=8192 , ring=131072 , Reader_time=1365 , Writer_time=1227
+
+Data_client_init_time=870
+bytes=2097152 , gran=16384 , ring=131072 , Reader_time=1241 , Writer_time=1390
+
+Data_client_init_time=839
+bytes=2097152 , gran=32768 , ring=131072 , Reader_time=1522 , Writer_time=1513
+
+Data_client_init_time=835
+bytes=2097152 , gran=65536 , ring=131072 , Reader_time=1652 , Writer_time=1645
+
+Data_client_init_time=849
+bytes=2097152 , gran=131072 , ring=131072 , Reader_time=1840 , Writer_time=1885
+
+Data_client_init_time=874
+bytes=2097152 , gran=262144 , ring=131072 , Reader_time=1819 , Writer_time=1903
+
+Data_client_init_time=836
+bytes=2097152 , gran=524288 , ring=131072 , Reader_time=1833 , Writer_time=1875
+
+Data_client_init_time=830
+bytes=2097152 , gran=1048576 , ring=131072 , Reader_time=1834 , Writer_time=1879
+
+Data_client_init_time=831
+bytes=2097152 , gran=2097152 , ring=131072 , Reader_time=1826 , Writer_time=1905
+
+Data_client_init_time=1126
+bytes=2097152 , gran=512 , ring=262144 , Reader_time=1450 , Writer_time=1636
+
+Data_client_init_time=1202
+bytes=2097152 , gran=1024 , ring=262144 , Reader_time=1432 , Writer_time=1520
+
+Data_client_init_time=1125
+bytes=2097152 , gran=2048 , ring=262144 , Reader_time=1193 , Writer_time=1532
+
+Data_client_init_time=1157
+bytes=2097152 , gran=4096 , ring=262144 , Reader_time=1263 , Writer_time=1347
+
+Data_client_init_time=1107
+bytes=2097152 , gran=8192 , ring=262144 , Reader_time=1132 , Writer_time=1331
+
+Data_client_init_time=1123
+bytes=2097152 , gran=16384 , ring=262144 , Reader_time=1113 , Writer_time=1370
+
+Data_client_init_time=1151
+bytes=2097152 , gran=32768 , ring=262144 , Reader_time=1099 , Writer_time=1166
+
+Data_client_init_time=1163
+bytes=2097152 , gran=65536 , ring=262144 , Reader_time=1051 , Writer_time=1185
+
+Data_client_init_time=1138
+bytes=2097152 , gran=131072 , ring=262144 , Reader_time=1143 , Writer_time=1219
+
+Data_client_init_time=1166
+bytes=2097152 , gran=262144 , ring=262144 , Reader_time=1418 , Writer_time=1493
+
+Data_client_init_time=1126
+bytes=2097152 , gran=524288 , ring=262144 , Reader_time=1384 , Writer_time=1488
+
+Data_client_init_time=1142
+bytes=2097152 , gran=1048576 , ring=262144 , Reader_time=1405 , Writer_time=1539
+
+Data_client_init_time=1159
+bytes=2097152 , gran=2097152 , ring=262144 , Reader_time=1400 , Writer_time=1502
+
+Data_client_init_time=1747
+bytes=2097152 , gran=512 , ring=524288 , Reader_time=1457 , Writer_time=1971
+
+Data_client_init_time=1708
+bytes=2097152 , gran=1024 , ring=524288 , Reader_time=1336 , Writer_time=1996
+
+Data_client_init_time=1703
+bytes=2097152 , gran=2048 , ring=524288 , Reader_time=1294 , Writer_time=1719
+
+Data_client_init_time=1707
+bytes=2097152 , gran=4096 , ring=524288 , Reader_time=1200 , Writer_time=1737
+
+Data_client_init_time=1729
+bytes=2097152 , gran=8192 , ring=524288 , Reader_time=1170 , Writer_time=1733
+
+Data_client_init_time=1712
+bytes=2097152 , gran=16384 , ring=524288 , Reader_time=1166 , Writer_time=1551
+
+Data_client_init_time=1710
+bytes=2097152 , gran=32768 , ring=524288 , Reader_time=1110 , Writer_time=1420
+
+Data_client_init_time=1719
+bytes=2097152 , gran=65536 , ring=524288 , Reader_time=1083 , Writer_time=1315
+
+Data_client_init_time=1740
+bytes=2097152 , gran=131072 , ring=524288 , Reader_time=1063 , Writer_time=1224
+
+Data_client_init_time=1727
+bytes=2097152 , gran=262144 , ring=524288 , Reader_time=1108 , Writer_time=1343
+
+Data_client_init_time=1725
+bytes=2097152 , gran=524288 , ring=524288 , Reader_time=1221 , Writer_time=1356
+
+Data_client_init_time=1771
+bytes=2097152 , gran=1048576 , ring=524288 , Reader_time=1243 , Writer_time=1371
+
+Data_client_init_time=1740
+bytes=2097152 , gran=2097152 , ring=524288 , Reader_time=1228 , Writer_time=1451
+
+Data_client_init_time=3224
+bytes=2097152 , gran=512 , ring=1048576 , Reader_time=1512 , Writer_time=2637
+
+Data_client_init_time=3172
+bytes=2097152 , gran=1024 , ring=1048576 , Reader_time=1472 , Writer_time=2422
+
+Data_client_init_time=3224
+bytes=2097152 , gran=2048 , ring=1048576 , Reader_time=1391 , Writer_time=2355
+
+Data_client_init_time=3217
+bytes=2097152 , gran=4096 , ring=1048576 , Reader_time=1346 , Writer_time=2282
+
+Data_client_init_time=3157
+bytes=2097152 , gran=8192 , ring=1048576 , Reader_time=1328 , Writer_time=2111
+
+Data_client_init_time=3143
+bytes=2097152 , gran=16384 , ring=1048576 , Reader_time=1314 , Writer_time=2113
+
+Data_client_init_time=3170
+bytes=2097152 , gran=32768 , ring=1048576 , Reader_time=1270 , Writer_time=1949
+
+Data_client_init_time=3205
+bytes=2097152 , gran=65536 , ring=1048576 , Reader_time=1214 , Writer_time=1856
+
+Data_client_init_time=3193
+bytes=2097152 , gran=131072 , ring=1048576 , Reader_time=1263 , Writer_time=1922
+
+Data_client_init_time=3219
+bytes=2097152 , gran=262144 , ring=1048576 , Reader_time=1259 , Writer_time=1846
+
+Data_client_init_time=3259
+bytes=2097152 , gran=524288 , ring=1048576 , Reader_time=1204 , Writer_time=1577
+
+Data_client_init_time=3252
+bytes=2097152 , gran=1048576 , ring=1048576 , Reader_time=1269 , Writer_time=1516
+
+Data_client_init_time=3211
+bytes=2097152 , gran=2097152 , ring=1048576 , Reader_time=1193 , Writer_time=1468
+
+Data_client_init_time=536
+bytes=4194304 , gran=512 , ring=512 , Reader_time=102286 , Writer_time=198666
+
+Data_client_init_time=541
+bytes=4194304 , gran=1024 , ring=512 , Reader_time=98987 , Writer_time=195400
+
+Data_client_init_time=554
+bytes=4194304 , gran=2048 , ring=512 , Reader_time=98692 , Writer_time=195689
+
+Data_client_init_time=542
+bytes=4194304 , gran=4096 , ring=512 , Reader_time=98609 , Writer_time=194398
+
+Data_client_init_time=562
+bytes=4194304 , gran=8192 , ring=512 , Reader_time=98982 , Writer_time=195396
+
+Data_client_init_time=562
+bytes=4194304 , gran=16384 , ring=512 , Reader_time=96350 , Writer_time=186429
+
+Data_client_init_time=552
+bytes=4194304 , gran=32768 , ring=512 , Reader_time=98524 , Writer_time=194443
+
+Data_client_init_time=550
+bytes=4194304 , gran=65536 , ring=512 , Reader_time=94893 , Writer_time=189222
+
+Data_client_init_time=558
+bytes=4194304 , gran=131072 , ring=512 , Reader_time=99202 , Writer_time=195409
+
+Data_client_init_time=553
+bytes=4194304 , gran=262144 , ring=512 , Reader_time=98510 , Writer_time=194816
+
+Data_client_init_time=556
+bytes=4194304 , gran=524288 , ring=512 , Reader_time=98596 , Writer_time=194491
+
+Data_client_init_time=552
+bytes=4194304 , gran=1048576 , ring=512 , Reader_time=100207 , Writer_time=195082
+
+Data_client_init_time=558
+bytes=4194304 , gran=2097152 , ring=512 , Reader_time=99192 , Writer_time=194825
+
+Data_client_init_time=563
+bytes=4194304 , gran=4194304 , ring=512 , Reader_time=98996 , Writer_time=194717
+
+Data_client_init_time=559
+bytes=4194304 , gran=512 , ring=1024 , Reader_time=98028 , Writer_time=195325
+
+Data_client_init_time=584
+bytes=4194304 , gran=1024 , ring=1024 , Reader_time=96816 , Writer_time=194707
+
+Data_client_init_time=553
+bytes=4194304 , gran=2048 , ring=1024 , Reader_time=99135 , Writer_time=194957
+
+Data_client_init_time=559
+bytes=4194304 , gran=4096 , ring=1024 , Reader_time=99321 , Writer_time=194877
+
+Data_client_init_time=558
+bytes=4194304 , gran=8192 , ring=1024 , Reader_time=99052 , Writer_time=194528
+
+Data_client_init_time=552
+bytes=4194304 , gran=16384 , ring=1024 , Reader_time=97948 , Writer_time=191459
+
+Data_client_init_time=569
+bytes=4194304 , gran=32768 , ring=1024 , Reader_time=98233 , Writer_time=193512
+
+Data_client_init_time=564
+bytes=4194304 , gran=65536 , ring=1024 , Reader_time=99941 , Writer_time=194695
+
+Data_client_init_time=567
+bytes=4194304 , gran=131072 , ring=1024 , Reader_time=99218 , Writer_time=194554
+
+Data_client_init_time=569
+bytes=4194304 , gran=262144 , ring=1024 , Reader_time=99194 , Writer_time=194599
+
+Data_client_init_time=558
+bytes=4194304 , gran=524288 , ring=1024 , Reader_time=98888 , Writer_time=193988
+
+Data_client_init_time=557
+bytes=4194304 , gran=1048576 , ring=1024 , Reader_time=98461 , Writer_time=194757
+
+Data_client_init_time=575
+bytes=4194304 , gran=2097152 , ring=1024 , Reader_time=98607 , Writer_time=194953
+
+Data_client_init_time=566
+bytes=4194304 , gran=4194304 , ring=1024 , Reader_time=99117 , Writer_time=194876
+
+Data_client_init_time=579
+bytes=4194304 , gran=512 , ring=2048 , Reader_time=50168 , Writer_time=98406
+
+Data_client_init_time=541
+bytes=4194304 , gran=1024 , ring=2048 , Reader_time=50057 , Writer_time=98173
+
+Data_client_init_time=545
+bytes=4194304 , gran=2048 , ring=2048 , Reader_time=50740 , Writer_time=98228
+
+Data_client_init_time=551
+bytes=4194304 , gran=4096 , ring=2048 , Reader_time=51296 , Writer_time=99420
+
+Data_client_init_time=569
+bytes=4194304 , gran=8192 , ring=2048 , Reader_time=50930 , Writer_time=99122
+
+Data_client_init_time=539
+bytes=4194304 , gran=16384 , ring=2048 , Reader_time=51280 , Writer_time=98563
+
+Data_client_init_time=549
+bytes=4194304 , gran=32768 , ring=2048 , Reader_time=51408 , Writer_time=99539
+
+Data_client_init_time=557
+bytes=4194304 , gran=65536 , ring=2048 , Reader_time=52018 , Writer_time=98945
+
+Data_client_init_time=542
+bytes=4194304 , gran=131072 , ring=2048 , Reader_time=51134 , Writer_time=98997
+
+Data_client_init_time=585
+bytes=4194304 , gran=262144 , ring=2048 , Reader_time=49939 , Writer_time=97237
+
+Data_client_init_time=554
+bytes=4194304 , gran=524288 , ring=2048 , Reader_time=51395 , Writer_time=99123
+
+Data_client_init_time=548
+bytes=4194304 , gran=1048576 , ring=2048 , Reader_time=51356 , Writer_time=99107
+
+Data_client_init_time=566
+bytes=4194304 , gran=2097152 , ring=2048 , Reader_time=51794 , Writer_time=99601
+
+Data_client_init_time=552
+bytes=4194304 , gran=4194304 , ring=2048 , Reader_time=51735 , Writer_time=99085
+
+Data_client_init_time=564
+bytes=4194304 , gran=512 , ring=4096 , Reader_time=50321 , Writer_time=49258
+
+Data_client_init_time=557
+bytes=4194304 , gran=1024 , ring=4096 , Reader_time=50536 , Writer_time=50077
+
+Data_client_init_time=603
+bytes=4194304 , gran=2048 , ring=4096 , Reader_time=49391 , Writer_time=49426
+
+Data_client_init_time=563
+bytes=4194304 , gran=4096 , ring=4096 , Reader_time=51349 , Writer_time=51501
+
+Data_client_init_time=566
+bytes=4194304 , gran=8192 , ring=4096 , Reader_time=50936 , Writer_time=51538
+
+Data_client_init_time=597
+bytes=4194304 , gran=16384 , ring=4096 , Reader_time=51432 , Writer_time=51333
+
+Data_client_init_time=585
+bytes=4194304 , gran=32768 , ring=4096 , Reader_time=50866 , Writer_time=51542
+
+Data_client_init_time=576
+bytes=4194304 , gran=65536 , ring=4096 , Reader_time=51032 , Writer_time=51289
+
+Data_client_init_time=573
+bytes=4194304 , gran=131072 , ring=4096 , Reader_time=51315 , Writer_time=49815
+
+Data_client_init_time=566
+bytes=4194304 , gran=262144 , ring=4096 , Reader_time=51396 , Writer_time=51414
+
+Data_client_init_time=628
+bytes=4194304 , gran=524288 , ring=4096 , Reader_time=50791 , Writer_time=51641
+
+Data_client_init_time=608
+bytes=4194304 , gran=1048576 , ring=4096 , Reader_time=51375 , Writer_time=51624
+
+Data_client_init_time=570
+bytes=4194304 , gran=2097152 , ring=4096 , Reader_time=51455 , Writer_time=51083
+
+Data_client_init_time=587
+bytes=4194304 , gran=4194304 , ring=4096 , Reader_time=51356 , Writer_time=51527
+
+Data_client_init_time=575
+bytes=4194304 , gran=512 , ring=8192 , Reader_time=26148 , Writer_time=25867
+
+Data_client_init_time=652
+bytes=4194304 , gran=1024 , ring=8192 , Reader_time=25989 , Writer_time=26559
+
+Data_client_init_time=582
+bytes=4194304 , gran=2048 , ring=8192 , Reader_time=26333 , Writer_time=26404
+
+Data_client_init_time=606
+bytes=4194304 , gran=4096 , ring=8192 , Reader_time=26677 , Writer_time=26732
+
+Data_client_init_time=582
+bytes=4194304 , gran=8192 , ring=8192 , Reader_time=27450 , Writer_time=27450
+
+Data_client_init_time=587
+bytes=4194304 , gran=16384 , ring=8192 , Reader_time=27711 , Writer_time=26884
+
+Data_client_init_time=621
+bytes=4194304 , gran=32768 , ring=8192 , Reader_time=26721 , Writer_time=26892
+
+Data_client_init_time=588
+bytes=4194304 , gran=65536 , ring=8192 , Reader_time=27293 , Writer_time=27315
+
+Data_client_init_time=580
+bytes=4194304 , gran=131072 , ring=8192 , Reader_time=27272 , Writer_time=26837
+
+Data_client_init_time=587
+bytes=4194304 , gran=262144 , ring=8192 , Reader_time=27401 , Writer_time=27293
+
+Data_client_init_time=586
+bytes=4194304 , gran=524288 , ring=8192 , Reader_time=27279 , Writer_time=27355
+
+Data_client_init_time=608
+bytes=4194304 , gran=1048576 , ring=8192 , Reader_time=27350 , Writer_time=27265
+
+Data_client_init_time=566
+bytes=4194304 , gran=2097152 , ring=8192 , Reader_time=26649 , Writer_time=26963
+
+Data_client_init_time=598
+bytes=4194304 , gran=4194304 , ring=8192 , Reader_time=27253 , Writer_time=27273
+
+Data_client_init_time=598
+bytes=4194304 , gran=512 , ring=16384 , Reader_time=14078 , Writer_time=13945
+
+Data_client_init_time=605
+bytes=4194304 , gran=1024 , ring=16384 , Reader_time=14226 , Writer_time=13982
+
+Data_client_init_time=635
+bytes=4194304 , gran=2048 , ring=16384 , Reader_time=14288 , Writer_time=13648
+
+Data_client_init_time=631
+bytes=4194304 , gran=4096 , ring=16384 , Reader_time=14365 , Writer_time=14200
+
+Data_client_init_time=608
+bytes=4194304 , gran=8192 , ring=16384 , Reader_time=14631 , Writer_time=14621
+
+Data_client_init_time=611
+bytes=4194304 , gran=16384 , ring=16384 , Reader_time=15195 , Writer_time=15260
+
+Data_client_init_time=609
+bytes=4194304 , gran=32768 , ring=16384 , Reader_time=15300 , Writer_time=15257
+
+Data_client_init_time=654
+bytes=4194304 , gran=65536 , ring=16384 , Reader_time=15250 , Writer_time=15321
+
+Data_client_init_time=606
+bytes=4194304 , gran=131072 , ring=16384 , Reader_time=15276 , Writer_time=15262
+
+Data_client_init_time=616
+bytes=4194304 , gran=262144 , ring=16384 , Reader_time=15149 , Writer_time=14697
+
+Data_client_init_time=609
+bytes=4194304 , gran=524288 , ring=16384 , Reader_time=15281 , Writer_time=15285
+
+Data_client_init_time=637
+bytes=4194304 , gran=1048576 , ring=16384 , Reader_time=15254 , Writer_time=15297
+
+Data_client_init_time=651
+bytes=4194304 , gran=2097152 , ring=16384 , Reader_time=15269 , Writer_time=15339
+
+Data_client_init_time=617
+bytes=4194304 , gran=4194304 , ring=16384 , Reader_time=15343 , Writer_time=15390
+
+Data_client_init_time=676
+bytes=4194304 , gran=512 , ring=32768 , Reader_time=7847 , Writer_time=7726
+
+Data_client_init_time=669
+bytes=4194304 , gran=1024 , ring=32768 , Reader_time=7656 , Writer_time=7602
+
+Data_client_init_time=644
+bytes=4194304 , gran=2048 , ring=32768 , Reader_time=7884 , Writer_time=7796
+
+Data_client_init_time=690
+bytes=4194304 , gran=4096 , ring=32768 , Reader_time=7939 , Writer_time=7869
+
+Data_client_init_time=654
+bytes=4194304 , gran=8192 , ring=32768 , Reader_time=8174 , Writer_time=8056
+
+Data_client_init_time=647
+bytes=4194304 , gran=16384 , ring=32768 , Reader_time=8148 , Writer_time=8242
+
+Data_client_init_time=631
+bytes=4194304 , gran=32768 , ring=32768 , Reader_time=8699 , Writer_time=8776
+
+Data_client_init_time=650
+bytes=4194304 , gran=65536 , ring=32768 , Reader_time=8927 , Writer_time=9014
+
+Data_client_init_time=746
+bytes=4194304 , gran=131072 , ring=32768 , Reader_time=8579 , Writer_time=8972
+
+Data_client_init_time=694
+bytes=4194304 , gran=262144 , ring=32768 , Reader_time=8902 , Writer_time=8936
+
+Data_client_init_time=689
+bytes=4194304 , gran=524288 , ring=32768 , Reader_time=8924 , Writer_time=8907
+
+Data_client_init_time=682
+bytes=4194304 , gran=1048576 , ring=32768 , Reader_time=9001 , Writer_time=9004
+
+Data_client_init_time=655
+bytes=4194304 , gran=2097152 , ring=32768 , Reader_time=8866 , Writer_time=9119
+
+Data_client_init_time=691
+bytes=4194304 , gran=4194304 , ring=32768 , Reader_time=8920 , Writer_time=8950
+
+Data_client_init_time=734
+bytes=4194304 , gran=512 , ring=65536 , Reader_time=4781 , Writer_time=4513
+
+Data_client_init_time=728
+bytes=4194304 , gran=1024 , ring=65536 , Reader_time=4764 , Writer_time=4525
+
+Data_client_init_time=725
+bytes=4194304 , gran=2048 , ring=65536 , Reader_time=4510 , Writer_time=4358
+
+Data_client_init_time=733
+bytes=4194304 , gran=4096 , ring=65536 , Reader_time=4626 , Writer_time=4226
+
+Data_client_init_time=779
+bytes=4194304 , gran=8192 , ring=65536 , Reader_time=4848 , Writer_time=4679
+
+Data_client_init_time=729
+bytes=4194304 , gran=16384 , ring=65536 , Reader_time=4925 , Writer_time=5157
+
+Data_client_init_time=729
+bytes=4194304 , gran=32768 , ring=65536 , Reader_time=5189 , Writer_time=5180
+
+Data_client_init_time=731
+bytes=4194304 , gran=65536 , ring=65536 , Reader_time=5665 , Writer_time=5688
+
+Data_client_init_time=724
+bytes=4194304 , gran=131072 , ring=65536 , Reader_time=5638 , Writer_time=5711
+
+Data_client_init_time=831
+bytes=4194304 , gran=262144 , ring=65536 , Reader_time=5697 , Writer_time=5754
+
+Data_client_init_time=731
+bytes=4194304 , gran=524288 , ring=65536 , Reader_time=5662 , Writer_time=5696
+
+Data_client_init_time=770
+bytes=4194304 , gran=1048576 , ring=65536 , Reader_time=5622 , Writer_time=5694
+
+Data_client_init_time=730
+bytes=4194304 , gran=2097152 , ring=65536 , Reader_time=5649 , Writer_time=5727
+
+Data_client_init_time=746
+bytes=4194304 , gran=4194304 , ring=65536 , Reader_time=5500 , Writer_time=5617
+
+Data_client_init_time=915
+bytes=4194304 , gran=512 , ring=131072 , Reader_time=3412 , Writer_time=3563
+
+Data_client_init_time=882
+bytes=4194304 , gran=1024 , ring=131072 , Reader_time=3229 , Writer_time=3407
+
+Data_client_init_time=904
+bytes=4194304 , gran=2048 , ring=131072 , Reader_time=2919 , Writer_time=3138
+
+Data_client_init_time=882
+bytes=4194304 , gran=4096 , ring=131072 , Reader_time=2857 , Writer_time=2999
+
+Data_client_init_time=885
+bytes=4194304 , gran=8192 , ring=131072 , Reader_time=2965 , Writer_time=3096
+
+Data_client_init_time=921
+bytes=4194304 , gran=16384 , ring=131072 , Reader_time=2766 , Writer_time=2914
+
+Data_client_init_time=881
+bytes=4194304 , gran=32768 , ring=131072 , Reader_time=3244 , Writer_time=3308
+
+Data_client_init_time=888
+bytes=4194304 , gran=65536 , ring=131072 , Reader_time=3530 , Writer_time=3519
+
+Data_client_init_time=875
+bytes=4194304 , gran=131072 , ring=131072 , Reader_time=4003 , Writer_time=4057
+
+Data_client_init_time=905
+bytes=4194304 , gran=262144 , ring=131072 , Reader_time=3969 , Writer_time=4010
+
+Data_client_init_time=944
+bytes=4194304 , gran=524288 , ring=131072 , Reader_time=3970 , Writer_time=4118
+
+Data_client_init_time=881
+bytes=4194304 , gran=1048576 , ring=131072 , Reader_time=3984 , Writer_time=4053
+
+Data_client_init_time=888
+bytes=4194304 , gran=2097152 , ring=131072 , Reader_time=3985 , Writer_time=4071
+
+Data_client_init_time=873
+bytes=4194304 , gran=4194304 , ring=131072 , Reader_time=4060 , Writer_time=4121
+
+Data_client_init_time=1216
+bytes=4194304 , gran=512 , ring=262144 , Reader_time=3270 , Writer_time=3737
+
+Data_client_init_time=1215
+bytes=4194304 , gran=1024 , ring=262144 , Reader_time=3129 , Writer_time=3536
+
+Data_client_init_time=1263
+bytes=4194304 , gran=2048 , ring=262144 , Reader_time=2900 , Writer_time=3358
+
+Data_client_init_time=1179
+bytes=4194304 , gran=4096 , ring=262144 , Reader_time=2864 , Writer_time=3104
+
+Data_client_init_time=1208
+bytes=4194304 , gran=8192 , ring=262144 , Reader_time=2766 , Writer_time=3074
+
+Data_client_init_time=1183
+bytes=4194304 , gran=16384 , ring=262144 , Reader_time=2725 , Writer_time=2967
+
+Data_client_init_time=1216
+bytes=4194304 , gran=32768 , ring=262144 , Reader_time=2485 , Writer_time=2768
+
+Data_client_init_time=1182
+bytes=4194304 , gran=65536 , ring=262144 , Reader_time=2522 , Writer_time=2799
+
+Data_client_init_time=1198
+bytes=4194304 , gran=131072 , ring=262144 , Reader_time=2732 , Writer_time=2757
+
+Data_client_init_time=1188
+bytes=4194304 , gran=262144 , ring=262144 , Reader_time=3195 , Writer_time=3311
+
+Data_client_init_time=1184
+bytes=4194304 , gran=524288 , ring=262144 , Reader_time=3094 , Writer_time=3271
+
+Data_client_init_time=1235
+bytes=4194304 , gran=1048576 , ring=262144 , Reader_time=3188 , Writer_time=3348
+
+Data_client_init_time=1195
+bytes=4194304 , gran=2097152 , ring=262144 , Reader_time=3183 , Writer_time=3324
+
+Data_client_init_time=1166
+bytes=4194304 , gran=4194304 , ring=262144 , Reader_time=3140 , Writer_time=3299
+
+Data_client_init_time=1785
+bytes=4194304 , gran=512 , ring=524288 , Reader_time=3392 , Writer_time=4126
+
+Data_client_init_time=1764
+bytes=4194304 , gran=1024 , ring=524288 , Reader_time=3125 , Writer_time=3854
+
+Data_client_init_time=1785
+bytes=4194304 , gran=2048 , ring=524288 , Reader_time=3024 , Writer_time=3632
+
+Data_client_init_time=1752
+bytes=4194304 , gran=4096 , ring=524288 , Reader_time=2893 , Writer_time=3541
+
+Data_client_init_time=1760
+bytes=4194304 , gran=8192 , ring=524288 , Reader_time=2780 , Writer_time=3253
+
+Data_client_init_time=1795
+bytes=4194304 , gran=16384 , ring=524288 , Reader_time=2763 , Writer_time=3196
+
+Data_client_init_time=1776
+bytes=4194304 , gran=32768 , ring=524288 , Reader_time=2556 , Writer_time=3056
+
+Data_client_init_time=1761
+bytes=4194304 , gran=65536 , ring=524288 , Reader_time=2475 , Writer_time=2892
+
+Data_client_init_time=1798
+bytes=4194304 , gran=131072 , ring=524288 , Reader_time=2414 , Writer_time=3120
+
+Data_client_init_time=1783
+bytes=4194304 , gran=262144 , ring=524288 , Reader_time=2604 , Writer_time=2818
+
+Data_client_init_time=1760
+bytes=4194304 , gran=524288 , ring=524288 , Reader_time=2816 , Writer_time=3039
+
+Data_client_init_time=1772
+bytes=4194304 , gran=1048576 , ring=524288 , Reader_time=2844 , Writer_time=3010
+
+Data_client_init_time=1798
+bytes=4194304 , gran=2097152 , ring=524288 , Reader_time=2817 , Writer_time=3063
+
+Data_client_init_time=1788
+bytes=4194304 , gran=4194304 , ring=524288 , Reader_time=2805 , Writer_time=3077
+
+Data_client_init_time=3312
+bytes=4194304 , gran=512 , ring=1048576 , Reader_time=3734 , Writer_time=5186
+
+Data_client_init_time=3292
+bytes=4194304 , gran=1024 , ring=1048576 , Reader_time=3637 , Writer_time=4962
+
+Data_client_init_time=3328
+bytes=4194304 , gran=2048 , ring=1048576 , Reader_time=3444 , Writer_time=4627
+
+Data_client_init_time=3222
+bytes=4194304 , gran=4096 , ring=1048576 , Reader_time=3289 , Writer_time=4462
+
+Data_client_init_time=3311
+bytes=4194304 , gran=8192 , ring=1048576 , Reader_time=3185 , Writer_time=4257
+
+Data_client_init_time=3304
+bytes=4194304 , gran=16384 , ring=1048576 , Reader_time=3024 , Writer_time=4132
+
+Data_client_init_time=3311
+bytes=4194304 , gran=32768 , ring=1048576 , Reader_time=2971 , Writer_time=3962
+
+Data_client_init_time=3330
+bytes=4194304 , gran=65536 , ring=1048576 , Reader_time=2948 , Writer_time=3802
+
+Data_client_init_time=3345
+bytes=4194304 , gran=131072 , ring=1048576 , Reader_time=2871 , Writer_time=3733
+
+Data_client_init_time=3310
+bytes=4194304 , gran=262144 , ring=1048576 , Reader_time=2840 , Writer_time=3549
+
+Data_client_init_time=3336
+bytes=4194304 , gran=524288 , ring=1048576 , Reader_time=2785 , Writer_time=3563
+
+Data_client_init_time=3321
+bytes=4194304 , gran=1048576 , ring=1048576 , Reader_time=2917 , Writer_time=3491
+
+Data_client_init_time=3324
+bytes=4194304 , gran=2097152 , ring=1048576 , Reader_time=2958 , Writer_time=3525
+
+Data_client_init_time=3338
+bytes=4194304 , gran=4194304 , ring=1048576 , Reader_time=3091 , Writer_time=3462
+
+Data_client_init_time=568
+bytes=8388608 , gran=512 , ring=512 , Reader_time=203216 , Writer_time=395381
+
+Data_client_init_time=612
+bytes=8388608 , gran=1024 , ring=512 , Reader_time=197107 , Writer_time=390825
+
+Data_client_init_time=591
+bytes=8388608 , gran=2048 , ring=512 , Reader_time=197541 , Writer_time=389694
+
+Data_client_init_time=588
+bytes=8388608 , gran=4096 , ring=512 , Reader_time=198360 , Writer_time=389435
+
+Data_client_init_time=597
+bytes=8388608 , gran=8192 , ring=512 , Reader_time=197158 , Writer_time=391079
+
+Data_client_init_time=586
+bytes=8388608 , gran=16384 , ring=512 , Reader_time=198392 , Writer_time=389890
+
+Data_client_init_time=612
+bytes=8388608 , gran=32768 , ring=512 , Reader_time=197831 , Writer_time=391487
+
+Data_client_init_time=604
+bytes=8388608 , gran=65536 , ring=512 , Reader_time=198136 , Writer_time=389403
+
+Data_client_init_time=696
+bytes=8388608 , gran=131072 , ring=512 , Reader_time=198601 , Writer_time=389164
+
+Data_client_init_time=581
+bytes=8388608 , gran=262144 , ring=512 , Reader_time=197894 , Writer_time=388627
+
+Data_client_init_time=595
+bytes=8388608 , gran=524288 , ring=512 , Reader_time=198506 , Writer_time=390078
+
+Data_client_init_time=610
+bytes=8388608 , gran=1048576 , ring=512 , Reader_time=198520 , Writer_time=389524
+
+Data_client_init_time=610
+bytes=8388608 , gran=2097152 , ring=512 , Reader_time=198431 , Writer_time=390544
+
+Data_client_init_time=576
+bytes=8388608 , gran=4194304 , ring=512 , Reader_time=197371 , Writer_time=389362
+
+Data_client_init_time=608
+bytes=8388608 , gran=8388608 , ring=512 , Reader_time=198024 , Writer_time=391016
+
+Data_client_init_time=613
+bytes=8388608 , gran=512 , ring=1024 , Reader_time=195435 , Writer_time=383901
+
+Data_client_init_time=610
+bytes=8388608 , gran=1024 , ring=1024 , Reader_time=196476 , Writer_time=386774
+
+Data_client_init_time=596
+bytes=8388608 , gran=2048 , ring=1024 , Reader_time=197833 , Writer_time=379126
+
+Data_client_init_time=613
+bytes=8388608 , gran=4096 , ring=1024 , Reader_time=198026 , Writer_time=389566
+
+Data_client_init_time=588
+bytes=8388608 , gran=8192 , ring=1024 , Reader_time=192178 , Writer_time=386621
+
+Data_client_init_time=614
+bytes=8388608 , gran=16384 , ring=1024 , Reader_time=197514 , Writer_time=389724
+
+Data_client_init_time=591
+bytes=8388608 , gran=32768 , ring=1024 , Reader_time=194396 , Writer_time=389166
+
+Data_client_init_time=618
+bytes=8388608 , gran=65536 , ring=1024 , Reader_time=195641 , Writer_time=389882
+
+Data_client_init_time=640
+bytes=8388608 , gran=131072 , ring=1024 , Reader_time=198094 , Writer_time=388779
+
+Data_client_init_time=618
+bytes=8388608 , gran=262144 , ring=1024 , Reader_time=198148 , Writer_time=391663
+
+Data_client_init_time=615
+bytes=8388608 , gran=524288 , ring=1024 , Reader_time=197502 , Writer_time=388629
+
+Data_client_init_time=620
+bytes=8388608 , gran=1048576 , ring=1024 , Reader_time=198616 , Writer_time=389636
+
+Data_client_init_time=595
+bytes=8388608 , gran=2097152 , ring=1024 , Reader_time=197572 , Writer_time=390573
+
+Data_client_init_time=611
+bytes=8388608 , gran=4194304 , ring=1024 , Reader_time=196755 , Writer_time=390052
+
+Data_client_init_time=600
+bytes=8388608 , gran=8388608 , ring=1024 , Reader_time=198074 , Writer_time=388306
+
+Data_client_init_time=633
+bytes=8388608 , gran=512 , ring=2048 , Reader_time=100328 , Writer_time=196911
+
+Data_client_init_time=598
+bytes=8388608 , gran=1024 , ring=2048 , Reader_time=100409 , Writer_time=197440
+
+Data_client_init_time=591
+bytes=8388608 , gran=2048 , ring=2048 , Reader_time=101856 , Writer_time=198268
+
+Data_client_init_time=587
+bytes=8388608 , gran=4096 , ring=2048 , Reader_time=102211 , Writer_time=198691
+
+Data_client_init_time=603
+bytes=8388608 , gran=8192 , ring=2048 , Reader_time=100255 , Writer_time=198263
+
+Data_client_init_time=626
+bytes=8388608 , gran=16384 , ring=2048 , Reader_time=99680 , Writer_time=198680
+
+Data_client_init_time=593
+bytes=8388608 , gran=32768 , ring=2048 , Reader_time=102757 , Writer_time=197479
+
+Data_client_init_time=610
+bytes=8388608 , gran=65536 , ring=2048 , Reader_time=100220 , Writer_time=191928
+
+Data_client_init_time=605
+bytes=8388608 , gran=131072 , ring=2048 , Reader_time=102800 , Writer_time=198934
+
+Data_client_init_time=598
+bytes=8388608 , gran=262144 , ring=2048 , Reader_time=102270 , Writer_time=197612
+
+Data_client_init_time=605
+bytes=8388608 , gran=524288 , ring=2048 , Reader_time=102784 , Writer_time=198196
+
+Data_client_init_time=605
+bytes=8388608 , gran=1048576 , ring=2048 , Reader_time=102576 , Writer_time=199666
+
+Data_client_init_time=600
+bytes=8388608 , gran=2097152 , ring=2048 , Reader_time=102326 , Writer_time=198093
+
+Data_client_init_time=604
+bytes=8388608 , gran=4194304 , ring=2048 , Reader_time=102893 , Writer_time=198468
+
+Data_client_init_time=597
+bytes=8388608 , gran=8388608 , ring=2048 , Reader_time=104627 , Writer_time=198221
+
+Data_client_init_time=614
+bytes=8388608 , gran=512 , ring=4096 , Reader_time=100880 , Writer_time=100729
+
+Data_client_init_time=631
+bytes=8388608 , gran=1024 , ring=4096 , Reader_time=100843 , Writer_time=100669
+
+Data_client_init_time=647
+bytes=8388608 , gran=2048 , ring=4096 , Reader_time=101028 , Writer_time=100054
+
+Data_client_init_time=618
+bytes=8388608 , gran=4096 , ring=4096 , Reader_time=99876 , Writer_time=98388
+
+Data_client_init_time=606
+bytes=8388608 , gran=8192 , ring=4096 , Reader_time=102682 , Writer_time=102766
+
+Data_client_init_time=619
+bytes=8388608 , gran=16384 , ring=4096 , Reader_time=102458 , Writer_time=102893
+
+Data_client_init_time=619
+bytes=8388608 , gran=32768 , ring=4096 , Reader_time=102159 , Writer_time=104006
+
+Data_client_init_time=623
+bytes=8388608 , gran=65536 , ring=4096 , Reader_time=102909 , Writer_time=102355
+
+Data_client_init_time=619
+bytes=8388608 , gran=131072 , ring=4096 , Reader_time=102678 , Writer_time=102443
+
+Data_client_init_time=621
+bytes=8388608 , gran=262144 , ring=4096 , Reader_time=102804 , Writer_time=103235
+
+Data_client_init_time=621
+bytes=8388608 , gran=524288 , ring=4096 , Reader_time=102256 , Writer_time=102846
+
+Data_client_init_time=639
+bytes=8388608 , gran=1048576 , ring=4096 , Reader_time=100193 , Writer_time=102878
+
+Data_client_init_time=620
+bytes=8388608 , gran=2097152 , ring=4096 , Reader_time=102119 , Writer_time=100131
+
+Data_client_init_time=617
+bytes=8388608 , gran=4194304 , ring=4096 , Reader_time=102701 , Writer_time=102238
+
+Data_client_init_time=618
+bytes=8388608 , gran=8388608 , ring=4096 , Reader_time=102758 , Writer_time=102058
+
+Data_client_init_time=618
+bytes=8388608 , gran=512 , ring=8192 , Reader_time=52246 , Writer_time=52494
+
+Data_client_init_time=637
+bytes=8388608 , gran=1024 , ring=8192 , Reader_time=52714 , Writer_time=51582
+
+Data_client_init_time=666
+bytes=8388608 , gran=2048 , ring=8192 , Reader_time=53003 , Writer_time=52943
+
+Data_client_init_time=663
+bytes=8388608 , gran=4096 , ring=8192 , Reader_time=53726 , Writer_time=53016
+
+Data_client_init_time=632
+bytes=8388608 , gran=8192 , ring=8192 , Reader_time=54674 , Writer_time=54659
+
+Data_client_init_time=635
+bytes=8388608 , gran=16384 , ring=8192 , Reader_time=54812 , Writer_time=54253
+
+Data_client_init_time=657
+bytes=8388608 , gran=32768 , ring=8192 , Reader_time=54656 , Writer_time=54692
+
+Data_client_init_time=671
+bytes=8388608 , gran=65536 , ring=8192 , Reader_time=54749 , Writer_time=54782
+
+Data_client_init_time=634
+bytes=8388608 , gran=131072 , ring=8192 , Reader_time=54877 , Writer_time=53492
+
+Data_client_init_time=645
+bytes=8388608 , gran=262144 , ring=8192 , Reader_time=54689 , Writer_time=54326
+
+Data_client_init_time=657
+bytes=8388608 , gran=524288 , ring=8192 , Reader_time=53192 , Writer_time=53171
+
+Data_client_init_time=649
+bytes=8388608 , gran=1048576 , ring=8192 , Reader_time=54877 , Writer_time=54838
+
+Data_client_init_time=638
+bytes=8388608 , gran=2097152 , ring=8192 , Reader_time=54377 , Writer_time=54790
+
+Data_client_init_time=644
+bytes=8388608 , gran=4194304 , ring=8192 , Reader_time=54701 , Writer_time=54734
+
+Data_client_init_time=637
+bytes=8388608 , gran=8388608 , ring=8192 , Reader_time=54210 , Writer_time=54798
+
+Data_client_init_time=656
+bytes=8388608 , gran=512 , ring=16384 , Reader_time=28123 , Writer_time=28180
+
+Data_client_init_time=666
+bytes=8388608 , gran=1024 , ring=16384 , Reader_time=28443 , Writer_time=28512
+
+Data_client_init_time=718
+bytes=8388608 , gran=2048 , ring=16384 , Reader_time=28561 , Writer_time=28333
+
+Data_client_init_time=674
+bytes=8388608 , gran=4096 , ring=16384 , Reader_time=28784 , Writer_time=28773
+
+Data_client_init_time=650
+bytes=8388608 , gran=8192 , ring=16384 , Reader_time=29427 , Writer_time=29409
+
+Data_client_init_time=655
+bytes=8388608 , gran=16384 , ring=16384 , Reader_time=30714 , Writer_time=30360
+
+Data_client_init_time=651
+bytes=8388608 , gran=32768 , ring=16384 , Reader_time=30397 , Writer_time=31595
+
+Data_client_init_time=667
+bytes=8388608 , gran=65536 , ring=16384 , Reader_time=30707 , Writer_time=30156
+
+Data_client_init_time=656
+bytes=8388608 , gran=131072 , ring=16384 , Reader_time=30820 , Writer_time=30754
+
+Data_client_init_time=659
+bytes=8388608 , gran=262144 , ring=16384 , Reader_time=30658 , Writer_time=30233
+
+Data_client_init_time=691
+bytes=8388608 , gran=524288 , ring=16384 , Reader_time=30639 , Writer_time=30681
+
+Data_client_init_time=689
+bytes=8388608 , gran=1048576 , ring=16384 , Reader_time=30718 , Writer_time=30621
+
+Data_client_init_time=690
+bytes=8388608 , gran=2097152 , ring=16384 , Reader_time=30750 , Writer_time=30334
+
+Data_client_init_time=692
+bytes=8388608 , gran=4194304 , ring=16384 , Reader_time=30753 , Writer_time=29498
+
+Data_client_init_time=656
+bytes=8388608 , gran=8388608 , ring=16384 , Reader_time=30646 , Writer_time=30612
+
+Data_client_init_time=694
+bytes=8388608 , gran=512 , ring=32768 , Reader_time=15749 , Writer_time=15789
+
+Data_client_init_time=716
+bytes=8388608 , gran=1024 , ring=32768 , Reader_time=15770 , Writer_time=15703
+
+Data_client_init_time=726
+bytes=8388608 , gran=2048 , ring=32768 , Reader_time=15926 , Writer_time=15829
+
+Data_client_init_time=687
+bytes=8388608 , gran=4096 , ring=32768 , Reader_time=16242 , Writer_time=16367
+
+Data_client_init_time=706
+bytes=8388608 , gran=8192 , ring=32768 , Reader_time=15964 , Writer_time=16298
+
+Data_client_init_time=694
+bytes=8388608 , gran=16384 , ring=32768 , Reader_time=16875 , Writer_time=16947
+
+Data_client_init_time=708
+bytes=8388608 , gran=32768 , ring=32768 , Reader_time=18049 , Writer_time=18126
+
+Data_client_init_time=722
+bytes=8388608 , gran=65536 , ring=32768 , Reader_time=18002 , Writer_time=18055
+
+Data_client_init_time=692
+bytes=8388608 , gran=131072 , ring=32768 , Reader_time=18001 , Writer_time=18038
+
+Data_client_init_time=718
+bytes=8388608 , gran=262144 , ring=32768 , Reader_time=17651 , Writer_time=17706
+
+Data_client_init_time=699
+bytes=8388608 , gran=524288 , ring=32768 , Reader_time=17950 , Writer_time=18005
+
+Data_client_init_time=725
+bytes=8388608 , gran=1048576 , ring=32768 , Reader_time=18044 , Writer_time=17958
+
+Data_client_init_time=771
+bytes=8388608 , gran=2097152 , ring=32768 , Reader_time=18019 , Writer_time=18038
+
+Data_client_init_time=696
+bytes=8388608 , gran=4194304 , ring=32768 , Reader_time=17942 , Writer_time=17986
+
+Data_client_init_time=696
+bytes=8388608 , gran=8388608 , ring=32768 , Reader_time=17927 , Writer_time=18016
+
+Data_client_init_time=764
+bytes=8388608 , gran=512 , ring=65536 , Reader_time=9254 , Writer_time=7503
+
+Data_client_init_time=774
+bytes=8388608 , gran=1024 , ring=65536 , Reader_time=9462 , Writer_time=8688
+
+Data_client_init_time=822
+bytes=8388608 , gran=2048 , ring=65536 , Reader_time=7458 , Writer_time=9517
+
+Data_client_init_time=797
+bytes=8388608 , gran=4096 , ring=65536 , Reader_time=9492 , Writer_time=8662
+
+Data_client_init_time=777
+bytes=8388608 , gran=8192 , ring=65536 , Reader_time=9537 , Writer_time=9685
+
+Data_client_init_time=775
+bytes=8388608 , gran=16384 , ring=65536 , Reader_time=9934 , Writer_time=10105
+
+Data_client_init_time=781
+bytes=8388608 , gran=32768 , ring=65536 , Reader_time=10473 , Writer_time=10677
+
+Data_client_init_time=823
+bytes=8388608 , gran=65536 , ring=65536 , Reader_time=11550 , Writer_time=11760
+
+Data_client_init_time=758
+bytes=8388608 , gran=131072 , ring=65536 , Reader_time=11475 , Writer_time=11723
+
+Data_client_init_time=780
+bytes=8388608 , gran=262144 , ring=65536 , Reader_time=11533 , Writer_time=11762
+
+Data_client_init_time=777
+bytes=8388608 , gran=524288 , ring=65536 , Reader_time=11516 , Writer_time=11369
+
+Data_client_init_time=772
+bytes=8388608 , gran=1048576 , ring=65536 , Reader_time=11542 , Writer_time=11799
+
+Data_client_init_time=832
+bytes=8388608 , gran=2097152 , ring=65536 , Reader_time=11548 , Writer_time=11669
+
+Data_client_init_time=763
+bytes=8388608 , gran=4194304 , ring=65536 , Reader_time=11482 , Writer_time=11658
+
+Data_client_init_time=770
+bytes=8388608 , gran=8388608 , ring=65536 , Reader_time=11520 , Writer_time=11683
+
+Data_client_init_time=973
+bytes=8388608 , gran=512 , ring=131072 , Reader_time=7100 , Writer_time=7501
+
+Data_client_init_time=927
+bytes=8388608 , gran=1024 , ring=131072 , Reader_time=6633 , Writer_time=6973
+
+Data_client_init_time=983
+bytes=8388608 , gran=2048 , ring=131072 , Reader_time=6350 , Writer_time=6536
+
+Data_client_init_time=976
+bytes=8388608 , gran=4096 , ring=131072 , Reader_time=6188 , Writer_time=6432
+
+Data_client_init_time=950
+bytes=8388608 , gran=8192 , ring=131072 , Reader_time=6000 , Writer_time=6070
+
+Data_client_init_time=922
+bytes=8388608 , gran=16384 , ring=131072 , Reader_time=6069 , Writer_time=5888
+
+Data_client_init_time=928
+bytes=8388608 , gran=32768 , ring=131072 , Reader_time=6648 , Writer_time=6043
+
+Data_client_init_time=961
+bytes=8388608 , gran=65536 , ring=131072 , Reader_time=7297 , Writer_time=7354
+
+Data_client_init_time=910
+bytes=8388608 , gran=131072 , ring=131072 , Reader_time=8364 , Writer_time=8509
+
+Data_client_init_time=918
+bytes=8388608 , gran=262144 , ring=131072 , Reader_time=8278 , Writer_time=8452
+
+Data_client_init_time=907
+bytes=8388608 , gran=524288 , ring=131072 , Reader_time=8376 , Writer_time=8454
+
+Data_client_init_time=918
+bytes=8388608 , gran=1048576 , ring=131072 , Reader_time=8321 , Writer_time=8358
+
+Data_client_init_time=973
+bytes=8388608 , gran=2097152 , ring=131072 , Reader_time=8409 , Writer_time=8534
+
+Data_client_init_time=922
+bytes=8388608 , gran=4194304 , ring=131072 , Reader_time=8391 , Writer_time=8419
+
+Data_client_init_time=916
+bytes=8388608 , gran=8388608 , ring=131072 , Reader_time=8340 , Writer_time=8458
+
+Data_client_init_time=1218
+bytes=8388608 , gran=512 , ring=262144 , Reader_time=6921 , Writer_time=7448
+
+Data_client_init_time=1223
+bytes=8388608 , gran=1024 , ring=262144 , Reader_time=6490 , Writer_time=6958
+
+Data_client_init_time=1246
+bytes=8388608 , gran=2048 , ring=262144 , Reader_time=6173 , Writer_time=6520
+
+Data_client_init_time=1205
+bytes=8388608 , gran=4096 , ring=262144 , Reader_time=5994 , Writer_time=6251
+
+Data_client_init_time=1212
+bytes=8388608 , gran=8192 , ring=262144 , Reader_time=5820 , Writer_time=5981
+
+Data_client_init_time=1217
+bytes=8388608 , gran=16384 , ring=262144 , Reader_time=5785 , Writer_time=5910
+
+Data_client_init_time=1208
+bytes=8388608 , gran=32768 , ring=262144 , Reader_time=5445 , Writer_time=5548
+
+Data_client_init_time=1245
+bytes=8388608 , gran=65536 , ring=262144 , Reader_time=5340 , Writer_time=5511
+
+Data_client_init_time=1225
+bytes=8388608 , gran=131072 , ring=262144 , Reader_time=5696 , Writer_time=5746
+
+Data_client_init_time=1251
+bytes=8388608 , gran=262144 , ring=262144 , Reader_time=6731 , Writer_time=6859
+
+Data_client_init_time=1217
+bytes=8388608 , gran=524288 , ring=262144 , Reader_time=6746 , Writer_time=6831
+
+Data_client_init_time=1204
+bytes=8388608 , gran=1048576 , ring=262144 , Reader_time=6788 , Writer_time=6893
+
+Data_client_init_time=1289
+bytes=8388608 , gran=2097152 , ring=262144 , Reader_time=6772 , Writer_time=6823
+
+Data_client_init_time=1209
+bytes=8388608 , gran=4194304 , ring=262144 , Reader_time=6877 , Writer_time=6987
+
+Data_client_init_time=1253
+bytes=8388608 , gran=8388608 , ring=262144 , Reader_time=6745 , Writer_time=6915
+
+Data_client_init_time=1799
+bytes=8388608 , gran=512 , ring=524288 , Reader_time=7190 , Writer_time=7986
+
+Data_client_init_time=1775
+bytes=8388608 , gran=1024 , ring=524288 , Reader_time=6755 , Writer_time=7459
+
+Data_client_init_time=1794
+bytes=8388608 , gran=2048 , ring=524288 , Reader_time=6471 , Writer_time=6956
+
+Data_client_init_time=1789
+bytes=8388608 , gran=4096 , ring=524288 , Reader_time=6090 , Writer_time=6627
+
+Data_client_init_time=1779
+bytes=8388608 , gran=8192 , ring=524288 , Reader_time=5879 , Writer_time=6369
+
+Data_client_init_time=1785
+bytes=8388608 , gran=16384 , ring=524288 , Reader_time=5920 , Writer_time=6264
+
+Data_client_init_time=1780
+bytes=8388608 , gran=32768 , ring=524288 , Reader_time=5572 , Writer_time=5907
+
+Data_client_init_time=1845
+bytes=8388608 , gran=65536 , ring=524288 , Reader_time=5255 , Writer_time=5703
+
+Data_client_init_time=1824
+bytes=8388608 , gran=131072 , ring=524288 , Reader_time=5520 , Writer_time=5610
+
+Data_client_init_time=1804
+bytes=8388608 , gran=262144 , ring=524288 , Reader_time=5559 , Writer_time=5766
+
+Data_client_init_time=1798
+bytes=8388608 , gran=524288 , ring=524288 , Reader_time=6012 , Writer_time=6071
+
+Data_client_init_time=1791
+bytes=8388608 , gran=1048576 , ring=524288 , Reader_time=5980 , Writer_time=6190
+
+Data_client_init_time=1801
+bytes=8388608 , gran=2097152 , ring=524288 , Reader_time=6056 , Writer_time=6149
+
+Data_client_init_time=1786
+bytes=8388608 , gran=4194304 , ring=524288 , Reader_time=5986 , Writer_time=6084
+
+Data_client_init_time=1833
+bytes=8388608 , gran=8388608 , ring=524288 , Reader_time=5968 , Writer_time=6219
+
+Data_client_init_time=3418
+bytes=8388608 , gran=512 , ring=1048576 , Reader_time=8269 , Writer_time=9845
+
+Data_client_init_time=3398
+bytes=8388608 , gran=1024 , ring=1048576 , Reader_time=8014 , Writer_time=9438
+
+Data_client_init_time=3361
+bytes=8388608 , gran=2048 , ring=1048576 , Reader_time=7597 , Writer_time=8737
+
+Data_client_init_time=3357
+bytes=8388608 , gran=4096 , ring=1048576 , Reader_time=7162 , Writer_time=8427
+
+Data_client_init_time=3475
+bytes=8388608 , gran=8192 , ring=1048576 , Reader_time=6803 , Writer_time=7918
+
+Data_client_init_time=3405
+bytes=8388608 , gran=16384 , ring=1048576 , Reader_time=6650 , Writer_time=7822
+
+Data_client_init_time=3423
+bytes=8388608 , gran=32768 , ring=1048576 , Reader_time=6455 , Writer_time=7377
+
+Data_client_init_time=3402
+bytes=8388608 , gran=65536 , ring=1048576 , Reader_time=6297 , Writer_time=7260
+
+Data_client_init_time=3370
+bytes=8388608 , gran=131072 , ring=1048576 , Reader_time=6304 , Writer_time=7075
+
+Data_client_init_time=3409
+bytes=8388608 , gran=262144 , ring=1048576 , Reader_time=5932 , Writer_time=6689
+
+Data_client_init_time=3422
+bytes=8388608 , gran=524288 , ring=1048576 , Reader_time=6175 , Writer_time=6926
+
+Data_client_init_time=3421
+bytes=8388608 , gran=1048576 , ring=1048576 , Reader_time=6410 , Writer_time=6848
+
+Data_client_init_time=3384
+bytes=8388608 , gran=2097152 , ring=1048576 , Reader_time=6285 , Writer_time=6750
+
+Data_client_init_time=3452
+bytes=8388608 , gran=4194304 , ring=1048576 , Reader_time=6305 , Writer_time=6765
+
+Data_client_init_time=3355
+bytes=8388608 , gran=8388608 , ring=1048576 , Reader_time=6328 , Writer_time=6755
+
+Data_client_init_time=652
+bytes=16777216 , gran=512 , ring=512 , Reader_time=405346 , Writer_time=786977
+
+Data_client_init_time=655
+bytes=16777216 , gran=1024 , ring=512 , Reader_time=394416 , Writer_time=776644
+
+Data_client_init_time=652
+bytes=16777216 , gran=2048 , ring=512 , Reader_time=396332 , Writer_time=781577
+
+Data_client_init_time=703
+bytes=16777216 , gran=4096 , ring=512 , Reader_time=396068 , Writer_time=773331
+
+Data_client_init_time=666
+bytes=16777216 , gran=8192 , ring=512 , Reader_time=390629 , Writer_time=780930
+
+Data_client_init_time=669
+bytes=16777216 , gran=16384 , ring=512 , Reader_time=396482 , Writer_time=779052
+
+Data_client_init_time=707
+bytes=16777216 , gran=32768 , ring=512 , Reader_time=397158 , Writer_time=779004
+
+Data_client_init_time=660
+bytes=16777216 , gran=65536 , ring=512 , Reader_time=395915 , Writer_time=771438
+
+Data_client_init_time=656
+bytes=16777216 , gran=131072 , ring=512 , Reader_time=393129 , Writer_time=779285
+
+Data_client_init_time=664
+bytes=16777216 , gran=262144 , ring=512 , Reader_time=396093 , Writer_time=778342
+
+Data_client_init_time=671
+bytes=16777216 , gran=524288 , ring=512 , Reader_time=394851 , Writer_time=776594
+
+Data_client_init_time=658
+bytes=16777216 , gran=1048576 , ring=512 , Reader_time=393891 , Writer_time=775264
+
+Data_client_init_time=670
+bytes=16777216 , gran=2097152 , ring=512 , Reader_time=397678 , Writer_time=781004
+
+Data_client_init_time=665
+bytes=16777216 , gran=4194304 , ring=512 , Reader_time=394257 , Writer_time=779744
+
+Data_client_init_time=671
+bytes=16777216 , gran=8388608 , ring=512 , Reader_time=396164 , Writer_time=774510
+
+Data_client_init_time=660
+bytes=16777216 , gran=16777216 , ring=512 , Reader_time=383574 , Writer_time=775708
+
+Data_client_init_time=678
+bytes=16777216 , gran=512 , ring=1024 , Reader_time=394372 , Writer_time=778001
+
+Data_client_init_time=664
+bytes=16777216 , gran=1024 , ring=1024 , Reader_time=394214 , Writer_time=778480
+
+Data_client_init_time=662
+bytes=16777216 , gran=2048 , ring=1024 , Reader_time=397768 , Writer_time=771186
+
+Data_client_init_time=666
+bytes=16777216 , gran=4096 , ring=1024 , Reader_time=389949 , Writer_time=779934
+
+Data_client_init_time=662
+bytes=16777216 , gran=8192 , ring=1024 , Reader_time=396766 , Writer_time=779819
+
+Data_client_init_time=672
+bytes=16777216 , gran=16384 , ring=1024 , Reader_time=395283 , Writer_time=778146
+
+Data_client_init_time=655
+bytes=16777216 , gran=32768 , ring=1024 , Reader_time=396634 , Writer_time=772236
+
+Data_client_init_time=671
+bytes=16777216 , gran=65536 , ring=1024 , Reader_time=395162 , Writer_time=778267
+
+Data_client_init_time=687
+bytes=16777216 , gran=131072 , ring=1024 , Reader_time=396204 , Writer_time=783337
+
+Data_client_init_time=662
+bytes=16777216 , gran=262144 , ring=1024 , Reader_time=397161 , Writer_time=769463
+
+Data_client_init_time=655
+bytes=16777216 , gran=524288 , ring=1024 , Reader_time=396905 , Writer_time=777699
+
+Data_client_init_time=675
+bytes=16777216 , gran=1048576 , ring=1024 , Reader_time=392092 , Writer_time=779874
+
+Data_client_init_time=663
+bytes=16777216 , gran=2097152 , ring=1024 , Reader_time=398598 , Writer_time=779506
+
+Data_client_init_time=655
+bytes=16777216 , gran=4194304 , ring=1024 , Reader_time=394103 , Writer_time=769093
+
+Data_client_init_time=669
+bytes=16777216 , gran=8388608 , ring=1024 , Reader_time=387279 , Writer_time=780615
+
+Data_client_init_time=663
+bytes=16777216 , gran=16777216 , ring=1024 , Reader_time=396224 , Writer_time=779652
+
+Data_client_init_time=689
+bytes=16777216 , gran=512 , ring=2048 , Reader_time=200739 , Writer_time=395051
+
+Data_client_init_time=660
+bytes=16777216 , gran=1024 , ring=2048 , Reader_time=201419 , Writer_time=394727
+
+Data_client_init_time=632
+bytes=16777216 , gran=2048 , ring=2048 , Reader_time=202559 , Writer_time=395656
+
+Data_client_init_time=688
+bytes=16777216 , gran=4096 , ring=2048 , Reader_time=204443 , Writer_time=397266
+
+Data_client_init_time=647
+bytes=16777216 , gran=8192 , ring=2048 , Reader_time=205473 , Writer_time=396610
+
+Data_client_init_time=690
+bytes=16777216 , gran=16384 , ring=2048 , Reader_time=204931 , Writer_time=391196
+
+Data_client_init_time=646
+bytes=16777216 , gran=32768 , ring=2048 , Reader_time=205149 , Writer_time=396707
+
+Data_client_init_time=691
+bytes=16777216 , gran=65536 , ring=2048 , Reader_time=203901 , Writer_time=387932
+
+Data_client_init_time=648
+bytes=16777216 , gran=131072 , ring=2048 , Reader_time=204940 , Writer_time=397933
+
+Data_client_init_time=634
+bytes=16777216 , gran=262144 , ring=2048 , Reader_time=199484 , Writer_time=394500
+
+Data_client_init_time=640
+bytes=16777216 , gran=524288 , ring=2048 , Reader_time=198366 , Writer_time=394610
+
+Data_client_init_time=647
+bytes=16777216 , gran=1048576 , ring=2048 , Reader_time=204921 , Writer_time=396604
+
+Data_client_init_time=648
+bytes=16777216 , gran=2097152 , ring=2048 , Reader_time=205074 , Writer_time=397301
+
+Data_client_init_time=673
+bytes=16777216 , gran=4194304 , ring=2048 , Reader_time=204703 , Writer_time=396658
+
+Data_client_init_time=639
+bytes=16777216 , gran=8388608 , ring=2048 , Reader_time=204092 , Writer_time=397193
+
+Data_client_init_time=678
+bytes=16777216 , gran=16777216 , ring=2048 , Reader_time=204610 , Writer_time=396569
+
+Data_client_init_time=647
+bytes=16777216 , gran=512 , ring=4096 , Reader_time=200252 , Writer_time=201242
+
+Data_client_init_time=679
+bytes=16777216 , gran=1024 , ring=4096 , Reader_time=200692 , Writer_time=201500
+
+Data_client_init_time=662
+bytes=16777216 , gran=2048 , ring=4096 , Reader_time=201847 , Writer_time=202340
+
+Data_client_init_time=685
+bytes=16777216 , gran=4096 , ring=4096 , Reader_time=204162 , Writer_time=205358
+
+Data_client_init_time=694
+bytes=16777216 , gran=8192 , ring=4096 , Reader_time=204446 , Writer_time=204511
+
+Data_client_init_time=658
+bytes=16777216 , gran=16384 , ring=4096 , Reader_time=204393 , Writer_time=206334
+
+Data_client_init_time=664
+bytes=16777216 , gran=32768 , ring=4096 , Reader_time=203981 , Writer_time=204652
+
+Data_client_init_time=654
+bytes=16777216 , gran=65536 , ring=4096 , Reader_time=204230 , Writer_time=204576
+
+Data_client_init_time=668
+bytes=16777216 , gran=131072 , ring=4096 , Reader_time=201440 , Writer_time=205805
+
+Data_client_init_time=682
+bytes=16777216 , gran=262144 , ring=4096 , Reader_time=203667 , Writer_time=204751
+
+Data_client_init_time=655
+bytes=16777216 , gran=524288 , ring=4096 , Reader_time=204478 , Writer_time=206726
+
+Data_client_init_time=661
+bytes=16777216 , gran=1048576 , ring=4096 , Reader_time=203394 , Writer_time=205270
+
+Data_client_init_time=661
+bytes=16777216 , gran=2097152 , ring=4096 , Reader_time=199621 , Writer_time=197942
+
+Data_client_init_time=672
+bytes=16777216 , gran=4194304 , ring=4096 , Reader_time=204534 , Writer_time=204634
+
+Data_client_init_time=648
+bytes=16777216 , gran=8388608 , ring=4096 , Reader_time=205494 , Writer_time=198632
+
+Data_client_init_time=653
+bytes=16777216 , gran=16777216 , ring=4096 , Reader_time=205760 , Writer_time=204802
+
+Data_client_init_time=673
+bytes=16777216 , gran=512 , ring=8192 , Reader_time=104462 , Writer_time=104518
+
+Data_client_init_time=679
+bytes=16777216 , gran=1024 , ring=8192 , Reader_time=104834 , Writer_time=105590
+
+Data_client_init_time=674
+bytes=16777216 , gran=2048 , ring=8192 , Reader_time=105506 , Writer_time=105344
+
+Data_client_init_time=699
+bytes=16777216 , gran=4096 , ring=8192 , Reader_time=106873 , Writer_time=106875
+
+Data_client_init_time=707
+bytes=16777216 , gran=8192 , ring=8192 , Reader_time=108870 , Writer_time=108553
+
+Data_client_init_time=708
+bytes=16777216 , gran=16384 , ring=8192 , Reader_time=108659 , Writer_time=109439
+
+Data_client_init_time=700
+bytes=16777216 , gran=32768 , ring=8192 , Reader_time=108945 , Writer_time=108499
+
+Data_client_init_time=700
+bytes=16777216 , gran=65536 , ring=8192 , Reader_time=106743 , Writer_time=106326
+
+Data_client_init_time=677
+bytes=16777216 , gran=131072 , ring=8192 , Reader_time=109248 , Writer_time=109120
+
+Data_client_init_time=669
+bytes=16777216 , gran=262144 , ring=8192 , Reader_time=109420 , Writer_time=109059
+
+Data_client_init_time=674
+bytes=16777216 , gran=524288 , ring=8192 , Reader_time=109628 , Writer_time=109484
+
+Data_client_init_time=671
+bytes=16777216 , gran=1048576 , ring=8192 , Reader_time=108858 , Writer_time=109509
+
+Data_client_init_time=681
+bytes=16777216 , gran=2097152 , ring=8192 , Reader_time=109187 , Writer_time=109403
+
+Data_client_init_time=707
+bytes=16777216 , gran=4194304 , ring=8192 , Reader_time=109002 , Writer_time=109655
+
+Data_client_init_time=695
+bytes=16777216 , gran=8388608 , ring=8192 , Reader_time=108816 , Writer_time=109396
+
+Data_client_init_time=680
+bytes=16777216 , gran=16777216 , ring=8192 , Reader_time=109919 , Writer_time=109138
+
+Data_client_init_time=699
+bytes=16777216 , gran=512 , ring=16384 , Reader_time=56683 , Writer_time=56196
+
+Data_client_init_time=696
+bytes=16777216 , gran=1024 , ring=16384 , Reader_time=56280 , Writer_time=57047
+
+Data_client_init_time=706
+bytes=16777216 , gran=2048 , ring=16384 , Reader_time=57163 , Writer_time=57361
+
+Data_client_init_time=700
+bytes=16777216 , gran=4096 , ring=16384 , Reader_time=57620 , Writer_time=57312
+
+Data_client_init_time=707
+bytes=16777216 , gran=8192 , ring=16384 , Reader_time=58812 , Writer_time=58841
+
+Data_client_init_time=696
+bytes=16777216 , gran=16384 , ring=16384 , Reader_time=60992 , Writer_time=61543
+
+Data_client_init_time=704
+bytes=16777216 , gran=32768 , ring=16384 , Reader_time=60744 , Writer_time=61216
+
+Data_client_init_time=698
+bytes=16777216 , gran=65536 , ring=16384 , Reader_time=61287 , Writer_time=59852
+
+Data_client_init_time=704
+bytes=16777216 , gran=131072 , ring=16384 , Reader_time=61314 , Writer_time=61443
+
+Data_client_init_time=761
+bytes=16777216 , gran=262144 , ring=16384 , Reader_time=61435 , Writer_time=61502
+
+Data_client_init_time=711
+bytes=16777216 , gran=524288 , ring=16384 , Reader_time=61216 , Writer_time=61475
+
+Data_client_init_time=704
+bytes=16777216 , gran=1048576 , ring=16384 , Reader_time=60980 , Writer_time=61562
+
+Data_client_init_time=724
+bytes=16777216 , gran=2097152 , ring=16384 , Reader_time=61632 , Writer_time=61088
+
+Data_client_init_time=711
+bytes=16777216 , gran=4194304 , ring=16384 , Reader_time=59846 , Writer_time=60184
+
+Data_client_init_time=756
+bytes=16777216 , gran=8388608 , ring=16384 , Reader_time=61237 , Writer_time=60364
+
+Data_client_init_time=694
+bytes=16777216 , gran=16777216 , ring=16384 , Reader_time=61495 , Writer_time=61120
+
+Data_client_init_time=773
+bytes=16777216 , gran=512 , ring=32768 , Reader_time=31468 , Writer_time=31835
+
+Data_client_init_time=744
+bytes=16777216 , gran=1024 , ring=32768 , Reader_time=31251 , Writer_time=31895
+
+Data_client_init_time=758
+bytes=16777216 , gran=2048 , ring=32768 , Reader_time=32775 , Writer_time=32209
+
+Data_client_init_time=745
+bytes=16777216 , gran=4096 , ring=32768 , Reader_time=31321 , Writer_time=31609
+
+Data_client_init_time=766
+bytes=16777216 , gran=8192 , ring=32768 , Reader_time=32662 , Writer_time=32888
+
+Data_client_init_time=758
+bytes=16777216 , gran=16384 , ring=32768 , Reader_time=33990 , Writer_time=34113
+
+Data_client_init_time=762
+bytes=16777216 , gran=32768 , ring=32768 , Reader_time=36065 , Writer_time=36121
+
+Data_client_init_time=746
+bytes=16777216 , gran=65536 , ring=32768 , Reader_time=36017 , Writer_time=36120
+
+Data_client_init_time=791
+bytes=16777216 , gran=131072 , ring=32768 , Reader_time=36191 , Writer_time=36153
+
+Data_client_init_time=751
+bytes=16777216 , gran=262144 , ring=32768 , Reader_time=35564 , Writer_time=36140
+
+Data_client_init_time=750
+bytes=16777216 , gran=524288 , ring=32768 , Reader_time=36219 , Writer_time=36164
+
+Data_client_init_time=797
+bytes=16777216 , gran=1048576 , ring=32768 , Reader_time=35841 , Writer_time=36204
+
+Data_client_init_time=750
+bytes=16777216 , gran=2097152 , ring=32768 , Reader_time=36176 , Writer_time=36153
+
+Data_client_init_time=792
+bytes=16777216 , gran=4194304 , ring=32768 , Reader_time=35928 , Writer_time=36186
+
+Data_client_init_time=750
+bytes=16777216 , gran=8388608 , ring=32768 , Reader_time=36167 , Writer_time=36138
+
+Data_client_init_time=746
+bytes=16777216 , gran=16777216 , ring=32768 , Reader_time=36184 , Writer_time=36202
+
+Data_client_init_time=826
+bytes=16777216 , gran=512 , ring=65536 , Reader_time=18640 , Writer_time=17472
+
+Data_client_init_time=812
+bytes=16777216 , gran=1024 , ring=65536 , Reader_time=19175 , Writer_time=18995
+
+Data_client_init_time=867
+bytes=16777216 , gran=2048 , ring=65536 , Reader_time=19300 , Writer_time=19189
+
+Data_client_init_time=850
+bytes=16777216 , gran=4096 , ring=65536 , Reader_time=19419 , Writer_time=19198
+
+Data_client_init_time=820
+bytes=16777216 , gran=8192 , ring=65536 , Reader_time=19512 , Writer_time=18820
+
+Data_client_init_time=822
+bytes=16777216 , gran=16384 , ring=65536 , Reader_time=20203 , Writer_time=20423
+
+Data_client_init_time=813
+bytes=16777216 , gran=32768 , ring=65536 , Reader_time=21381 , Writer_time=21432
+
+Data_client_init_time=906
+bytes=16777216 , gran=65536 , ring=65536 , Reader_time=23324 , Writer_time=23345
+
+Data_client_init_time=816
+bytes=16777216 , gran=131072 , ring=65536 , Reader_time=23434 , Writer_time=23488
+
+Data_client_init_time=857
+bytes=16777216 , gran=262144 , ring=65536 , Reader_time=23309 , Writer_time=23478
+
+Data_client_init_time=815
+bytes=16777216 , gran=524288 , ring=65536 , Reader_time=23208 , Writer_time=23400
+
+Data_client_init_time=819
+bytes=16777216 , gran=1048576 , ring=65536 , Reader_time=23428 , Writer_time=23412
+
+Data_client_init_time=913
+bytes=16777216 , gran=2097152 , ring=65536 , Reader_time=23422 , Writer_time=23465
+
+Data_client_init_time=812
+bytes=16777216 , gran=4194304 , ring=65536 , Reader_time=23329 , Writer_time=22944
+
+Data_client_init_time=815
+bytes=16777216 , gran=8388608 , ring=65536 , Reader_time=23315 , Writer_time=23386
+
+Data_client_init_time=820
+bytes=16777216 , gran=16777216 , ring=65536 , Reader_time=23437 , Writer_time=23345
+
+Data_client_init_time=968
+bytes=16777216 , gran=512 , ring=131072 , Reader_time=14240 , Writer_time=14149
+
+Data_client_init_time=1037
+bytes=16777216 , gran=1024 , ring=131072 , Reader_time=13318 , Writer_time=13409
+
+Data_client_init_time=974
+bytes=16777216 , gran=2048 , ring=131072 , Reader_time=12457 , Writer_time=12962
+
+Data_client_init_time=968
+bytes=16777216 , gran=4096 , ring=131072 , Reader_time=11951 , Writer_time=12342
+
+Data_client_init_time=980
+bytes=16777216 , gran=8192 , ring=131072 , Reader_time=11887 , Writer_time=12065
+
+Data_client_init_time=974
+bytes=16777216 , gran=16384 , ring=131072 , Reader_time=11931 , Writer_time=11718
+
+Data_client_init_time=1034
+bytes=16777216 , gran=32768 , ring=131072 , Reader_time=12596 , Writer_time=12152
+
+Data_client_init_time=973
+bytes=16777216 , gran=65536 , ring=131072 , Reader_time=13960 , Writer_time=14966
+
+Data_client_init_time=1003
+bytes=16777216 , gran=131072 , ring=131072 , Reader_time=16978 , Writer_time=16981
+
+Data_client_init_time=980
+bytes=16777216 , gran=262144 , ring=131072 , Reader_time=16868 , Writer_time=16986
+
+Data_client_init_time=983
+bytes=16777216 , gran=524288 , ring=131072 , Reader_time=16976 , Writer_time=17180
+
+Data_client_init_time=1037
+bytes=16777216 , gran=1048576 , ring=131072 , Reader_time=16860 , Writer_time=16909
+
+Data_client_init_time=962
+bytes=16777216 , gran=2097152 , ring=131072 , Reader_time=16979 , Writer_time=17015
+
+Data_client_init_time=1013
+bytes=16777216 , gran=4194304 , ring=131072 , Reader_time=16934 , Writer_time=17010
+
+Data_client_init_time=995
+bytes=16777216 , gran=8388608 , ring=131072 , Reader_time=16980 , Writer_time=17088
+
+Data_client_init_time=965
+bytes=16777216 , gran=16777216 , ring=131072 , Reader_time=16832 , Writer_time=17018
+
+Data_client_init_time=1272
+bytes=16777216 , gran=512 , ring=262144 , Reader_time=13904 , Writer_time=14126
+
+Data_client_init_time=1256
+bytes=16777216 , gran=1024 , ring=262144 , Reader_time=12855 , Writer_time=13544
+
+Data_client_init_time=1270
+bytes=16777216 , gran=2048 , ring=262144 , Reader_time=12129 , Writer_time=12377
+
+Data_client_init_time=1254
+bytes=16777216 , gran=4096 , ring=262144 , Reader_time=11588 , Writer_time=11980
+
+Data_client_init_time=1252
+bytes=16777216 , gran=8192 , ring=262144 , Reader_time=11696 , Writer_time=11566
+
+Data_client_init_time=1289
+bytes=16777216 , gran=16384 , ring=262144 , Reader_time=11520 , Writer_time=11741
+
+Data_client_init_time=1289
+bytes=16777216 , gran=32768 , ring=262144 , Reader_time=10982 , Writer_time=10962
+
+Data_client_init_time=1263
+bytes=16777216 , gran=65536 , ring=262144 , Reader_time=11015 , Writer_time=10977
+
+Data_client_init_time=1258
+bytes=16777216 , gran=131072 , ring=262144 , Reader_time=11455 , Writer_time=12011
+
+Data_client_init_time=1284
+bytes=16777216 , gran=262144 , ring=262144 , Reader_time=13865 , Writer_time=13897
+
+Data_client_init_time=1258
+bytes=16777216 , gran=524288 , ring=262144 , Reader_time=13720 , Writer_time=13904
+
+Data_client_init_time=1277
+bytes=16777216 , gran=1048576 , ring=262144 , Reader_time=13738 , Writer_time=13786
+
+Data_client_init_time=1274
+bytes=16777216 , gran=2097152 , ring=262144 , Reader_time=13742 , Writer_time=13946
+
+Data_client_init_time=1267
+bytes=16777216 , gran=4194304 , ring=262144 , Reader_time=13908 , Writer_time=14002
+
+Data_client_init_time=1266
+bytes=16777216 , gran=8388608 , ring=262144 , Reader_time=13877 , Writer_time=13860
+
+Data_client_init_time=1291
+bytes=16777216 , gran=16777216 , ring=262144 , Reader_time=13756 , Writer_time=13832
+
+Data_client_init_time=1868
+bytes=16777216 , gran=512 , ring=524288 , Reader_time=14259 , Writer_time=14751
+
+Data_client_init_time=1869
+bytes=16777216 , gran=1024 , ring=524288 , Reader_time=13298 , Writer_time=13896
+
+Data_client_init_time=1856
+bytes=16777216 , gran=2048 , ring=524288 , Reader_time=12402 , Writer_time=13020
+
+Data_client_init_time=1951
+bytes=16777216 , gran=4096 , ring=524288 , Reader_time=12053 , Writer_time=12697
+
+Data_client_init_time=1932
+bytes=16777216 , gran=8192 , ring=524288 , Reader_time=11744 , Writer_time=12134
+
+Data_client_init_time=1841
+bytes=16777216 , gran=16384 , ring=524288 , Reader_time=11633 , Writer_time=12057
+
+Data_client_init_time=1879
+bytes=16777216 , gran=32768 , ring=524288 , Reader_time=11079 , Writer_time=11613
+
+Data_client_init_time=1871
+bytes=16777216 , gran=65536 , ring=524288 , Reader_time=10957 , Writer_time=10986
+
+Data_client_init_time=1885
+bytes=16777216 , gran=131072 , ring=524288 , Reader_time=10886 , Writer_time=11268
+
+Data_client_init_time=1944
+bytes=16777216 , gran=262144 , ring=524288 , Reader_time=11250 , Writer_time=11423
+
+Data_client_init_time=1871
+bytes=16777216 , gran=524288 , ring=524288 , Reader_time=12196 , Writer_time=12045
+
+Data_client_init_time=1893
+bytes=16777216 , gran=1048576 , ring=524288 , Reader_time=12020 , Writer_time=12077
+
+Data_client_init_time=1852
+bytes=16777216 , gran=2097152 , ring=524288 , Reader_time=12276 , Writer_time=12138
+
+Data_client_init_time=1885
+bytes=16777216 , gran=4194304 , ring=524288 , Reader_time=12153 , Writer_time=12084
+
+Data_client_init_time=1893
+bytes=16777216 , gran=8388608 , ring=524288 , Reader_time=12147 , Writer_time=12131
+
+Data_client_init_time=1861
+bytes=16777216 , gran=16777216 , ring=524288 , Reader_time=12161 , Writer_time=12115
+
+Data_client_init_time=3504
+bytes=16777216 , gran=512 , ring=1048576 , Reader_time=16898 , Writer_time=18553
+
+Data_client_init_time=3583
+bytes=16777216 , gran=1024 , ring=1048576 , Reader_time=16211 , Writer_time=17460
+
+Data_client_init_time=3523
+bytes=16777216 , gran=2048 , ring=1048576 , Reader_time=15520 , Writer_time=16742
+
+Data_client_init_time=3515
+bytes=16777216 , gran=4096 , ring=1048576 , Reader_time=14502 , Writer_time=15840
+
+Data_client_init_time=3515
+bytes=16777216 , gran=8192 , ring=1048576 , Reader_time=13832 , Writer_time=15137
+
+Data_client_init_time=3523
+bytes=16777216 , gran=16384 , ring=1048576 , Reader_time=13554 , Writer_time=14840
+
+Data_client_init_time=3486
+bytes=16777216 , gran=32768 , ring=1048576 , Reader_time=12976 , Writer_time=13969
+
+Data_client_init_time=3538
+bytes=16777216 , gran=65536 , ring=1048576 , Reader_time=12742 , Writer_time=13561
+
+Data_client_init_time=3452
+bytes=16777216 , gran=131072 , ring=1048576 , Reader_time=12464 , Writer_time=13275
+
+Data_client_init_time=3549
+bytes=16777216 , gran=262144 , ring=1048576 , Reader_time=12182 , Writer_time=12897
+
+Data_client_init_time=3579
+bytes=16777216 , gran=524288 , ring=1048576 , Reader_time=12310 , Writer_time=13119
+
+Data_client_init_time=3554
+bytes=16777216 , gran=1048576 , ring=1048576 , Reader_time=12470 , Writer_time=12827
+
+Data_client_init_time=3475
+bytes=16777216 , gran=2097152 , ring=1048576 , Reader_time=12579 , Writer_time=12704
+
+Data_client_init_time=3509
+bytes=16777216 , gran=4194304 , ring=1048576 , Reader_time=12494 , Writer_time=12601
+
+Data_client_init_time=3524
+bytes=16777216 , gran=8388608 , ring=1048576 , Reader_time=12464 , Writer_time=12734
+
+Data_client_init_time=3552
+bytes=16777216 , gran=16777216 , ring=1048576 , Reader_time=12665 , Writer_time=12897
+

@@ -1,0 +1,24 @@
+=cluster READ WRITE
+title=TITLE
+=norotate
+=nogridy
+#xlabelshift=0,-1.9
+legendx=2200
+legendy=1550
+=nocommas
+=nogridy
+yformat=%g
+=noupperright
+xlabel=XLABEL
+ylabel=Bandwidth (MiB/s)
+#max=800
+#max=22
+font=Helvetica
+fontsz=8
+#extraops=set size 0.8,1.1
+#extraops=set boxwidth 0.8 relative
+#extraops=set logscale
+#extraops=set xtics rotate by -90
+#extraops=set tics scale 1
+=table
+
