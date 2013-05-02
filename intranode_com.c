@@ -21,7 +21,8 @@
 unsigned int cmdline_bytes = WRITE_GRANULARITY;
 unsigned int validate_enabled = 0;
 unsigned int print_enabled = 0;
-unsigned int starting_value = 9;
+unsigned int starting_power = 9;
+unsigned int ending_power = 25;
 timers_t t3,t4;
 
 void print_usage(void)
@@ -37,6 +38,7 @@ void print_usage(void)
 		"\t(Only for Writer) '-v' validate enabled\n"
 		"\t'-p' print enabled\n"
 		"\t'-S' <starting power of 2 for bytes,gran,rings> (default=9)\n"
+		"\t'-E' <ending power of 2 for bytes,gran,rings> (default=25)\n"
 		"\t'-n' for non-blocking io\n\n");
 }
 
@@ -288,7 +290,7 @@ int main(int argc, char **argv)
 	int blocking = 1;
 	timers_t t1, t2;
 
-	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nhvpS:")) != -1)
+	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nhvpS:E:")) != -1)
 		switch (c) {
 		case 's':
 			is_server = 1;
@@ -327,7 +329,10 @@ int main(int argc, char **argv)
 			print_enabled = 1;
 			break;
 		case 'S':
-                        starting_value = atoi(optarg);;
+                        starting_power = atoi(optarg);;
+                        break;
+		case 'E':
+                        ending_power = atoi(optarg);;
                         break;
 		default:
 			fprintf(stderr, "Unknown option -%c\n", c);
@@ -347,19 +352,10 @@ int main(int argc, char **argv)
 		exit(-1);
 	}
 
-	if (is_writer == 1 && bytes < 0) {
-		print_usage();
-		exit(-1);
-	}
-
 	TIMER_RESET(&t1);
 	if (is_server < 0)
 		print_usage();
 	else if (is_server) {
-		if (left_ring < 0) {
-			print_usage();
-			exit(-1);
-		}
 
 		TIMER_START(&t1);
 		ctrl = create_server_control_channel(domid, xs_path, 0);
@@ -441,16 +437,16 @@ int main(int argc, char **argv)
 
 	if (!is_writer) {
 		struct intranode_cmd cmd;
-		int total_bytes = starting_value;
+		int total_bytes = starting_power;
 		int gran;
 		int ring_size;
 
-		while (total_bytes < 25) {
+		while (total_bytes < ending_power) {
 			bytes = (int)pow(2, total_bytes);
-			ring_size = starting_value;
+			ring_size = starting_power;
 			while ((ring_size <= total_bytes) && (ring_size <= 20)) {
 				left_ring = right_ring = (int)pow(2, ring_size++);
-				gran = starting_value;
+				gran = starting_power;
 				while (gran <= total_bytes) {
 
 					TIMER_RESET(&t1);
@@ -486,7 +482,7 @@ int main(int argc, char **argv)
 					TIMER_STOP(&t2);
 
 					fprintf(stderr,
-						"bytes=%d , gran=%d , ring=%d , Reader_time=%llu , Writer_time=%llu, vchan_wr_time=%llu, vchan_rd_time=%llu\n",
+						"bytes=%d , gran=%d , ring=%d , Reader_time=%llu , Writer_time=%llu, vchan_wr_time=%llu, vchan_rd_time=%llu\n\n",
 						bytes, cmdline_bytes, left_ring,
 						TIMER_TOTAL(&t1),
 						TIMER_TOTAL(&t2),
