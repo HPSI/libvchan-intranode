@@ -351,6 +351,7 @@ int main(int argc, char **argv)
 		print_usage();
 		exit(-1);
 	}
+	printf("path = %s\n", xs_path);
 
 	TIMER_RESET(&t1);
 	if (is_server < 0)
