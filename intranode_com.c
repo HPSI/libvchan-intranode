@@ -21,21 +21,25 @@
 unsigned int cmdline_bytes = WRITE_GRANULARITY;
 unsigned int validate_enabled = 0;
 unsigned int print_enabled = 0;
-unsigned int starting_value = 9;
+unsigned int starting_power = 9;
+unsigned int ending_power = 25;
+timers_t t3,t4;
 
 void print_usage(void)
 {
 	fprintf(stderr, "\nThe arguments you must provide are:\n"
-		"\t1. '-s' for server or '-c' for client\n"
-		"\t2. '-w' for writer or '-r' for reader\n"
-		"\t3. '-d' <domID to communicate with>\n"
-		"\t4. '-x' <xenstore node>\n"
-		"\t5. (Only for Writer) '-b' <bytes to write>\n"
-		"\t6. '-g' <write granularity> (default is 16384)\n"
-		"\t7. (Only for Server) '-l' <left/right ring size>\n"
-		"\t8. (Only for Writer) '-v' validate enabled\n"
-		"\t8. '-p' print enabled\n"
-		"\t9. '-n' for non-blocking io\n\n");
+		"\t'-s' for server or '-c' for client\n"
+		"\t'-w' for writer or '-r' for reader\n"
+		"\t'-d' <domID to communicate with>\n"
+		"\t'-x' <xenstore node>\n"
+		"\t(Only for Writer) '-b' <bytes to write>\n"
+		"\t'-g' <write granularity> (default=16384)\n"
+		"\t(Only for Server) '-l' <left/right ring size>\n"
+		"\t(Only for Writer) '-v' validate enabled\n"
+		"\t'-p' print enabled\n"
+		"\t'-S' <starting power of 2 for bytes,gran,rings> (default=9)\n"
+		"\t'-E' <ending power of 2 for bytes,gran,rings> (default=25)\n"
+		"\t'-n' for non-blocking io\n\n");
 }
 
 void initialize(int *data, int size)
@@ -69,14 +73,13 @@ int writer(struct libxenvchan *ctrl, void *data, int total_bytes)
 {
 	int written = 0, ret;
 	int bytes = cmdline_bytes;
-//	timers_t t1;
 
+	TIMER_RESET(&t3);
 	while (written < total_bytes) {
-//		TIMER_RESET(&t1);
 
-//		TIMER_START(&t1);
+		TIMER_START(&t3);
 		ret = libxenvchan_write(ctrl, data + written, bytes);
-//		TIMER_STOP(&t1);
+		TIMER_STOP(&t3);
 
 		written += ret;
 		if (ret < 0) {
@@ -86,7 +89,6 @@ int writer(struct libxenvchan *ctrl, void *data, int total_bytes)
 			fprintf(stderr, "written=%d\n", written);
 			continue;
 		}
-//		fprintf(stderr, "vchan_write_time=%llu\n", TIMER_TOTAL(&t1));
 	}
 
 	return written;
@@ -237,49 +239,39 @@ parse_command_from_channel(struct libxenvchan *ctrl,
 int reader(struct libxenvchan *ctrl, void *data, int flag, int bytes)
 {
 	int size_read = 0;
-	int printed = 0;
+	int total_read = 0;
 	long printing_time = 0;
-//	timers_t t1;
-	timers_t t2;
+	timers_t t1;
 
-	while (printed < bytes) {
-//		      TIMER_RESET(&t1);
+	TIMER_RESET(&t4);
 
-/*              sleep(1);
-              if ( libxenvchan_data_ready(ctrl)==0 && flag==0 ){
-                      if ( libxenvchan_data_ready(ctrl)==0 ){
-                              fprintf(stderr,"I am reader. No more data\n");
-                              break;
-                      }
-              }
-*/
-		//TIMER_START(&t1);
+	while (total_read < bytes) {
+		
+		TIMER_START(&t4);
 		size_read =
-		    libxenvchan_read(ctrl, data + printed, MAX_READ_BYTES);
-		//TIMER_STOP(&t1);
+		    libxenvchan_read(ctrl, data + total_read, MAX_READ_BYTES);
+		TIMER_STOP(&t4);
 
-//              ffprintf(stderr,stderr,"size_read = %d\n", size_read);
+//              fprintf(stderr,stderr,"size_read = %d\n", size_read);
 		if (size_read < 0)
 			break;
 		else if (size_read == 0)
 			continue;
 
-		//ffprintf(stderr,stderr, "vchan_read_time=%llu\n", TIMER_TOTAL(&t1));
-
 		if (print_enabled) {
-			TIMER_RESET(&t2);
-			TIMER_START(&t2);
-			print(data + printed, size_read / sizeof(int));
-			TIMER_STOP(&t2);
-			printing_time += TIMER_TOTAL(&t2);
+			TIMER_RESET(&t1);
+			TIMER_START(&t1);
+			print(data + total_read, size_read / sizeof(int));
+			TIMER_STOP(&t1);
+			printing_time += TIMER_TOTAL(&t1);
 		}
 
-		printed += size_read;
+		total_read += size_read;
 	}
 
 	if (print_enabled)
 		fprintf(stderr, "printing time: %ld\n", printing_time);
-	return printed;
+	return total_read;
 }
 
 int main(int argc, char **argv)
@@ -298,7 +290,7 @@ int main(int argc, char **argv)
 	int blocking = 1;
 	timers_t t1, t2;
 
-	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nhvpS:")) != -1)
+	while ((c = getopt(argc, argv, "scwrd:x:b:l:g:nhvpS:E:")) != -1)
 		switch (c) {
 		case 's':
 			is_server = 1;
@@ -337,7 +329,10 @@ int main(int argc, char **argv)
 			print_enabled = 1;
 			break;
 		case 'S':
-                        starting_value = atoi(optarg);;
+                        starting_power = atoi(optarg);;
+                        break;
+		case 'E':
+                        ending_power = atoi(optarg);;
                         break;
 		default:
 			fprintf(stderr, "Unknown option -%c\n", c);
@@ -357,20 +352,10 @@ int main(int argc, char **argv)
 		exit(-1);
 	}
 
-	if (is_writer == 1 && bytes < 0) {
-		print_usage();
-		exit(-1);
-	}
-	printf("path = %s\n", xs_path);
-
 	TIMER_RESET(&t1);
 	if (is_server < 0)
 		print_usage();
 	else if (is_server) {
-		if (left_ring < 0) {
-			print_usage();
-			exit(-1);
-		}
 
 		TIMER_START(&t1);
 		ctrl = create_server_control_channel(domid, xs_path, 0);
@@ -395,8 +380,6 @@ int main(int argc, char **argv)
 	snprintf(xs_path_alloced, strlen(xs_path), "%s", xs_path);
 	strcat(xs_data_path, xs_path);
 	strncat(xs_data_path, "/data_channel", strlen("/data_channel"));
-	printf("data_path = %s\n", xs_data_path);
-	printf("path = %s\n", xs_path);
 
 	if (is_writer) {
 		int size, wr;
@@ -454,16 +437,16 @@ int main(int argc, char **argv)
 
 	if (!is_writer) {
 		struct intranode_cmd cmd;
-		int total_bytes = starting_value;
+		int total_bytes = starting_power;
 		int gran;
 		int ring_size;
 
-		while (total_bytes < 25) {
+		while (total_bytes < ending_power) {
 			bytes = (int)pow(2, total_bytes);
-			ring_size = starting_value;
+			ring_size = starting_power;
 			while ((ring_size <= total_bytes) && (ring_size <= 20)) {
 				left_ring = right_ring = (int)pow(2, ring_size++);
-				gran = starting_value;
+				gran = starting_power;
 				while (gran <= total_bytes) {
 
 					TIMER_RESET(&t1);
@@ -499,10 +482,12 @@ int main(int argc, char **argv)
 					TIMER_STOP(&t2);
 
 					fprintf(stderr,
-						"bytes=%d , gran=%d , ring=%d , Reader_time=%llu , Writer_time=%llu\n\n",
+						"bytes=%d , gran=%d , ring=%d , Reader_time=%llu , Writer_time=%llu, vchan_wr_time=%llu, vchan_rd_time=%llu\n\n",
 						bytes, cmdline_bytes, left_ring,
 						TIMER_TOTAL(&t1),
-						TIMER_TOTAL(&t2));
+						TIMER_TOTAL(&t2),
+						TIMER_TOTAL(&t3)/TIMER_COUNT(&t3),
+						TIMER_TOTAL(&t4)/TIMER_COUNT(&t4));
 
 					populate_cmd(&cmd,
 						     INTRANODE_CMD_DATA_CHANNEL_DESTROY,
