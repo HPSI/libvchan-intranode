@@ -351,13 +351,12 @@ int main(int argc, char **argv)
 		print_usage();
 		exit(-1);
 	}
-	printf("path = %s\n", xs_path);
 
 	TIMER_RESET(&t1);
 	if (is_server < 0)
 		print_usage();
-	else if (is_server) {
-
+	else if (is_server)
+	{
 		TIMER_START(&t1);
 		ctrl = create_server_control_channel(domid, xs_path, 0);
 		TIMER_STOP(&t1);
