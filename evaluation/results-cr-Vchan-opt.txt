@@ -1,0 +1,235 @@
+Control_client_init_time=512
+Data_client_init_time=295
+bytes=512 , gran=512 , ring=512 , Reader_time=8 , Writer_time=15, vchan_wr_time=11, vchan_rd_time=4
+
+Data_client_init_time=286
+bytes=1024 , gran=512 , ring=1024 , Reader_time=9 , Writer_time=18, vchan_wr_time=6, vchan_rd_time=4
+
+Data_client_init_time=263
+bytes=1024 , gran=1024 , ring=1024 , Reader_time=9 , Writer_time=14, vchan_wr_time=8, vchan_rd_time=4
+
+Data_client_init_time=311
+bytes=2048 , gran=512 , ring=2048 , Reader_time=9 , Writer_time=28, vchan_wr_time=4, vchan_rd_time=5
+
+Data_client_init_time=298
+bytes=2048 , gran=1024 , ring=2048 , Reader_time=9 , Writer_time=18, vchan_wr_time=5, vchan_rd_time=4
+
+Data_client_init_time=315
+bytes=2048 , gran=2048 , ring=2048 , Reader_time=9 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=4
+
+Data_client_init_time=307
+bytes=4096 , gran=512 , ring=4096 , Reader_time=9 , Writer_time=46, vchan_wr_time=3, vchan_rd_time=5
+
+Data_client_init_time=313
+bytes=4096 , gran=1024 , ring=4096 , Reader_time=9 , Writer_time=26, vchan_wr_time=3, vchan_rd_time=4
+
+Data_client_init_time=306
+bytes=4096 , gran=2048 , ring=4096 , Reader_time=9 , Writer_time=19, vchan_wr_time=6, vchan_rd_time=5
+
+Data_client_init_time=304
+bytes=4096 , gran=4096 , ring=4096 , Reader_time=9 , Writer_time=13, vchan_wr_time=8, vchan_rd_time=4
+
+Data_client_init_time=333
+bytes=8192 , gran=512 , ring=8192 , Reader_time=10 , Writer_time=94, vchan_wr_time=3, vchan_rd_time=5
+
+Data_client_init_time=334
+bytes=8192 , gran=1024 , ring=8192 , Reader_time=13 , Writer_time=48, vchan_wr_time=3, vchan_rd_time=7
+
+Data_client_init_time=333
+bytes=8192 , gran=2048 , ring=8192 , Reader_time=11 , Writer_time=27, vchan_wr_time=4, vchan_rd_time=5
+
+Data_client_init_time=329
+bytes=8192 , gran=4096 , ring=8192 , Reader_time=10 , Writer_time=18, vchan_wr_time=5, vchan_rd_time=5
+
+Data_client_init_time=312
+bytes=8192 , gran=8192 , ring=8192 , Reader_time=11 , Writer_time=14, vchan_wr_time=10, vchan_rd_time=6
+
+Data_client_init_time=373
+bytes=16384 , gran=512 , ring=16384 , Reader_time=12 , Writer_time=188, vchan_wr_time=3, vchan_rd_time=7
+
+Data_client_init_time=334
+bytes=16384 , gran=1024 , ring=16384 , Reader_time=12 , Writer_time=91, vchan_wr_time=3, vchan_rd_time=7
+
+Data_client_init_time=334
+bytes=16384 , gran=2048 , ring=16384 , Reader_time=13 , Writer_time=45, vchan_wr_time=3, vchan_rd_time=8
+
+Data_client_init_time=344
+bytes=16384 , gran=4096 , ring=16384 , Reader_time=12 , Writer_time=27, vchan_wr_time=3, vchan_rd_time=7
+
+Data_client_init_time=334
+bytes=16384 , gran=8192 , ring=16384 , Reader_time=13 , Writer_time=20, vchan_wr_time=6, vchan_rd_time=7
+
+Data_client_init_time=348
+bytes=16384 , gran=16384 , ring=16384 , Reader_time=13 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=7
+
+Data_client_init_time=377
+bytes=32768 , gran=512 , ring=32768 , Reader_time=16 , Writer_time=334, vchan_wr_time=3, vchan_rd_time=11
+
+Data_client_init_time=387
+bytes=32768 , gran=1024 , ring=32768 , Reader_time=18 , Writer_time=190, vchan_wr_time=3, vchan_rd_time=12
+
+Data_client_init_time=380
+bytes=32768 , gran=2048 , ring=32768 , Reader_time=18 , Writer_time=90, vchan_wr_time=3, vchan_rd_time=12
+
+Data_client_init_time=381
+bytes=32768 , gran=4096 , ring=32768 , Reader_time=17 , Writer_time=45, vchan_wr_time=3, vchan_rd_time=11
+
+Data_client_init_time=405
+bytes=32768 , gran=8192 , ring=32768 , Reader_time=16 , Writer_time=27, vchan_wr_time=3, vchan_rd_time=11
+
+Data_client_init_time=375
+bytes=32768 , gran=16384 , ring=32768 , Reader_time=18 , Writer_time=18, vchan_wr_time=5, vchan_rd_time=12
+
+Data_client_init_time=380
+bytes=32768 , gran=32768 , ring=32768 , Reader_time=17 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=11
+
+Data_client_init_time=481
+bytes=65536 , gran=512 , ring=65536 , Reader_time=23 , Writer_time=619, vchan_wr_time=2, vchan_rd_time=17
+
+Data_client_init_time=456
+bytes=65536 , gran=1024 , ring=65536 , Reader_time=23 , Writer_time=337, vchan_wr_time=3, vchan_rd_time=18
+
+Data_client_init_time=478
+bytes=65536 , gran=2048 , ring=65536 , Reader_time=22 , Writer_time=193, vchan_wr_time=3, vchan_rd_time=18
+
+Data_client_init_time=459
+bytes=65536 , gran=4096 , ring=65536 , Reader_time=23 , Writer_time=87, vchan_wr_time=3, vchan_rd_time=18
+
+Data_client_init_time=447
+bytes=65536 , gran=8192 , ring=65536 , Reader_time=25 , Writer_time=46, vchan_wr_time=3, vchan_rd_time=19
+
+Data_client_init_time=455
+bytes=65536 , gran=16384 , ring=65536 , Reader_time=24 , Writer_time=27, vchan_wr_time=3, vchan_rd_time=18
+
+Data_client_init_time=449
+bytes=65536 , gran=32768 , ring=65536 , Reader_time=21 , Writer_time=17, vchan_wr_time=5, vchan_rd_time=17
+
+Data_client_init_time=497
+bytes=65536 , gran=65536 , ring=65536 , Reader_time=23 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=19
+
+Data_client_init_time=601
+bytes=131072 , gran=512 , ring=131072 , Reader_time=37 , Writer_time=1197, vchan_wr_time=2, vchan_rd_time=32
+
+Data_client_init_time=602
+bytes=131072 , gran=1024 , ring=131072 , Reader_time=39 , Writer_time=654, vchan_wr_time=3, vchan_rd_time=33
+
+Data_client_init_time=606
+bytes=131072 , gran=2048 , ring=131072 , Reader_time=38 , Writer_time=342, vchan_wr_time=3, vchan_rd_time=32
+
+Data_client_init_time=584
+bytes=131072 , gran=4096 , ring=131072 , Reader_time=35 , Writer_time=199, vchan_wr_time=3, vchan_rd_time=30
+
+Data_client_init_time=624
+bytes=131072 , gran=8192 , ring=131072 , Reader_time=39 , Writer_time=84, vchan_wr_time=2, vchan_rd_time=34
+
+Data_client_init_time=609
+bytes=131072 , gran=16384 , ring=131072 , Reader_time=39 , Writer_time=45, vchan_wr_time=3, vchan_rd_time=33
+
+Data_client_init_time=598
+bytes=131072 , gran=32768 , ring=131072 , Reader_time=36 , Writer_time=26, vchan_wr_time=3, vchan_rd_time=30
+
+Data_client_init_time=599
+bytes=131072 , gran=65536 , ring=131072 , Reader_time=36 , Writer_time=17, vchan_wr_time=5, vchan_rd_time=30
+
+Data_client_init_time=596
+bytes=131072 , gran=131072 , ring=131072 , Reader_time=40 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=35
+
+Data_client_init_time=908
+bytes=262144 , gran=512 , ring=262144 , Reader_time=76 , Writer_time=2465, vchan_wr_time=3, vchan_rd_time=71
+
+Data_client_init_time=901
+bytes=262144 , gran=1024 , ring=262144 , Reader_time=66 , Writer_time=1268, vchan_wr_time=3, vchan_rd_time=60
+
+Data_client_init_time=906
+bytes=262144 , gran=2048 , ring=262144 , Reader_time=75 , Writer_time=640, vchan_wr_time=3, vchan_rd_time=70
+
+Data_client_init_time=901
+bytes=262144 , gran=4096 , ring=262144 , Reader_time=67 , Writer_time=345, vchan_wr_time=3, vchan_rd_time=61
+
+Data_client_init_time=898
+bytes=262144 , gran=8192 , ring=262144 , Reader_time=70 , Writer_time=186, vchan_wr_time=3, vchan_rd_time=65
+
+Data_client_init_time=930
+bytes=262144 , gran=16384 , ring=262144 , Reader_time=72 , Writer_time=85, vchan_wr_time=2, vchan_rd_time=67
+
+Data_client_init_time=917
+bytes=262144 , gran=32768 , ring=262144 , Reader_time=70 , Writer_time=45, vchan_wr_time=3, vchan_rd_time=66
+
+Data_client_init_time=886
+bytes=262144 , gran=65536 , ring=262144 , Reader_time=68 , Writer_time=28, vchan_wr_time=4, vchan_rd_time=63
+
+Data_client_init_time=883
+bytes=262144 , gran=131072 , ring=262144 , Reader_time=72 , Writer_time=19, vchan_wr_time=5, vchan_rd_time=67
+
+Data_client_init_time=892
+bytes=262144 , gran=262144 , ring=262144 , Reader_time=65 , Writer_time=13, vchan_wr_time=9, vchan_rd_time=59
+
+Data_client_init_time=1523
+bytes=524288 , gran=512 , ring=524288 , Reader_time=150 , Writer_time=4911, vchan_wr_time=3, vchan_rd_time=145
+
+Data_client_init_time=1461
+bytes=524288 , gran=1024 , ring=524288 , Reader_time=157 , Writer_time=2493, vchan_wr_time=3, vchan_rd_time=152
+
+Data_client_init_time=1462
+bytes=524288 , gran=2048 , ring=524288 , Reader_time=152 , Writer_time=1220, vchan_wr_time=3, vchan_rd_time=147
+
+Data_client_init_time=1484
+bytes=524288 , gran=4096 , ring=524288 , Reader_time=144 , Writer_time=624, vchan_wr_time=3, vchan_rd_time=139
+
+Data_client_init_time=1494
+bytes=524288 , gran=8192 , ring=524288 , Reader_time=171 , Writer_time=249, vchan_wr_time=2, vchan_rd_time=165
+
+Data_client_init_time=1493
+bytes=524288 , gran=16384 , ring=524288 , Reader_time=155 , Writer_time=138, vchan_wr_time=2, vchan_rd_time=150
+
+Data_client_init_time=1474
+bytes=524288 , gran=32768 , ring=524288 , Reader_time=162 , Writer_time=77, vchan_wr_time=2, vchan_rd_time=157
+
+Data_client_init_time=1521
+bytes=524288 , gran=65536 , ring=524288 , Reader_time=174 , Writer_time=44, vchan_wr_time=3, vchan_rd_time=169
+
+Data_client_init_time=1487
+bytes=524288 , gran=131072 , ring=524288 , Reader_time=145 , Writer_time=28, vchan_wr_time=4, vchan_rd_time=140
+
+Data_client_init_time=1489
+bytes=524288 , gran=262144 , ring=524288 , Reader_time=149 , Writer_time=14, vchan_wr_time=4, vchan_rd_time=144
+
+Data_client_init_time=1554
+bytes=524288 , gran=524288 , ring=524288 , Reader_time=167 , Writer_time=21, vchan_wr_time=10, vchan_rd_time=161
+
+Data_client_init_time=2801
+bytes=1048576 , gran=512 , ring=1048576 , Reader_time=432 , Writer_time=9717, vchan_wr_time=2, vchan_rd_time=426
+
+Data_client_init_time=2747
+bytes=1048576 , gran=1024 , ring=1048576 , Reader_time=374 , Writer_time=4729, vchan_wr_time=2, vchan_rd_time=369
+
+Data_client_init_time=2844
+bytes=1048576 , gran=2048 , ring=1048576 , Reader_time=416 , Writer_time=2446, vchan_wr_time=3, vchan_rd_time=410
+
+Data_client_init_time=2796
+bytes=1048576 , gran=4096 , ring=1048576 , Reader_time=369 , Writer_time=1225, vchan_wr_time=2, vchan_rd_time=363
+
+Data_client_init_time=2841
+bytes=1048576 , gran=8192 , ring=1048576 , Reader_time=370 , Writer_time=528, vchan_wr_time=2, vchan_rd_time=365
+
+Data_client_init_time=2860
+bytes=1048576 , gran=16384 , ring=1048576 , Reader_time=395 , Writer_time=242, vchan_wr_time=1, vchan_rd_time=390
+
+Data_client_init_time=2843
+bytes=1048576 , gran=32768 , ring=1048576 , Reader_time=372 , Writer_time=125, vchan_wr_time=2, vchan_rd_time=367
+
+Data_client_init_time=2789
+bytes=1048576 , gran=65536 , ring=1048576 , Reader_time=356 , Writer_time=71, vchan_wr_time=2, vchan_rd_time=351
+
+Data_client_init_time=2831
+bytes=1048576 , gran=131072 , ring=1048576 , Reader_time=383 , Writer_time=39, vchan_wr_time=2, vchan_rd_time=378
+
+Data_client_init_time=2834
+bytes=1048576 , gran=262144 , ring=1048576 , Reader_time=361 , Writer_time=25, vchan_wr_time=4, vchan_rd_time=355
+
+Data_client_init_time=2842
+bytes=1048576 , gran=524288 , ring=1048576 , Reader_time=488 , Writer_time=20, vchan_wr_time=7, vchan_rd_time=483
+
+Data_client_init_time=2878
+bytes=1048576 , gran=1048576 , ring=1048576 , Reader_time=383 , Writer_time=15, vchan_wr_time=12, vchan_rd_time=378
+
