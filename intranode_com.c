@@ -78,7 +78,7 @@ int writer(struct libxenvchan *ctrl, void *data, int total_bytes)
 	while (written < total_bytes) {
 
 		TIMER_START(&t3);
-		ret = libxenvchan_write(ctrl, data + written, bytes);
+		ret = libxenvchan_write_optimized(ctrl, data + written, bytes);
 		TIMER_STOP(&t3);
 
 		written += ret;
@@ -351,12 +351,12 @@ int main(int argc, char **argv)
 		print_usage();
 		exit(-1);
 	}
+	printf("path = %s\n", xs_path);
 
 	TIMER_RESET(&t1);
 	if (is_server < 0)
 		print_usage();
-	else if (is_server)
-	{
+	else if (is_server) {
 		TIMER_START(&t1);
 		ctrl = create_server_control_channel(domid, xs_path, 0);
 		TIMER_STOP(&t1);
@@ -408,7 +408,7 @@ int main(int argc, char **argv)
 
 			TIMER_START(&t1);
 			wr_data = malloc(bytes);
-			initialize(wr_data, size);
+			initialize(ctrl_data->write.buffer, size);
 			TIMER_STOP(&t1);
 
 			fprintf(stderr,"bytes=%d , data_initialization_time=%llu\n",bytes, TIMER_TOTAL(&t1));
@@ -418,7 +418,7 @@ int main(int argc, char **argv)
 			reader(ctrl_data, data, is_writer, bytes);
 
 			if (validate_enabled) {
-				if (validate(wr_data, data, size)) {
+				if (validate(ctrl_data->write.buffer, data, size)) {
 					free(wr_data);
 					goto out_with_corruption;
 				}
@@ -443,8 +443,9 @@ int main(int argc, char **argv)
 
 		while (total_bytes < ending_power) {
 			bytes = (int)pow(2, total_bytes);
-			ring_size = starting_power;
-			while ((ring_size <= total_bytes) && (ring_size <= 20)) {
+			ring_size = total_bytes;
+//			ring_size = starting_power;
+//			while ((ring_size <= total_bytes) && (ring_size <= 20)) {
 				left_ring = right_ring = (int)pow(2, ring_size++);
 				gran = starting_power;
 				while (gran <= total_bytes) {
@@ -473,7 +474,7 @@ int main(int argc, char **argv)
 
 					TIMER_START(&t1);
 					bytes =
-					    reader(ctrl_data, data, is_writer,
+					    reader(ctrl_data, ctrl_data->write.buffer, is_writer,
 						   bytes);
 					TIMER_STOP(&t1);
 
@@ -497,7 +498,7 @@ int main(int argc, char **argv)
 							  sizeof(cmd));
 					libxenvchan_close(ctrl_data);
 				}
-			}
+//			}
 			total_bytes++;
 		}
 		populate_cmd(&cmd, INTRANODE_CMD_END, domid, xs_data_path, 0, 0,
